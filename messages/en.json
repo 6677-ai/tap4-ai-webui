@@ -155,18 +155,7 @@
     "home": {
       "title": "Get your best AI Tools | Tap4 AI Directory",
       "description": "Tap4 AI Directory is a tool provides free AI Tools Directory. Get your favorite AI tools with Tap4 AI Directory, Tap4 AI Directory aims to collect all the AI tools and provide the best for users.",
-      "keywords": "Tap4 AI Directory",
-      "openGraph": {
-        "title": "Tap4 AI Directory",
-        "description": "Tap4 AI Directory is a tool provides free AI Tools Directory. Get your favorite AI tools with Tap4 AI Directory, Tap4 AI Directory aims to collect all the AI tools and provide the best for users.",
-        "siteName": "tap4.ai"
-      },
-      "twitter": {
-        "title": "Tap4 AI Directory",
-        "description": "Tap4 AI Directory is a tool provides free AI Tools Directory. Get your favorite AI tools with Tap4 AI Directory, Tap4 AI Directory aims to collect all the AI tools and provide the best for users.",
-        "site": "tap4.ai",
-        "creator": "Tap4 AI Directory"
-      }
+      "keywords": "Tap4 AI Directory"
     },
     "ai": {
       "titleSubfix": "Tap4 AI Directory"

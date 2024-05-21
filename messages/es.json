@@ -155,18 +155,7 @@
     "home": {
       "title": "Obtén tus mejores Herramientas de IA | Directorio de IA de Tap4",
       "description": "El Directorio de IA de Tap4 es una herramienta que proporciona un Directorio gratuito de Herramientas de IA. Obtén tus herramientas de IA favoritas con el Directorio de IA de Tap4, el cual tiene como objetivo recopilar todas las herramientas de IA y ofrecer lo mejor para los usuarios.",
-      "keywords": "Directorio de IA de Tap4",
-      "openGraph": {
-        "title": "Directorio de IA de Tap4",
-        "description": "El Directorio de IA de Tap4 es una herramienta que proporciona un Directorio gratuito de Herramientas de IA. Obtén tus herramientas de IA favoritas con el Directorio de IA de Tap4, el cual tiene como objetivo recopilar todas las herramientas de IA y ofrecer lo mejor para los usuarios.",
-        "siteName": "tap4.ai"
-      },
-      "twitter": {
-        "title": "Directorio de IA de Tap4",
-        "description": "El Directorio de IA de Tap4 es una herramienta que proporciona un Directorio gratuito de Herramientas de IA. Obtén tus herramientas de IA favoritas con el Directorio de IA de Tap4, el cual tiene como objetivo recopilar todas las herramientas de IA y ofrecer lo mejor para los usuarios.",
-        "site": "tap4.ai",
-        "creator": "Directorio de IA de Tap4"
-      }
+      "keywords": "Directorio de IA de Tap4"
     },
     "ai": {
       "titleSubfix": "Directorio de IA de Tap4"

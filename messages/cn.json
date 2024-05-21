@@ -155,18 +155,7 @@
     "home": {
       "title": "获取您的最佳AI工具 | Tap4 AI目录",
       "description": "Tap4 AI目录是一款提供免费AI工具目录的工具。通过Tap4 AI目录获取您喜爱的AI工具，Tap4 AI目录旨在收集所有AI工具并为用户提供最佳服务。",
-      "keywords": "Tap4 AI目录",
-      "openGraph": {
-        "title": "Tap4 AI目录",
-        "description": "Tap4 AI目录是一款提供免费AI工具目录的工具。通过Tap4 AI目录获取您喜爱的AI工具，Tap4 AI目录旨在收集所有AI工具并为用户提供最佳服务。",
-        "siteName": "tap4.ai"
-      },
-      "twitter": {
-        "title": "Tap4 AI目录",
-        "description": "Tap4 AI目录是一款提供免费AI工具目录的工具。通过Tap4 AI目录获取您喜爱的AI工具，Tap4 AI目录旨在收集所有AI工具并为用户提供最佳服务。",
-        "site": "tap4.ai",
-        "creator": "Tap4 AI目录"
-      }
+      "keywords": "Tap4 AI目录"
     },
     "ai": {
       "titleSubfix": "Tap4 AI目录"

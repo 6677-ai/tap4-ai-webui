@@ -155,18 +155,7 @@
     "home": {
       "title": "Holen Sie sich Ihre besten KI-Tools | Tap4 AI Verzeichnis",
       "description": "Das Tap4 AI Verzeichnis ist ein Werkzeug, das ein kostenloses Verzeichnis von KI-Tools bietet. Holen Sie sich Ihre Lieblings-KI-Tools mit dem Tap4 AI Verzeichnis, das darauf abzielt, alle KI-Tools zu sammeln und das Beste für die Benutzer bereitzustellen.",
-      "keywords": "Tap4 AI Verzeichnis",
-      "openGraph": {
-        "title": "Tap4 AI Verzeichnis",
-        "description": "Das Tap4 AI Verzeichnis ist ein Werkzeug, das ein kostenloses Verzeichnis von KI-Tools bietet. Holen Sie sich Ihre Lieblings-KI-Tools mit dem Tap4 AI Verzeichnis, das darauf abzielt, alle KI-Tools zu sammeln und das Beste für die Benutzer bereitzustellen.",
-        "siteName": "tap4.ai"
-      },
-      "twitter": {
-        "title": "Tap4 AI Verzeichnis",
-        "description": "Das Tap4 AI Verzeichnis ist ein Werkzeug, das ein kostenloses Verzeichnis von KI-Tools bietet. Holen Sie sich Ihre Lieblings-KI-Tools mit dem Tap4 AI Verzeichnis, das darauf abzielt, alle KI-Tools zu sammeln und das Beste für die Benutzer bereitzustellen.",
-        "site": "tap4.ai",
-        "creator": "Tap4 AI Verzeichnis"
-      }
+      "keywords": "Tap4 AI Verzeichnis"
     },
     "ai": {
       "titleSubfix": "Tap4 AI Verzeichnis"

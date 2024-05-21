@@ -155,18 +155,7 @@
     "home": {
       "title": "Obtenez vos meilleurs outils AI | Répertoire des outils AI de Tap4",
       "description": "Le Répertoire des outils AI de Tap4 est un outil qui propose un répertoire gratuit d'outils AI. Obtenez vos outils AI préférés avec le Répertoire des outils AI de Tap4, qui vise à collecter tous les outils AI et à fournir le meilleur service aux utilisateurs.",
-      "keywords": "Répertoire des outils AI de Tap4",
-      "openGraph": {
-        "title": "Répertoire des outils AI de Tap4",
-        "description": "Le Répertoire des outils AI de Tap4 est un outil qui propose un répertoire gratuit d'outils AI. Obtenez vos outils AI préférés avec le Répertoire des outils AI de Tap4, qui vise à collecter tous les outils AI et à fournir le meilleur service aux utilisateurs.",
-        "siteName": "tap4.ai"
-      },
-      "twitter": {
-        "title": "Répertoire des outils AI de Tap4",
-        "description": "Le Répertoire des outils AI de Tap4 est un outil qui propose un répertoire gratuit d'outils AI. Obtenez vos outils AI préférés avec le Répertoire des outils AI de Tap4, qui vise à collecter tous les outils AI et à fournir le meilleur service aux utilisateurs.",
-        "site": "tap4.ai",
-        "creator": "Répertoire des outils AI de Tap4"
-      }
+      "keywords": "Répertoire des outils AI de Tap4"
     },
     "ai": {
       "titleSubfix": "Répertoire des outils AI de Tap4"

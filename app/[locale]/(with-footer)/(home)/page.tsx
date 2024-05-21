@@ -21,33 +21,6 @@ export async function generateMetadata({ params: { locale } }: { params: { local
     title: t('title'),
     description: t('description'),
     keywords: t('keywords'),
-    openGraph: {
-      title: t('openGraph.title'),
-      description: t('openGraph.description'),
-      url: process.env.NEXT_PUBLIC_SITE_URL,
-      siteName: t('openGraph.siteName'),
-      type: 'website',
-      images: [
-        {
-          url: `${process.env.NEXT_PUBLIC_SITE_URL}/images/home/home-page.jpg`,
-          secureUrl: `${process.env.NEXT_PUBLIC_SITE_URL}/images/home/home-page.jpg`,
-          width: 1200,
-          height: 630,
-          alt: t('title'),
-        },
-      ],
-    },
-    twitter: {
-      title: t('twitter.title'),
-      description: t('twitter.description'),
-      site: t('twitter.site'),
-      creator: t('twitter.creator'),
-      card: 'summary_large_image',
-      images: {
-        url: `${process.env.NEXT_PUBLIC_SITE_URL}/images/home/home-page.jpg`,
-        alt: t('title'),
-      },
-    },
     alternates: {
       canonical: './',
     },
