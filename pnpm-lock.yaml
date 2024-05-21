@@ -17,6 +17,9 @@ dependencies:
   '@radix-ui/react-separator':
     specifier: 1.0.3
     version: 1.0.3(@types/react-dom@18.2.23)(@types/react@18.2.73)(react-dom@18.2.0)(react@18.2.0)
+  '@radix-ui/react-slot':
+    specifier: 1.0.2
+    version: 1.0.2(@types/react@18.2.73)(react@18.2.0)
   '@supabase/ssr':
     specifier: 0.3.0
     version: 0.3.0(@supabase/supabase-js@2.43.2)
