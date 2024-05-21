@@ -1,0 +1,185 @@
+{
+  "Common": {
+    "loading": "Wird geladen..."
+  },
+  "Navigation": {
+    "title": "Tap4 AI Tools Verzeichnis",
+    "discover": "Entdecken",
+    "submit": "Einreichen",
+    "newtools": "Neue Tools",
+    "startup": "Startup",
+    "menu": "Menü"
+  },
+  "Footer": {
+    "title": "Tap4 AI Tools Verzeichnis",
+    "subTitle": "Entdecken Sie die besten KI-Tools von 2024 mit dem Tap4 AI Tools Verzeichnis!",
+    "privacy": "Datenschutzrichtlinie",
+    "termsConditions": "Nutzungsbedingungen",
+    "contactUs": "Kontaktieren Sie uns"
+  },
+  "Faq": {
+    "title": "Häufig gestellte Fragen",
+    "1": {
+      "question": "Was ist das Tap4 AI Tools Verzeichnis?",
+      "answer": "Das Tap4 AI Tools Verzeichnis - tap4.ai erstellt ein Verzeichnis von KI-Tools, das Ihnen hilft, Ihre Lieblings-KI-Tools zu finden. Sie können hier KI-Schreibtools, KI-Marketingtools, KI-Paraphrasierungstools, KI-SEO-Tools, KI-Lern-Tools, KI-Generator-Tools, KI-Forschungstools, KI-Kunsttools, KI-Musiktools, KI-Videotools, KI-Coding-Tools, KI-Fototools und mehr finden."
+    },
+    "2": {
+      "question": "Wie finde ich Ihre KI-Tools im Tap4 AI Tools Verzeichnis?",
+      "answer-1": "1. Öffnen Sie tap4.ai.",
+      "answer-2": "2. Erkunden Sie die KI-Tools im Tap4 AI Tools Verzeichnis.",
+      "answer-3": "3. Klicken Sie auf die KI-Tools, die Sie benötigen, um die Details zu erhalten und besuchen Sie sie."
+    },
+    "3": {
+      "question": "Was sind die Hauptmerkmale des Tap4 AI Tools Verzeichnisses?",
+      "answer-1": "1. Kostenloses KI-Tools Verzeichnis: Es ist kostenlos, Ihre Lieblings-KI-Tools hier zu finden.",
+      "answer-2": "2. Startup-Liste: Die kostenlose Startupliste für KI-Tools-Entwickler."
+    },
+    "4": {
+      "question": "Ist es kostenlos, KI-Tools im Tap4 AI Tools Verzeichnis einzureichen?",
+      "answer": "Ja, es ist derzeit kostenlos. Aber Sie sollten einen Backlink für das Tap4 AI Tools Verzeichnis teilen!"
+    },
+    "5": {
+      "question": "Welche Kategorien von KI-Tools unterstützt das Tap4 AI Tools Verzeichnis?",
+      "answer": "Wir werden später alle Arten von KI-Tools unterstützen. Bitte warten Sie ein paar Tage."
+    },
+    "6": {
+      "question": "Wie oft wird die Liste der KI-Tools im Tap4 AI Verzeichnis aktualisiert?",
+      "answer": "Die Liste der KI-Tools wird täglich aktualisiert."
+    },
+    "7": {
+      "question": "Unterstützt es hier GPT-4o oder Sora AI?",
+      "answer": "Sie können das GPT-4o oder Sora AI Tool hier bekommen. Hier ist die Einführung von GPT-4o und Sora Video, und Sie können die Website der Tools besuchen."
+    },
+    "8": {
+      "question": "Fehlerbehebung",
+      "answer": "Wenn die Inhalte nicht angezeigt werden, versuchen Sie es mit einem anderen Browser oder löschen Sie Ihren Cache. Wenn die Probleme weiterhin bestehen, kontaktieren Sie uns unter contact@6677.ai."
+    },
+    "9": {
+      "question": "Wie wird der Inhalt des Tap4 AI Verzeichnisses generiert?",
+      "answer": "Der Inhalt der Beschreibung der KI-Tools wird von GPT-4o von OpenAI generiert."
+    },
+    "10": {
+      "question": "Was sind die Nutzungsrechte der KI-Tools?",
+      "answer": "Das Tap4 AI Tools Verzeichnis ist nur das Verzeichnis für KI-Tools. Die Nutzungsrechte der KI-Tools basieren auf der Website der KI-Tools."
+    },
+    "11": {
+      "question": "Ist das WebUI des Tap4 AI Verzeichnisses Open Source?",
+      "answer": "Ja, wir werden das WebUI des Tap4 AI Verzeichnisses auf GitHub (https://github.com/6677-ai/tap4-ai-webui) open source. Bitte geben Sie uns einen Stern."
+    }
+  },
+  "FooterNavigation": {
+    "privacyPolicy": {
+      "1-h1": "Datenschutzrichtlinie für das Tap4 AI Tools Verzeichnis",
+      "1-p": "Diese Seite wird verwendet, um Besucher über meine Richtlinien bezüglich der Sammlung, Verwendung und Offenlegung persönlicher Informationen zu informieren, wenn jemand beschließt, meinen Dienst zu nutzen. Wenn Sie sich entscheiden, meinen Dienst zu nutzen, stimmen Sie der Sammlung und Nutzung von Informationen in Bezug auf diese Richtlinie zu. Die persönlichen Informationen, die ich sammle, werden zur Bereitstellung und Verbesserung des Dienstes verwendet. Ich werde Ihre Informationen außer wie in dieser Datenschutzrichtlinie beschrieben, nicht verwenden oder teilen. Die in dieser Datenschutzrichtlinie verwendeten Begriffe haben die gleichen Bedeutungen wie in unseren Nutzungsbedingungen.",
+      "2-h2": "1. Sammlung und Nutzung von Informationen",
+      "2-p": "Für eine bessere Erfahrung, während der Nutzung unseres Dienstes, kann ich Sie bitten, uns bestimmte personenbezogene Daten zur Verfügung zu stellen. Die Informationen, die ich anfordere, werden auf Ihrem Gerät gespeichert und in keiner Weise von mir gesammelt. Die App verwendet Drittanbieterdienste, die Informationen sammeln, die zu Ihrer Identifizierung verwendet werden.",
+      "3-h2": "2. Protokolldaten",
+      "3-p": "Ich möchte Sie darauf hinweisen, dass ich im Falle eines Fehlers in der App Daten und Informationen (über Produkte von Drittanbietern) auf Ihrem Telefon sammle, die Protokolldaten genannt werden. Diese Protokolldaten können Informationen wie die Internet-Protokoll-Adresse (\"IP\") Ihres Geräts, den Gerätenamen, die Version des Betriebssystems, die Konfiguration der App bei der Nutzung meines Dienstes, die Uhrzeit und das Datum Ihrer Nutzung des Dienstes und andere Statistiken umfassen.",
+      "4-h2": "3. Cookies",
+      "4-p": "Cookies sind Dateien mit einer kleinen Menge an Daten, die häufig als anonyme eindeutige Kennungen verwendet werden. Diese werden an Ihren Browser von den Websites, die Sie besuchen, gesendet und auf dem internen Speicher Ihres Geräts gespeichert. Dieser Dienst verwendet diese \"Cookies\" nicht explizit. Die App kann jedoch Code und Bibliotheken von Drittanbietern verwenden, die \"Cookies\" verwenden, um Informationen zu sammeln und ihre Dienste zu verbessern. Sie haben die Möglichkeit, diese Cookies entweder zu akzeptieren oder abzulehnen und zu wissen, wann ein Cookie an Ihr Gerät gesendet wird. Wenn Sie unsere Cookies ablehnen, können Sie möglicherweise einige Teile dieses Dienstes nicht nutzen.",
+      "5-h2": "4. Dienstleister",
+      "5-p-1": "Ich kann Drittunternehmen und Einzelpersonen aus folgenden Gründen beauftragen:",
+      "5-li-1": "Um unseren Dienst zu erleichtern;",
+      "5-li-2": "Um den Dienst in unserem Namen bereitzustellen;",
+      "5-li-3": "Um dienstbezogene Dienstleistungen zu erbringen;",
+      "5-li-4": "Um uns bei der Analyse der Nutzung unseres Dienstes zu unterstützen;",
+      "5-p-2": "Ich möchte die Benutzer dieses Dienstes darauf hinweisen, dass diese Drittanbieter Zugang zu Ihren persönlichen Informationen haben. Der Grund ist, die ihnen in unserem Auftrag zugewiesenen Aufgaben auszuführen. Sie sind jedoch verpflichtet, die Informationen nicht zu anderen Zwecken offenzulegen oder zu verwenden.",
+      "6-h2": "5. Sicherheit",
+      "6-p": "Ich schätze Ihr Vertrauen, uns Ihre persönlichen Informationen zur Verfügung zu stellen, daher bemühen wir uns, kommerziell akzeptable Mittel zu verwenden, um sie zu schützen. Denken Sie jedoch daran, dass keine Methode der Übertragung über das Internet oder Methode der elektronischen Speicherung 100% sicher und zuverlässig ist, und ich kann ihre absolute Sicherheit nicht garantieren.",
+      "7-h2": "6. Links zu anderen Websites",
+      "7-p": "Dieser Dienst kann Links zu anderen Websites enthalten. Wenn Sie auf einen Drittanbieter-Link klicken, werden Sie zu dieser Website weitergeleitet. Beachten Sie, dass diese externen Websites nicht von mir betrieben werden. Daher empfehle ich Ihnen dringend, die Datenschutzrichtlinie dieser Websites zu überprüfen. Ich habe keine Kontrolle über und übernehme keine Verantwortung für den Inhalt, die Datenschutzrichtlinien oder -praktiken von Drittanbieter-Websites oder -diensten.",
+      "8-h2": "7. Änderungen dieser Datenschutzrichtlinie",
+      "8-p": "Ich kann unsere Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Daher wird Ihnen geraten, diese Seite regelmäßig auf Änderungen zu überprüfen. Ich werde Sie über alle Änderungen informieren, indem ich die neue Datenschutzrichtlinie auf dieser Seite veröffentliche. Diese Änderungen sind sofort nach ihrer Veröffentlichung auf dieser Seite wirksam."
+    },
+    "termsConditions": {
+      "1-h1": "Nutzungsbedingungen für das Tap4 AI Verzeichnis",
+      "1-p": "Willkommen beim Tap4 AI Verzeichnis! Unsere Website, die unter https://tap4.ai (\"Website\") zu finden ist, ist darauf ausgelegt, Ihnen die Möglichkeit zu bieten, benutzerdefinierte Bilder zu erstellen. Durch den Zugriff auf oder die Nutzung unserer Website stimmen Sie zu, an diese Nutzungsbedingungen (\"Bedingungen\") gebunden zu sein. Wenn Sie mit einem Teil der Bedingungen nicht einverstanden sind, ist es Ihnen untersagt, die Website zu nutzen.",
+      "2-h2": "1. Nutzungslizenz",
+      "2-p": "Sie erhalten eine begrenzte, nicht exklusive, nicht übertragbare Lizenz zur Nutzung der Website und ihrer Dienste für persönliche, nicht kommerzielle Zwecke. Diese Lizenz umfasst keine Rechte, den Inhalt der Website zu kopieren, zu ändern oder zu verteilen oder ihn für kommerzielle Zwecke ohne unsere vorherige schriftliche Zustimmung zu nutzen.",
+      "3-h2": "2. Eigentum",
+      "3-p": "Das Eigentum an Bildern, die aus Text auf der Website erstellt werden, gehört der Person, die das Bild erstellt hat. Tap4.ai beansprucht kein Eigentum an Bildern, die von Benutzern erstellt wurden.",
+      "4-h2": "3. Sammlung von Benutzerdaten",
+      "4-p": "Wir sammeln persönliche Daten (Name, E-Mail und Zahlungsinformationen) und nicht persönliche Daten (Web-Cookies), um unsere Dienste zu verbessern. Die Nutzung dieser Daten unterliegt unserer Datenschutzrichtlinie, die Sie unter den Nutzungsbedingungen finden können.",
+      "terms-of-service": "terms-of-service",
+      "5-h2": "4. Anwendbares Recht",
+      "5-p": "Diese Bedingungen unterliegen den Gesetzen der Vereinigten Staaten von Amerika und werden in Übereinstimmung mit diesen ausgelegt, ohne Rücksicht auf deren Kollisionsnormen.",
+      "6-h2": "5. Änderungen der Bedingungen",
+      "6-p": "Tap4 AI Verzeichnis behält sich das Recht vor, nach eigenem Ermessen diese Bedingungen jederzeit zu ändern oder zu ersetzen. Wir werden Benutzer über Änderungen per E-Mail benachrichtigen. Ihre fortgesetzte Nutzung der Website nach einer Änderung dieser Bedingungen bedeutet, dass Sie diese Änderungen akzeptieren.",
+      "7-h2": "6. Kontaktinformationen",
+      "7-p": "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte unter contact@6677.ai.",
+      "last-p": "Durch die Nutzung des Tap4 AI Verzeichnisses erklären Sie sich mit diesen Nutzungsbedingungen einverstanden."
+    }
+  },
+  "NotFound": {
+    "title": "404 Nicht gefunden",
+    "goHome": "Zur Startseite"
+  },
+  "Home": {
+    "title": "Tap4 AI - Entdecken Sie die besten KI-Tools 2024",
+    "subTitle": "Holen Sie sich Ihre Lieblings-KI-Tools im Tap4 AI Tools Verzeichnis. Die Liste der KI-Tools wird täglich von GPT-4o aktualisiert. Es ist kostenlos, sie hier einzureichen, um Ihr SEO jetzt zu verbessern.",
+    "ai-navigate": "KI-Tools Liste",
+    "exploreMore": "Weitere KI-Tools entdecken"
+  },
+  "Submit": {
+    "title": "Reichen Sie Ihr KI-Tool ein",
+    "subTitle": "Reichen Sie Ihr KI-Tool ein und erhalten Sie Traffic vom Tap4 AI Verzeichnis",
+    "website": "Webseitenname",
+    "url": "Webseiten-URL",
+    "submit": "Einreichen",
+    "add": "Hinzufügen",
+    "text": "zu Ihrer Website-Startseite, und dann können Sie Ihre Website erfolgreich kostenlos einreichen!",
+    "networkError": "Netzwerkfehler",
+    "success": "Erfolg"
+  },
+  "Startup": {
+    "title": "Starten Sie Ihren Startup-Launch",
+    "subTitle": "Die ultimative Liste von Websites, um Ihr Startup online zu starten und zu fördern. Für die Aufnahme in die Liste oder zur Unterstützung bei der Einreichung Ihres Produkts für die kostenlose Liste, senden Sie uns bitte eine E-Mail: contact@tap4.ai.",
+    "updateTime": "Kuratierte und täglich aktualisierte Liste. Zuletzt aktualisiert:",
+    "table": {
+      "da": "DA",
+      "website": "Website",
+      "tags": "Tags",
+      "price": "Preis",
+      "submission": "Einreichung"
+    },
+    "detail": {
+      "visitWebsite": "Website besuchen",
+      "introduction": "Einführung"
+    }
+  },
+  "Explore": {
+    "title": "Entdecken Sie die besten KI-Tools 2024",
+    "subTitle": "Holen Sie sich Ihre Lieblings-KI-Tools im Tap4 AI Tools Verzeichnis. Die Liste der KI-Tools wird täglich von GPT-4o aktualisiert."
+  },
+  "Metadata": {
+    "home": {
+      "title": "Holen Sie sich Ihre besten KI-Tools | Tap4 AI Verzeichnis",
+      "description": "Das Tap4 AI Verzeichnis ist ein Werkzeug, das ein kostenloses Verzeichnis von KI-Tools bietet. Holen Sie sich Ihre Lieblings-KI-Tools mit dem Tap4 AI Verzeichnis, das darauf abzielt, alle KI-Tools zu sammeln und das Beste für die Benutzer bereitzustellen.",
+      "keywords": "Tap4 AI Verzeichnis",
+      "openGraph": {
+        "title": "Tap4 AI Verzeichnis",
+        "description": "Das Tap4 AI Verzeichnis ist ein Werkzeug, das ein kostenloses Verzeichnis von KI-Tools bietet. Holen Sie sich Ihre Lieblings-KI-Tools mit dem Tap4 AI Verzeichnis, das darauf abzielt, alle KI-Tools zu sammeln und das Beste für die Benutzer bereitzustellen.",
+        "siteName": "tap4.ai"
+      },
+      "twitter": {
+        "title": "Tap4 AI Verzeichnis",
+        "description": "Das Tap4 AI Verzeichnis ist ein Werkzeug, das ein kostenloses Verzeichnis von KI-Tools bietet. Holen Sie sich Ihre Lieblings-KI-Tools mit dem Tap4 AI Verzeichnis, das darauf abzielt, alle KI-Tools zu sammeln und das Beste für die Benutzer bereitzustellen.",
+        "site": "tap4.ai",
+        "creator": "Tap4 AI Verzeichnis"
+      }
+    },
+    "ai": {
+      "titleSubfix": "Tap4 AI Verzeichnis"
+    },
+    "explore": {
+      "title": "Entdecken Sie die besten KI-Tools 2024 | Tap4 AI Verzeichnis",
+      "titlePrefix": "Erkunden Sie das Tap4 AI Verzeichnis",
+      "titleSuffix": "Tap4 AI Verzeichnis",
+      "description": "Das Tap4 AI Verzeichnis ist ein Werkzeug, das ein kostenloses Verzeichnis von KI-Tools bietet. Holen Sie sich Ihre Lieblings-KI-Tools mit dem Tap4 AI Verzeichnis, das darauf abzielt, alle KI-Tools zu sammeln und das Beste für die Benutzer bereitzustellen.",
+      "keywords": "Tap4 AI Verzeichnis"
+    },
+    "submit": {
+      "title": "Reichen Sie Ihr KI-Tool ein und erhalten Sie Traffic | Tap4 AI Verzeichnis"
+    }
+  }
+}

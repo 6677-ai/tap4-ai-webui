@@ -1,0 +1,73 @@
+{
+  "name": "tap4-ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint --cache",
+    "lint:fix": "eslint --fix .",
+    "prettier": "prettier --write .",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --quiet --fix",
+      "prettier --write"
+    ]
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "yarn": "please-use-pnpm",
+    "pnpm": ">=8.0.0",
+    "npm": "please-use-pnpm"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "3.3.4",
+    "@radix-ui/react-label": "2.0.2",
+    "@radix-ui/react-select": "2.0.0",
+    "@radix-ui/react-separator": "1.0.3",
+    "@supabase/ssr": "0.3.0",
+    "@supabase/supabase-js": "2.43.2",
+    "class-variance-authority": "0.7.0",
+    "clsx": "2.1.0",
+    "dayjs": "1.11.10",
+    "lucide-react": "0.365.0",
+    "next": "14.1.4",
+    "next-intl": "3.10.0",
+    "next-themes": "0.3.0",
+    "query-string": "9.0.0",
+    "rc-pagination": "4.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "7.51.2",
+    "react-markdown": "9.0.1",
+    "sonner": "1.4.41",
+    "tailwind-merge": "2.2.2",
+    "tailwindcss-animate": "1.0.7",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "4.2.1",
+    "@tailwindcss/typography": "0.5.12",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^7.5.0",
+    "@typescript-eslint/parser": "^7.5.0",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-airbnb-typescript": "18.0.0",
+    "eslint-config-next": "14.1.4",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-prettier": "5.1.3",
+    "husky": "9.0.11",
+    "postcss": "^8",
+    "prettier": "3.2.5",
+    "prettier-plugin-tailwindcss": "0.5.13",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}

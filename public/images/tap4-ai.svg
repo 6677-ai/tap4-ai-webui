@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 238179">
+<g id="Group 238178">
+<path id="Union" d="M16 20V28.3333H25.3673V49H27.8537H33.6327" stroke="url(#paint0_linear_4962_18104)" stroke-opacity="0.4"/>
+<path id="Union_2" d="M30.102 25.5H19.5V16.5H22.122H23.6829H25.2439H50.5V24.6842V25.5H39.898H39.398V26V45.5H33.8293H30.602V26V25.5H30.102Z" stroke="url(#paint1_linear_4962_18104)"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_4962_18104" x1="29.5" y1="20" x2="29.5" y2="45" gradientUnits="userSpaceOnUse">
+<stop offset="0.673717" stop-color="white"/>
+<stop offset="1" stop-color="#FFEA9F"/>
+</linearGradient>
+<linearGradient id="paint1_linear_4962_18104" x1="36.1707" y1="46" x2="36.1707" y2="16" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFEA9F"/>
+<stop offset="0.389316" stop-color="white"/>
+</linearGradient>
+</defs>
+</svg>
