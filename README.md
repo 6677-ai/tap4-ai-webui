@@ -29,12 +29,12 @@ git clone https://github.com/6677-ai/tap4-ai-webui.git
 ```
 
 #### (2) signup a account on supabase then create a project
-[supabase](https://supabase.com/)
+[https://supabase.com](https://supabase.com)
 
 #### (3) setup env
+- run this first and then fill in the values on `.env.local`
+- setup your supabase URL and KEY here
 ```sh
-# run this first 
-# then fill in the values
 cp .env.example .env.local
 ```
 #### (4) runs on dev mode
@@ -51,20 +51,46 @@ run on dev mode
 pnpm dev
 ```
 
+## How to upate your content?
+### update "home" or "explore" page (`/` or `/explore`)
+```sh
+lib/data.ts -> dataList
+```
+
+### update detail page (`/ai/website-name`)
+- PS: `detail` supports markdown
+```sh
+lib/data.ts -> detailList
+```
+### submit website and read it from database
+1. runs the website and then go to `/submit` page
+2. input the values and then submit the form
+3. open and check your supabase project
+
+## Wanna submit your website on Tap4.ai?
+### Wanna add you website to our `/startup` page?
+- open an issue here: [TAP4-AI-Directory](https://github.com/6677-ai/TAP4-AI-Directory/issues)
+- email us: contact@tap4.ai
+
 ## Links to our products
 ### TAP4-AI-Directory
 The Collection for the AI tools all over the world. | Collect free ChatGPT mirrors, alternatives,prompt, other AI tools, etc. For more, please visit: [Tap4 AI](https://tap4.ai)
 
 ### How to get your first users for startup at the website list
 Here is the website list for submit your product to get users. Please visit [StartUp Your Product List](https://github.com/6677-ai/TAP4-AI-Directory/blob/main/Startup-Your-Product-List.md)
-#### GPT-4o in OpenAI
+
+### GPT-4o in OpenAI
 The amazing new feature released in 2024.05.14. GPT-4o is coming, let's chat with her. Please [GPT-4o](https://openai.com/index/hello-gpt-4o/)
 
-#### The Tattoo AI Generator and Design
+### The Tattoo AI Generator and Design
 Tattao AI Design is a tattoo ai generator and design for the tattoo fans. If you are interested with it, visit [Tattoo AI Design](https://tattooai.design)
 
-#### Anime Girl Studio -- AI Anime Girl Generator and Chat
+### Anime Girl Studio -- AI Anime Girl Generator and Chat
 Anime Girl Studio is the ai anime girl generator and chat product. You can generate what you like and chat with the AI anime girl, please visit [Anime Girl Studio](https://animegirl.studio)
+
+## Other open source
+### Website content crawler code
+visit: [6677-ai/tap4-ai-scraper](https://github.com/6677-ai/tap4-ai-scraper)
 
 ## LICENSE
 MIT
