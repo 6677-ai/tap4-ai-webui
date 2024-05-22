@@ -50,7 +50,7 @@ export default function Footer() {
         </div>
         <div className='mt-5 flex flex-col items-center gap-y-5 lg:mt-0 lg:flex-row lg:items-stretch lg:gap-x-10'>
           <div className='flex w-full flex-col gap-2'>
-            <h2 className='font-bold'>support</h2>
+            <h2 className='font-bold'>{t('support')}</h2>
             <a
               href={tap4ai.href}
               target='_blank'
