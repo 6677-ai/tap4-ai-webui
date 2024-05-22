@@ -11,6 +11,8 @@ English | [简体中文](https://github.com/6677-ai/tap4-ai-webui/blob/main/READ
 - NEXT 14 with app route (react server component)
 - Supabase serverless database
 
+![tai4-ai](./public/images/tap4-ai.png)
+
 ## Quick Start
 
 ### Deploy on Vercel **(Don't forget to setup env)**

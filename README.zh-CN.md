@@ -11,6 +11,8 @@
 - 使用 NEXT 14 和 app 路由（react服务器组件）
 - Supabase serverless 数据库
 
+![tai4-ai](./public/images/tap4ai.zh-CN.png)
+
 ## 快速开始
 
 ### 在Vercel上部署 **（别忘了设置环境变量）**
