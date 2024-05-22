@@ -72,6 +72,14 @@ lib/data.ts -> detailList
 - open an issue here: [TAP4-AI-Directory](https://github.com/6677-ai/TAP4-AI-Directory/issues)
 - email us: contact@tap4.ai
 
+## Link Me
+
+You can contact me at Twitter: https://x.com/tap4ai
+
+if this project is helpful to you, buy me a coffee.
+
+<a href="https://www.buymeacoffee.com/tap4ai0o" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
 ## Links to our products
 ### TAP4-AI-Directory
 The Collection for the AI tools all over the world. | Collect free ChatGPT mirrors, alternatives,prompt, other AI tools, etc. For more, please visit: [Tap4 AI](https://tap4.ai)
