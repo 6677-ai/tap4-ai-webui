@@ -70,6 +70,15 @@ lib/data.ts -> detailList
 2. 输入数值并提交表单
 3. 打开并检查您的 Supabase 项目
 
+## Link Me
+
+欢迎关注我们的Twitter: https://x.com/tap4ai
+
+如果觉得项目对你有帮助，欢迎请我喝杯咖啡：
+
+<a href="https://www.buymeacoffee.com/tap4ai0o" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
+
 ## 打算在 Tap4.ai 上提交您的网站？
 ### 打算将您的网站添加到我们的 `/startup` 页面？
 - 在这里打开一个问题：[TAP4-AI-Directory](https://github.com/6677-ai/TAP4-AI-Directory/issues)
