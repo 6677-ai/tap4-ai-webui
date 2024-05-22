@@ -22,6 +22,11 @@ function InfoLink({
   );
 }
 
+const tap4ai = {
+  title: 'Tap4 AI',
+  href: 'https://www.tap4.ai',
+};
+
 export default function Footer() {
   const t = useTranslations('Footer');
 
@@ -44,6 +49,18 @@ export default function Footer() {
           <h2 className='text-xs'>{t('subTitle')}</h2>
         </div>
         <div className='mt-5 flex flex-col items-center gap-y-5 lg:mt-0 lg:flex-row lg:items-stretch lg:gap-x-10'>
+          <div className='flex w-full flex-col gap-2'>
+            <h2 className='font-bold'>support</h2>
+            <a
+              href={tap4ai.href}
+              target='_blank'
+              rel='noreferrer'
+              className='text-xs hover:opacity-70 lg:text-base'
+              title={tap4ai.title}
+            >
+              {tap4ai.title}
+            </a>
+          </div>
           <div className='grid grid-cols-2 gap-x-10 gap-y-5 lg:grid-cols-1 lg:gap-3'>
             {INFO_LIST.map((item) => (
               <InfoLink key={item.href} href={item.href} title={item.title} />
