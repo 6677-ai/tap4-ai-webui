@@ -53,6 +53,16 @@ export const dataList: WebNavigationListRow[] = [
     thumbnailUrl: 'https://img.artiversehub.ai/2024/05/17/28087968ada64091b2331e8beea26180.png',
   },
   {
+    id: '1793582246220726274',
+    name: 'tattooai-design',
+    title: 'AI Tattoo Generator and Design | Tattoo AI Design',
+    content:
+      "Tattoo AI Design is a platform that offers an AI-powered tattoo generator tool to create unique and personalized tattoo designs. Users can input their tattoo ideas, and the AI generates designs within seconds. The site supports various tattoo styles, including traditional, neo-traditional, watercolor, geometric, and more. Popular themes include animals like lions, eagles, and wolves, as well as floral designs like roses and cherry blossoms. The service is free to explore, with options to remix or download creations. Users can also subscribe for additional features and support the platform's growth.",
+    url: 'https://tattooai.design',
+    imageUrl: 'https://img.artiversehub.ai/2024/05/23/668e9c65d3e9458b87cc6a382b1dee83.png',
+    thumbnailUrl: 'https://img.artiversehub.ai/2024/05/23/87d5c4e9b91f41d0b5eed738e1a813f9.png',
+  },
+  {
     id: '1791402384042659841',
     name: 'viggle',
     title: 'Viggle',
@@ -80,6 +90,16 @@ export const dataList: WebNavigationListRow[] = [
     thumbnailUrl: 'https://img.artiversehub.ai/2024/05/17/c12e9e756c5d43898fd58a6da69fd912.png',
   },
   {
+    id: '1793585234460999681',
+    name: 'aigirl-best',
+    title: 'Best AI Girl Friend Generator | AIGirl.best',
+    content:
+      'AIGirl.best is an online platform touted as the best Anime/Realistic AI Girl Generator. It allows users to create ultra-detailed anime characters, including school girls, cat girls, and more, in high resolutions like 8K CG. The site features a variety of styles and settings, from tropical gardens to cyberpunk cities, and offers a free trial for users to explore its capabilities. Additionally, it includes a blog, pricing information, and a gallery of generated images.',
+    url: 'https://aigirl.best',
+    imageUrl: 'https://img.artiversehub.ai/2024/05/23/e8494b7617674af59a1e92e0fca59f66.png',
+    thumbnailUrl: 'https://img.artiversehub.ai/2024/05/23/e08dd1ce53194e138671f0681f6e4eea.png',
+  },
+  {
     id: '1791396502303051777',
     name: 'character_ai',
     title: 'Character.ai',
@@ -98,6 +118,16 @@ export const dataList: WebNavigationListRow[] = [
     url: 'https://suno.com/',
     imageUrl: 'https://img.artiversehub.ai/2024/05/17/f0970037821c497b851aded7715e9a0b.png',
     thumbnailUrl: 'https://img.artiversehub.ai/2024/05/17/0dbc6fbefd3b4eceb79dffcd673a9d37.png',
+  },
+  {
+    id: '17913965023030513337',
+    name: 'anime-girl-studio',
+    title: 'Anime Girl Studio - AI Anime Girl Generator & Chat',
+    content:
+      'Best free AI anime girl | character generator online with NSFW options. Get inspired by free AI generated anime girl arts, Anime Girl Studio is a free Anime Girl Generator that allows anyone to create their own ai Anime girl. With nsfw option.\n',
+    url: 'https://animegirl.studio/',
+    imageUrl: 'https://img.artiversehub.ai/2024/05/23/e8494b7617674af59a1e92e0fca59f66.png',
+    thumbnailUrl: 'https://img.artiversehub.ai/2024/05/23/e08dd1ce53194e138671f0681f6e4eea.png',
   },
   {
     id: '1791390492431650817',
@@ -169,11 +199,10 @@ export const dataList: WebNavigationListRow[] = [
   },
   {
     id: '1791368264352698370',
-    name: 'lntuit',
-    title: 'Intuit',
-    content:
-      'Intuit is a global financial technology platform that provides products like TurboTax, Credit Karma, QuickBooks, and Mailchimp to help individuals and businesses achieve financial confidence.',
-    url: 'https://www.intuit.com/',
+    name: 'artiversehub-ai',
+    title: 'Artiversehub AI - AI Art Generator & Free Art Prompt Marketplace',
+    content: 'Artiversehub AI is an AI Art Generator & Free Art Prompt Marketplace.',
+    url: 'https://artiversehub.ai/',
     imageUrl: 'https://img.artiversehub.ai/2024/05/17/71e27dba0439487b80b7439539e8a566.png',
     thumbnailUrl: 'https://img.artiversehub.ai/2024/05/17/f49d3b9da1f543739e9a89c4587e2954.png',
   },
@@ -229,6 +258,39 @@ export const dataList: WebNavigationListRow[] = [
 
 export const detailList: WebNavigationDetailData[] = [
   {
+    name: 'aigirl-best',
+    title: 'Best AI Girl Friend Generator | AIGirl.best',
+
+    detail:
+      "### What is AIGirl.best?\nAIGirl.best is an AI-driven platform that provides access to a vast array of AI technologies for generating anime-style girls. With our advanced AI models, users can create stunning anime-style characters with ultra-realistic features, intricate details, and captivating poses.\n\n### How can I use AIGirl.best for free?\nEvery user can utilize AIGirl.best for free, with unlimited generations per day. Our platform offers a wide range of anime-style characters, from school girls to fantasy monsters, all available for free.\n\n### Can I generate anime-style images using AIGirl.best?\nYes, with our advanced AI models, users can generate stunning anime-style images, including characters, landscapes, and scenes. Our AI models can create intricate details, vibrant colors, and captivating poses, making your imagination come to life.\n\n### How many anime-style characters are available on AIGirl.best?\nAIGirl.best offers an extensive library of anime-style characters, with new additions every week. Our platform features a vast array of characters, from cute school girls to fierce warriors, and from fantasy monsters to beautiful angels.\n\n### How can I maximize my use of AIGirl.best's AI services?\nBy leveraging our daily free generations, users can explore a vast range of AI-powered tools to support various tasks, from creating stunning anime-style characters to generating captivating scenes and landscapes.\n\n### Will my information be used for training data?\nWe highly value user privacy, and your data will not be used for any training purposes. If needed, you can delete your account at any time, and all your data will be removed as well.\n\n### When would I need a subscription on AIGirl.best?\nIf the daily free generations do not meet your needs, and you heavily rely on our AI services, we invite you to subscribe to our affordable products, which offer additional benefits and extended access to our AI models.",
+    content:
+      'AIGirl.best is an online platform touted as the best Anime/Realistic AI Girl Generator. It allows users to create ultra-detailed anime characters, including school girls, cat girls, and more, in high resolutions like 8K CG. The site features a variety of styles and settings, from tropical gardens to cyberpunk cities, and offers a free trial for users to explore its capabilities. Additionally, it includes a blog, pricing information, and a gallery of generated images.',
+    url: 'https://aigirl.best',
+    imageUrl: 'https://img.artiversehub.ai/2024/05/23/e8494b7617674af59a1e92e0fca59f66.png',
+    thumbnailUrl: 'https://img.artiversehub.ai/2024/05/23/e08dd1ce53194e138671f0681f6e4eea.png',
+    collectionTime: '2024-05-20 00:00:00',
+    tagName: 'Website',
+    websiteData: '1000',
+    starRating: 5,
+    categoryName: 'Other',
+  },
+  {
+    name: 'tattooai-design',
+    title: 'AI Tattoo Generator and Design | Tattoo AI Design',
+    detail:
+      '### What is Tattoo AI Design?\nTattoo AI Design is building an AI tattoo generator tool that helps you generate unique tattoo designs. It combines artificial intelligence technology to provide personalized tattoo pattern generation and design for you.\n\n### How to create your AI tattoo design?\nYou can create your AI tattoo design in three easy steps:\n\n1. Open Tattoo AI Design.\n2. Enter your description of the tattoo (can be wild or specific).\n3. Click "Tattoo your design" to generate your tattoo design by AI.\n\n### Features of Tattoo AI Design\nTattoo AI Design offers various features, including:\n\n* Free to Explore: It\'s totally free for users to explore tattoo creation in Tattoo AI Design, and you can remix the creation or download it directly.\n* AI Tattoo Generator: Input the description that you like or dream of, then click "Tattoo your design" to get your own tattoo design here.\n\n### Price\nTattoo AI Design is free for everyone to enjoy the AI tattoo generator! You can upgrade to a paid plan to support the platform and get more features.\n\n### Tattoo Styles Supported\nTattoo AI Design supports various tattoo styles, including:\n\n* Traditional tattoos\n* Neo-traditional tattoos\n* Watercolor tattoos\n* Geometric tattoos\n* And more!\n\n### Popular Tattoo Themes\nSome popular tattoo themes or motifs available on the AI Tattoo Design Web include designs featuring:\n\n* Animals like lions, eagles, wolves, sharks, tigers, cats, falcons, snakes, bears, and deer\n* Floral designs such as roses, thorns, tulips, cannabis leaves, red poppies, potted plants, agave, lotus flowers, daisies, and cherry blossoms',
+    content:
+      "Tattoo AI Design is a platform that offers an AI-powered tattoo generator tool to create unique and personalized tattoo designs. Users can input their tattoo ideas, and the AI generates designs within seconds. The site supports various tattoo styles, including traditional, neo-traditional, watercolor, geometric, and more. Popular themes include animals like lions, eagles, and wolves, as well as floral designs like roses and cherry blossoms. The service is free to explore, with options to remix or download creations. Users can also subscribe for additional features and support the platform's growth.",
+    url: 'https://tattooai.design',
+    imageUrl: 'https://img.artiversehub.ai/2024/05/23/668e9c65d3e9458b87cc6a382b1dee83.png',
+    thumbnailUrl: 'https://img.artiversehub.ai/2024/05/23/87d5c4e9b91f41d0b5eed738e1a813f9.png',
+    collectionTime: '2024-05-20 00:00:00',
+    tagName: 'Website',
+    websiteData: '1000',
+    starRating: 5,
+    categoryName: 'Other',
+  },
+  {
     name: 'woy-ai',
     title: 'Woy AI Tools Directory',
     detail: '# Woy AI Tools Directory\nDiscover the top AI tools of 2024 with the Woy.ai AI Directory!',
@@ -236,6 +298,22 @@ export const detailList: WebNavigationDetailData[] = [
     url: 'https://woy.ai',
     imageUrl: 'https://img.artiversehub.ai/2024/05/20/c5a29d0bd95f4788a592d363b3ee4117.png',
     thumbnailUrl: 'https://img.artiversehub.ai/2024/05/20/7d246f5ac3d240a4bc03e6c01d68f845.png',
+    collectionTime: '2024-05-20 00:00:00',
+    tagName: 'Website',
+    websiteData: '1000',
+    starRating: 5,
+    categoryName: 'Other',
+  },
+  {
+    name: 'anime-girl-studio',
+    title: 'Anime Girl Studio - AI Anime Girl Generator & Chat',
+    detail:
+      "### What is Anime Girl Studio?\nAnime Girl Studio is an AI-driven platform that provides access to a vast array of AI technologies for generating anime-style girls. With our advanced AI models, users can create stunning anime-style characters with ultra-realistic features, intricate details, and captivating poses.\n\n### How can I use Anime Girl Studio for free?\nEvery user can utilize Anime Girl Studio for free, with unlimited generations per day. Our platform offers a wide range of anime-style characters, from school girls to fantasy monsters, all available for free.\n\n### Can I generate anime-style images using Anime Girl Studio?\nYes, with our advanced AI models, users can generate stunning anime-style images, including characters, landscapes, and scenes. Our AI models can create intricate details, vibrant colors, and captivating poses, making your imagination come to life.\n\n### How many anime-style characters are available on Anime Girl Studio?\nAnime Girl Studio offers an extensive library of anime-style characters, with new additions every week. Our platform features a vast array of characters, from cute school girls to fierce warriors, and from fantasy monsters to beautiful angels.\n\n### How can I maximize my use of Anime Girl Studio's AI services?\nBy leveraging our daily free generations, users can explore a vast range of AI-powered tools to support various tasks, from creating stunning anime-style characters to generating captivating scenes and landscapes.\n\n### Will my information be used for training data?\nWe highly value user privacy, and your data will not be used for any training purposes. If needed, you can delete your account at any time, and all your data will be removed as well.\n\n### When would I need a subscription on AIGirl.best?\nIf the daily free generations do not meet your needs, and you heavily rely on our AI services, we invite you to subscribe to our affordable products, which offer additional benefits and extended access to our AI models.",
+    content:
+      'Best free AI anime girl | character generator online with NSFW options. Get inspired by free AI generated anime girl arts, Anime Girl Studio is a free Anime Girl Generator that allows anyone to create their own ai Anime girl. With nsfw option.\n',
+    url: 'https://animegirl.studio/',
+    imageUrl: 'https://img.artiversehub.ai/2024/05/23/e8494b7617674af59a1e92e0fca59f66.png',
+    thumbnailUrl: 'https://img.artiversehub.ai/2024/05/23/e08dd1ce53194e138671f0681f6e4eea.png',
     collectionTime: '2024-05-20 00:00:00',
     tagName: 'Website',
     websiteData: '1000',
@@ -445,6 +523,21 @@ export const detailList: WebNavigationDetailData[] = [
     websiteData: 'https://www.notion.so/',
     starRating: 5,
     categoryName: 'Productivity',
+  },
+  {
+    name: 'artiversehub-ai',
+    title: 'Artiversehub AI - AI Art Generator & Free Art Prompt Marketplace',
+    detail:
+      "# What is Intuit?\nIntuit is a global financial technology platform that offers a suite of products including TurboTax, Credit Karma, QuickBooks, and Mailchimp, designed to assist individuals and businesses in achieving financial confidence and efficiency.\n\n# How to use Intuit?\nTo begin using Intuit's products:\n1. Visit Intuit's website and sign up for an account.\n2. Select the product that aligns with your financial needs.\n3. Follow the instructions provided to manage your finances more effectively.\n\n# Intuit's Core Features\n- **TurboTax**: File your taxes with confidence and accuracy.\n- **Credit Karma**: Simplify personal finance and achieve financial goals.\n- **QuickBooks**: Manage business finances seamlessly.\n- **Mailchimp**: Automate email marketing to boost customer engagement.\n\n# Intuit's Use Cases\n1. **Small Businesses**: Streamline accounting with QuickBooks.\n2. **Tax Filing**: Use TurboTax for accurate and confident tax returns.\n3. **Personal Finance**: Self-employed individuals can manage finances with Credit Karma.\n\n# FAQ from Intuit\n- **What is Intuit?** Intuit is a financial technology company providing a range of financial and accounting solutions.\n- **How can I use Intuit products?** Sign up on their website and choose the product that suits your needs.\n- **What are the core features of Intuit?** The core features include tax filing, personal finance management, business accounting, and email marketing automation.\n- **Who can benefit from using Intuit products?** Individuals, self-employed professionals, and small to medium-sized businesses can benefit from Intuit's products.\n- **What are some use cases for Intuit products?** Use cases include accounting for small businesses, personal tax filing, and financial management for individuals.\n\n# Intuit Company\n- **Company Name**: Intuit Inc.\n- **Learn More**: Visit the [About Us page](https://www.intuit.com/company/).\n\n# Intuit Contact Information\n- **Support Email & Customer Service**: More contact options are available at the [contact us page](https://www.intuit.com/company/contact).\n- **Login**: Access your account through the [Intuit Login Link](https://accounts.intuit.com/app/account-manager/overview?piuInFlyout=true&openBlueDot=true&accountSwitcherInFlyout=true&rgn=US&prgn=US).\n\n# Intuit Social Media & Community\n- **Facebook**: [Intuit Facebook](https://www.facebook.com/intuit)\n- **Youtube**: [Intuit Youtube](https://www.youtube.com/user/intuit)\n- **LinkedIn**: [Intuit Linkedin](https://www.linkedin.com/company/intuit)\n- **Twitter**: [Intuit Twitter](https://twitter.com/Intuit)\n\nPlease note that for the most accurate and up-to-date information, including pricing and specific product features, you should visit Intuit's official website or contact their customer support directly.",
+    content: 'Artiversehub AI is an AI Art Generator & Free Art Prompt Marketplace.',
+    url: 'https://artiversehub.ai/',
+    imageUrl: 'https://img.artiversehub.ai/2024/05/17/71e27dba0439487b80b7439539e8a566.png',
+    thumbnailUrl: 'https://img.artiversehub.ai/2024/05/17/f49d3b9da1f543739e9a89c4587e2954.png',
+    collectionTime: '2024-05-17 15:20:49',
+    tagName: 'Website',
+    websiteData: 'https://artiversehub.ai/',
+    starRating: 5,
+    categoryName: 'Other',
   },
   {
     name: 'lntuit',
