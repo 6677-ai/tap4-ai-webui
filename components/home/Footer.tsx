@@ -16,19 +16,31 @@ function InfoLink({
   type?: string;
 }) {
   return (
-    <Link href={href} title={title} className='text-xs hover:opacity-70 lg:text-sm' target={target} type={type}>
+    <Link
+      href={href}
+      title={title}
+      className='whitespace-nowrap text-xs hover:opacity-70 lg:text-sm'
+      target={target}
+      type={type}
+    >
       {title}
     </Link>
   );
 }
 
-const tap4ai = {
-  title: 'Tap4 AI',
-  href: 'https://www.tap4.ai',
-};
-
 export default function Footer() {
   const t = useTranslations('Footer');
+
+  const SupportLinks = [
+    {
+      title: t('tap4'),
+      href: 'https://www.tap4.ai',
+    },
+    {
+      title: t('tattoo'),
+      href: 'https://tattooai.design',
+    },
+  ];
 
   const INFO_LIST = [
     {
@@ -51,15 +63,18 @@ export default function Footer() {
         <div className='mt-5 flex flex-col items-center gap-y-5 lg:mt-0 lg:flex-row lg:items-stretch lg:gap-x-10'>
           <div className='flex w-full flex-col gap-2'>
             <h2 className='font-bold'>{t('support')}</h2>
-            <a
-              href={tap4ai.href}
-              target='_blank'
-              rel='noreferrer'
-              className='text-xs hover:opacity-70 lg:text-base'
-              title={tap4ai.title}
-            >
-              {tap4ai.title}
-            </a>
+            {SupportLinks.map((item) => (
+              <a
+                href={item.href}
+                key={item.href}
+                target='_blank'
+                rel='noreferrer'
+                className='text-xs hover:opacity-70 lg:text-base'
+                title={item.title}
+              >
+                {item.title}
+              </a>
+            ))}
           </div>
           <div className='grid grid-cols-2 gap-x-10 gap-y-5 lg:grid-cols-1 lg:gap-3'>
             {INFO_LIST.map((item) => (
@@ -67,7 +82,7 @@ export default function Footer() {
             ))}
             <a
               href={`mailto:${CONTACT_US_EMAIL}`}
-              className='text-xs hover:opacity-70 lg:text-base'
+              className='whitespace-nowrap text-xs hover:opacity-70 lg:text-base'
               title={t('contactUs')}
               type='email'
             >
