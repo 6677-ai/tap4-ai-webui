@@ -1,7 +1,16 @@
 # Tap4 AI Web UI
-An AI navigation site offers quick access to top AI resources, tools, and news. It features categorized links, search functionality, and user-friendly interfaces, helping users efficiently explore the AI landscape and stay updated with the latest advancements.
+Tap4 AI Web UI is the open source AI tools directory build by [Tap4 AI Tools Directory](https://tap4.ai). The project aims to help everyone build their own AI Tools Directory easily. You can fork the project and deploy to vercel by one click and update your own ai tools by the dataList in the project.
 
 English | [简体中文](https://github.com/6677-ai/tap4-ai-webui/blob/main/README.zh-CN.md)
+
+## Link Me
+
+You can contact me at Twitter: https://x.com/tap4ai
+
+if this project is helpful to you, buy me a coffee.
+
+<a href="https://www.buymeacoffee.com/tap4ai0o" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
 
 ## Features
 - Internationalization
@@ -12,6 +21,7 @@ English | [简体中文](https://github.com/6677-ai/tap4-ai-webui/blob/main/READ
 - Supabase serverless database
 
 ![tai4-ai](./public/images/tap4-ai.png)
+
 
 ## Quick Start
 
@@ -73,14 +83,6 @@ lib/data.ts -> detailList
 ### Wanna add you website to our `/startup` page?
 - open an issue here: [TAP4-AI-Directory](https://github.com/6677-ai/TAP4-AI-Directory/issues)
 - email us: contact@tap4.ai
-
-## Link Me
-
-You can contact me at Twitter: https://x.com/tap4ai
-
-if this project is helpful to you, buy me a coffee.
-
-<a href="https://www.buymeacoffee.com/tap4ai0o" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 ## Links to our products
 ### TAP4-AI-Directory

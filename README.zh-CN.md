@@ -1,5 +1,5 @@
 # Tap4 AI Web UI
-一个AI导航网站，提供快速访问顶级AI资源、工具和新闻。它具有分类链接、搜索功能和用户友好的界面，帮助用户高效地探索AI领域并及时了解最新进展。
+这是一个由[Tap4 AI工具导航站](https://tap4.ai)开源的AI导航站项目。我们的目标是让大家很容易就拥有一个属于自己的AI导航站，收录自己喜欢的AI工具产品。这个项目非常轻量级，维护简单，适合对AI导航站感兴趣的个人开发者，也适合对NextJs有兴趣的学习者，欢迎大家fork和star。
 
 [English](https://github.com/6677-ai/tap4-ai-webui/blob/main/README.md) | 简体中文
 
@@ -12,6 +12,15 @@
 - Supabase serverless 数据库
 
 ![tai4-ai](./public/images/tap4ai.zh-CN.png)
+
+## 感谢关注链接
+
+欢迎关注我们的Twitter: https://x.com/tap4ai
+
+如果觉得项目对你有帮助，欢迎请我喝杯咖啡：
+
+<a href="https://www.buymeacoffee.com/tap4ai0o" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
 
 ## 快速开始
 
@@ -69,6 +78,7 @@ lib/data.ts -> detailList
 1. 运行网站后，打开 `/submit` 页面
 2. 输入数值并提交表单
 3. 打开并检查您的 Supabase 项目
+
 
 ## 打算在 Tap4.ai 上提交您的网站？
 ### 打算将您的网站添加到我们的 `/startup` 页面？
