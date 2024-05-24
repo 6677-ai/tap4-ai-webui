@@ -55,12 +55,14 @@ git clone https://github.com/6677-ai/tap4-ai-webui.git
 
 #### （3）设置环境变量
 
-- 先运行这个，然后在 `.env.local` 填入数值。
-- 这里设置你的 supabase URL 和 KEY
-
+- 使用visual studio code打开本项目
+- 执行shell：
 ```sh
 cp .env.example .env.local
 ```
+- 在 `.env.local` 填入数值。
+- 这里设置你的 supabase URL 和 KEY
+
 
 #### （4）在开发模式下运行
 
