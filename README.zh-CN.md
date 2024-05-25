@@ -54,15 +54,22 @@ git clone https://github.com/6677-ai/tap4-ai-webui.git
 [https://supabase.com](https://supabase.com)
 
 #### （3）设置环境变量
-
-- 使用visual studio code打开本项目
-- 执行shell：
+- 在根目录下，创建 `.env.local` 文件，填入具体数值，例子如下：
 ```sh
-cp .env.example .env.local
-```
-- 在 `.env.local` 填入数值。
-- 这里设置你的 supabase URL 和 KEY
+# 你的域名
+NEXT_PUBLIC_SITE_URL="https://www.tap4.ai"
 
+# 谷歌索引 id 和 广告 URL
+GOOGLE_TRACKING_ID="G-XXXXXXX"
+GOOGLE_ADSENSE_URL="https://xxxx.googlesyndication.com/xxxxx/xxxxx"
+
+# 底部的联系邮箱
+CONTACT_US_EMAIL="contact@tap4.ai"
+
+# supabase 数据库的 url 和 key
+NEXT_PUBLIC_SUPABASE_URL="https://xxxyyyzzz.supabase.co"
+NEXT_PUBLIC_SUPABASE_ANON_KEY="XXX.YYY.ZZZ"
+```
 
 #### （4）在开发模式下运行
 

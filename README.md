@@ -47,10 +47,21 @@ git clone https://github.com/6677-ai/tap4-ai-webui.git
 [https://supabase.com](https://supabase.com)
 
 #### (3) setup env
-- run this first and then fill in the values on `.env.local`
-- setup your supabase URL and KEY here
+- root folder, create `.env.local` file and fill with values, for example:
 ```sh
-cp .env.example .env.local
+# your domain
+NEXT_PUBLIC_SITE_URL="https://www.tap4.ai"
+
+# google tracking id and adsense URL
+GOOGLE_TRACKING_ID="G-XXXXXXX"
+GOOGLE_ADSENSE_URL="https://xxxx.googlesyndication.com/xxxxx/xxxxx"
+
+# Footer contact email
+CONTACT_US_EMAIL="contact@tap4.ai"
+
+# your supabase database url and key
+NEXT_PUBLIC_SUPABASE_URL="https://xxxyyyzzz.supabase.co"
+NEXT_PUBLIC_SUPABASE_ANON_KEY="XXX.YYY.ZZZ"
 ```
 #### (4) runs on dev mode
 switch to the particular node version
