@@ -25,7 +25,7 @@
 
 <a href="https://www.buymeacoffee.com/tap4ai0o" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
-如果你对项目有兴趣，欢迎扫描二维码加微信群沟通： ![tap4-ai-wx-group](./public/images/640.png)
+如果你对项目有兴趣，欢迎扫描二维码加微信群沟通： ![tap4-ai-wx-group](./public/images/640.jpg)
 
 ## 快速开始
 
@@ -54,7 +54,9 @@ git clone https://github.com/6677-ai/tap4-ai-webui.git
 [https://supabase.com](https://supabase.com)
 
 #### （3）设置环境变量
+
 - 在根目录下，创建 `.env.local` 文件，填入具体数值，例子如下：
+
 ```sh
 # 你的域名
 NEXT_PUBLIC_SITE_URL="https://www.tap4.ai"
