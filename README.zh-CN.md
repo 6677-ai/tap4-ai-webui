@@ -142,16 +142,23 @@ lib/data.ts -> detailList
 
 Tattao AI Design是为纹身爱好者设计的纹身ai生成器。如果您对此感兴趣，请访问 [Tattoo AI Design](https://tattooai.design)
 
-### Anime Girl Studio -- AI Anime Girl Generator and Chat
+## 赞助列表
+
+### Anime Girl Studio -- AI Anime Girl Chat & Generator
 
 Anime Girl Studio是AI anime girl生成器和聊天产品。您可以生成您喜欢的角色并与AI anime girl聊天，请访问
 [Anime Girl Studio](https://animegirl.studio)
+
+### Best AI Girl Friend -- Best AI Girl Chat & Generator
+
+Best AI Girl Friend生成器和聊天产品。您可以生成您喜欢的角色并与AI girl聊天，请访问
+[Best AI Girl Friend](https://aigirl.best)
 
 ## 其他开源项目
 
 ### 网站内容爬虫代码
 
-访问：[6677-ai/tap4-ai-scraper](https://github.com/6677-ai/tap4-ai-scraper)
+访问：: [6677-ai/tap4-ai-crawler](https://github.com/6677-ai/tap4-ai-crawler), 即将上线
 
 ## 许可证
 

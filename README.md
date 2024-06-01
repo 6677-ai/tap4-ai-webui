@@ -145,16 +145,23 @@ The amazing new feature released in 2024.05.14. GPT-4o is coming, let's chat wit
 Tattao AI Design is a tattoo ai generator and design for the tattoo fans. If you are interested with it, visit
 [Tattoo AI Design](https://tattooai.design)
 
-### Anime Girl Studio -- AI Anime Girl Generator and Chat
+## Sponsor List
+
+### Anime Girl Studio -- AI Anime Girl Chat & Generator
 
 Anime Girl Studio is the ai anime girl generator and chat product. You can generate what you like and chat with the AI
 anime girl, please visit [Anime Girl Studio](https://animegirl.studio)
 
+### Best AI Girl Friend -- Best AI Girl Chat & Generator
+
+Best AI Girl Friend is the ai girl generator and chat product. You can generate what you like and chat with the AI anime
+girl, please visit [Best AI Girl Friend](https://aigirl.best)
+
 ## Other open source
 
-### Website content crawler code
+### Website content AI crawler
 
-visit: [6677-ai/tap4-ai-scraper](https://github.com/6677-ai/tap4-ai-scraper)
+visit: [6677-ai/tap4-ai-crawler](https://github.com/6677-ai/tap4-ai-crawler), coming soon
 
 ## LICENSE
 
