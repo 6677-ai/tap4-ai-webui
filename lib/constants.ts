@@ -15,10 +15,10 @@ export const NAV_LINKS = [
 
 export const PAGE_SIZE = 20;
 
-export const FORM_PLACEHOLDER = 'https://tap4.ai/';
+export const FORM_PLACEHOLDER = 'https://hiaitools.com';
 
 export const WEBSITE_EXAMPLE =
-  '<a href="https://tap4.ai/" title="Tap4 AI Tools Directory">Tap4 AI Tools Diresctory</a>';
+  '<a href="https://hiaitools.com" title="The latest AI Tools Directory">The latest AI Tools Diresctory</a>';
 
 export const STARTUP_LIST = [
   {
@@ -452,6 +452,13 @@ export const STARTUP_LIST = [
     DA: 3,
     Website: 'all things AI',
     URL: 'https://allthingsai.com/',
+    Price: 'Free',
+    Tag: 'AI',
+  },
+  {
+    DA: 100,
+    Website: 'AI coloringpages',
+    URL: 'https://dragon-coloringpages.com/',
     Price: 'Free',
     Tag: 'AI',
   },

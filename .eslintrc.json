@@ -21,6 +21,7 @@
     "implicit-arrow-linebreak": "off",
     "operator-linebreak": "off",
     "react/require-default-props": "off",
-    "object-curly-newline": "off"
+    "object-curly-newline": "off",
+    "linebreak-style": "off" 
   }
 }

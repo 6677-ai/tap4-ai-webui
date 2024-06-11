@@ -37,8 +37,8 @@ export default function Footer() {
       href: 'https://www.tap4.ai',
     },
     {
-      title: t('tattoo'),
-      href: 'https://tattooai.design',
+      title: t('AI Coloring Pages'),
+      href: 'https://dragon-coloringpages.com',
     },
   ];
 
