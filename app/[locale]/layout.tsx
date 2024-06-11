@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang={locale} suppressHydrationWarning className='dark'>
       <head>
-        <meta name='_foundr' content='9e859e5ac8925b8966ced3381ddb42a5'>
+        <meta name='_foundr' content='9e859e5ac8925b8966ced3381ddb42a5'/>
       </head>
       <body className='relative mx-auto flex min-h-screen flex-col bg-tap4-black text-white'>
         <NextIntlClientProvider locale={locale} messages={messages}>
