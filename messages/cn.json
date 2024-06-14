@@ -3,7 +3,7 @@
     "loading": "加载中..."
   },
   "Navigation": {
-    "title": "Tap4 AI工具目录",
+    "title": "Tap4 AI工具箱",
     "discover": "发现AI",
     "submit": "提交",
     "newtools": "新工具",
@@ -11,8 +11,8 @@
     "menu": "菜单"
   },
   "Footer": {
-    "title": "Tap4 AI工具目录",
-    "subTitle": "发现2024年最佳AI工具，尽在Tap4 AI工具目录！",
+    "title": "Tap4 AI工具箱",
+    "subTitle": "发现2024年最佳AI工具，尽在Tap4 AI工具箱！",
     "support": "支持",
     "tap4": "Tap4 AI",
     "AI Coloring Pages": "AI涂色生成器",
@@ -23,30 +23,30 @@
   "Faq": {
     "title": "常见问题",
     "1": {
-      "question": "Tap4 AI工具目录是什么？",
-      "answer": "Tap4 AI工具目录 - tap4.ai正在建立一个AI工具目录，帮助您获取您喜爱的AI工具。您可以在这里找到AI写作工具、AI营销工具、AI改写工具、AI SEO工具、AI学习工具、AI生成工具、AI研究工具、AI艺术工具、AI音乐工具、AI视频工具、AI编码工具、AI图片工具等等。"
+      "question": "Hiaitools工具箱是什么？",
+      "answer": "Hiaitools工具箱 - Hiaitools正在建立一个AI工具箱，帮助您获取您喜爱的AI工具。您可以在这里找到AI写作工具、AI营销工具、AI改写工具、AI SEO工具、AI学习工具、AI生成工具、AI研究工具、AI艺术工具、AI音乐工具、AI视频工具、AI编码工具、AI图片工具等等。"
     },
     "2": {
-      "question": "如何在Tap4 AI工具目录中找到您的AI工具？",
+      "question": "如何在Tap4 AI工具箱中找到您的AI工具？",
       "answer-1": "1. 打开tap4.ai。",
-      "answer-2": "2. 浏览Tap4 AI工具目录中的AI工具。",
+      "answer-2": "2. 浏览Tap4 AI工具箱中的AI工具。",
       "answer-3": "3. 单击您需要的AI工具，查看详情并访问它。"
     },
     "3": {
-      "question": "Tap4 AI工具目录的主要功能是什么？",
-      "answer-1": "1. 免费AI工具目录：在这里找到您喜爱的AI工具是免费的。",
+      "question": "Tap4 AI工具箱的主要功能是什么？",
+      "answer-1": "1. 免费AI工具箱：在这里找到您喜爱的AI工具是免费的。",
       "answer-2": "2. 创业公司列表：免费的创业公司列表供AI工具开发者使用。"
     },
     "4": {
-      "question": "向Tap4 AI工具目录提交AI工具是免费的吗？",
-      "answer": "是的，目前是免费的。但您应该分享Tap4 AI工具目录的后链接！"
+      "question": "向Tap4 AI工具箱提交AI工具是免费的吗？",
+      "answer": "是的，目前是免费的。但您应该分享Tap4 AI工具箱的后链接！"
     },
     "5": {
-      "question": "Tap4 AI工具目录支持哪些AI工具类别？",
+      "question": "Tap4 AI工具箱支持哪些AI工具类别？",
       "answer": "我们将在稍后支持所有类型的AI工具。请稍等几天。"
     },
     "6": {
-      "question": "Tap4 AI目录中AI工具的更新频率是多少？",
+      "question": "Tap4 AI箱中AI工具的更新频率是多少？",
       "answer": "AI工具列表将每天更新。"
     },
     "7": {
@@ -58,21 +58,21 @@
       "answer": "如果内容没有出现，请尝试使用其他浏览器，清除缓存。如果问题仍然存在，请联系我们：contact@6677.ai。"
     },
     "9": {
-      "question": "Tap4 AI目录的内容是如何生成的？",
+      "question": "Hiaitools箱的内容是如何生成的？",
       "answer": "AI工具的描述内容是由OpenAI的GPT-4o生成的。"
     },
     "10": {
       "question": "AI工具的使用权是什么？",
-      "answer": "Tap4 AI工具目录只是AI工具的目录。AI工具的使用权基于AI工具的网站。"
+      "answer": "Hiaitools工具箱只是AI工具的箱。AI工具的使用权基于AI工具的网站。"
     },
     "11": {
-      "question": "Tap4 AI目录的Web UI是开源的吗？",
-      "answer": "是的，我们将在GitHub（https://github.com/6677-ai/tap4-ai-webui）上开源Tap4 AI目录的Web UI。请给我们点星。"
+      "question": "Hiaitools箱的Web UI是开源的吗？",
+      "answer": "是的，我们将在GitHub（https://github.com/6677-ai/tap4-ai-webui）上开源Hiaitools箱的Web UI。请给我们点星。"
     }
   },
   "FooterNavigation": {
     "privacyPolicy": {
-      "1-h1": "Tap4 AI工具目录隐私政策",
+      "1-h1": "Hiaitools工具箱隐私政策",
       "1-p": "此页面用于通知访问者关于收集、使用和披露个人信息的政策，如果任何人决定使用我的服务。如果您选择使用我的服务，则表示您同意收集和使用与本政策相关的信息。我收集的个人信息用于提供和改进服务。除非在本隐私政策中另有说明，否则我不会与任何人分享您的信息。本隐私政策中使用的术语与我们的条款和条件中的术语具有相同的含义。",
       "2-h2": "1. 信息的收集和使用",
       "2-p": "为了提供更好的服务，在使用我们的服务时，我可能会要求您提供某些可以识别您个人身份的信息。我请求的信息将保存在您的设备上，我不会以任何方式收集。该应用程序使用可能收集用于识别您的信息的第三方服务。",
@@ -95,8 +95,8 @@
       "8-p": "我可能会不时更新我们的隐私政策。因此，建议您定期查看此页面的任何更改。我将通过在此页面上发布新的隐私政策来通知您任何更改。这些更改在此页面上发布后立即生效。"
     },
     "termsConditions": {
-      "1-h1": "Tap4 AI目录服务条款",
-      "1-p": "欢迎来到Tap4 AI目录！我们的网站位于https://tap4.ai（\"网站\"），致力于为您提供创建自定义图像的能力。通过访问或使用我们的网站，您同意受这些服务条款（\"条款\"）的约束。如果您不同意任何条款，则禁止使用该网站。",
+      "1-h1": "Hiaitools箱服务条款",
+      "1-p": "欢迎来到Hiaitools箱！我们的网站位于https://hiaitools.com（\"网站\"），致力于为您提供创建自定义图像的能力。通过访问或使用我们的网站，您同意受这些服务条款（\"条款\"）的约束。如果您不同意任何条款，则禁止使用该网站。",
       "2-h2": "1. 使用许可",
       "2-p": "您被授予有限的、非排他性的、不可转让的许可，以个人、非商业目的使用本网站及其服务。未经我们事先书面同意，本许可证不包括任何复制、修改或分发本网站内容或将其用于商业目的的权利。",
       "3-h2": "2. 所有权",
@@ -107,10 +107,10 @@
       "5-h2": "4. 管辖法律",
       "5-p": "这些条款应受美国法律管辖并依据其解释，不考虑其法律冲突规定。",
       "6-h2": "5. 条款更改",
-      "6-p": "Tap4 AI目录保留在我们全权酌情决定下随时修改或替换这些条款的权利。我们将通过电子邮件通知用户任何更改。在这些条款更改后，您继续使用本网站将构成您接受这些更改。",
+      "6-p": "Hiaitools箱保留在我们全权酌情决定下随时修改或替换这些条款的权利。我们将通过电子邮件通知用户任何更改。在这些条款更改后，您继续使用本网站将构成您接受这些更改。",
       "7-h2": "6. 联系信息",
-      "7-p": "如果您对这些条款有任何疑问，请联系我们：contact@6677.ai。",
-      "last-p": "使用Tap4 AI目录即表示您接受这些服务条款。"
+      "7-p": "如果您对这些条款有任何疑问，请联系我们：hiaitools520@gmail.com。",
+      "last-p": "使用Hiaitools箱即表示您接受这些服务条款。"
     }
   },
   "NotFound": {
@@ -118,14 +118,14 @@
     "goHome": "回到首页"
   },
   "Home": {
-    "title": "Tap4 AI - 发现2024年最佳AI工具",
-    "subTitle": "在Tap4 AI工具目录中找到您喜爱的AI工具。AI工具列表每天由GPT-4o更新。现在免费提交以提升您的SEO。",
+    "title": "Hiaitools - 发现2024年最新的AI工具",
+    "subTitle": "在Hiaitools工具箱中找到您喜爱的AI工具。AI工具列表每天由GPT-4o更新。现在免费提交以提升您的SEO。",
     "ai-navigate": "AI工具列表",
     "exploreMore": "获取更多AI工具"
   },
   "Submit": {
     "title": "提交您的AI工具",
-    "subTitle": "提交您的AI工具并从Tap4 AI目录获取流量",
+    "subTitle": "提交您的AI工具并从Hiaitools箱获取流量",
     "website": "网站名称",
     "url": "网站URL",
     "submit": "提交",
@@ -152,26 +152,26 @@
   },
   "Explore": {
     "title": "发现2024年最佳AI工具",
-    "subTitle": "在Tap4 AI工具目录中找到您喜爱的AI工具。AI工具列表每天由GPT-4o更新。"
+    "subTitle": "在Hiaitools工具箱中找到您喜爱的AI工具。AI工具列表每天由GPT-4o更新。"
   },
   "Metadata": {
     "home": {
-      "title": "获取您的最佳AI工具 | Tap4 AI目录",
-      "description": "Tap4 AI目录是一款提供免费AI工具目录的工具。通过Tap4 AI目录获取您喜爱的AI工具，Tap4 AI目录旨在收集所有AI工具并为用户提供最佳服务。",
-      "keywords": "Tap4 AI目录"
+      "title": "获取您的最佳AI工具 | Hiaitools箱",
+      "description": "Hiaitools箱是一款提供免费AI工具箱的工具。通过Hiaitools箱获取您喜爱的AI工具，Hiaitools箱旨在收集所有AI工具并为用户提供最佳服务。",
+      "keywords": "Hiaitools箱"
     },
     "ai": {
-      "titleSubfix": "Tap4 AI目录"
+      "titleSubfix": "Hiaitools箱"
     },
     "explore": {
-      "title": "2024年最佳AI工具探索 | Tap4 AI目录",
-      "titlePrefix": "Tap4 AI目录探索",
-      "titleSuffix": "Tap4 AI目录",
-      "description": "Tap4 AI目录是一款提供免费AI工具目录的工具。通过Tap4 AI目录获取您喜爱的AI工具，Tap4 AI目录旨在收集所有AI工具并为用户提供最佳服务。",
-      "keywords": "Tap4 AI目录"
+      "title": "2024年最佳AI工具探索 | Hiaitools箱",
+      "titlePrefix": "Hiaitools箱探索",
+      "titleSuffix": "Hiaitools箱",
+      "description": "Hiaitools箱是一款提供免费AI工具箱的工具。通过Hiaitools箱获取您喜爱的AI工具，Hiaitools箱旨在收集所有AI工具并为用户提供最佳服务。",
+      "keywords": "Hiaitools箱"
     },
     "submit": {
-      "title": "提交您的AI工具并获取流量 | Tap4 AI目录"
+      "title": "提交您的AI工具并获取流量 | Hiaitools箱"
     }
   }
 }
