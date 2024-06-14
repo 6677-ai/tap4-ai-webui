@@ -25,7 +25,7 @@
 
 <a href="https://www.buymeacoffee.com/tap4ai0o" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
-如果你对项目有兴趣，欢迎扫描二维码加微信群沟通： ![tap4-ai-wx-group](./public/images/640.jpg)
+如果你对项目有兴趣，欢迎扫描二维码加微信群沟通： ![tap4-ai-wx-group](./public/images/tap4-ai-wechat-group.jpeg)
 
 ## 快速开始
 
