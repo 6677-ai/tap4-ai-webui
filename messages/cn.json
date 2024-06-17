@@ -3,7 +3,7 @@
     "loading": "加载中..."
   },
   "Navigation": {
-    "title": "Tap4 AI工具箱",
+    "title": "Hi AI tools工具箱",
     "discover": "发现AI",
     "submit": "提交",
     "newtools": "新工具",
@@ -11,10 +11,10 @@
     "menu": "菜单"
   },
   "Footer": {
-    "title": "Tap4 AI工具箱",
-    "subTitle": "发现2024年最佳AI工具，尽在Tap4 AI工具箱！",
+    "title": "Hi AI tools工具箱",
+    "subTitle": "发现最新的AI工具，尽在Hi AI tools工具箱！",
     "support": "支持",
-    "tap4": "Tap4 AI",
+    "tap4": "Hi AI tools",
     "AI Coloring Pages": "AI涂色生成器",
     "privacy": "隐私政策",
     "termsConditions": "条款和条件",
@@ -27,26 +27,26 @@
       "answer": "Hiaitools工具箱 - Hiaitools正在建立一个AI工具箱，帮助您获取您喜爱的AI工具。您可以在这里找到AI写作工具、AI营销工具、AI改写工具、AI SEO工具、AI学习工具、AI生成工具、AI研究工具、AI艺术工具、AI音乐工具、AI视频工具、AI编码工具、AI图片工具等等。"
     },
     "2": {
-      "question": "如何在Tap4 AI工具箱中找到您的AI工具？",
+      "question": "如何在Hi AI tools工具箱中找到您的AI工具？",
       "answer-1": "1. 打开tap4.ai。",
-      "answer-2": "2. 浏览Tap4 AI工具箱中的AI工具。",
+      "answer-2": "2. 浏览Hi AI tools工具箱中的AI工具。",
       "answer-3": "3. 单击您需要的AI工具，查看详情并访问它。"
     },
     "3": {
-      "question": "Tap4 AI工具箱的主要功能是什么？",
+      "question": "Hi AI tools工具箱的主要功能是什么？",
       "answer-1": "1. 免费AI工具箱：在这里找到您喜爱的AI工具是免费的。",
       "answer-2": "2. 创业公司列表：免费的创业公司列表供AI工具开发者使用。"
     },
     "4": {
-      "question": "向Tap4 AI工具箱提交AI工具是免费的吗？",
-      "answer": "是的，目前是免费的。但您应该分享Tap4 AI工具箱的后链接！"
+      "question": "向Hi AI tools工具箱提交AI工具是免费的吗？",
+      "answer": "是的，目前是免费的。但您应该分享Hi AI tools工具箱的后链接！"
     },
     "5": {
-      "question": "Tap4 AI工具箱支持哪些AI工具类别？",
+      "question": "Hi AI tools工具箱支持哪些AI工具类别？",
       "answer": "我们将在稍后支持所有类型的AI工具。请稍等几天。"
     },
     "6": {
-      "question": "Tap4 AI箱中AI工具的更新频率是多少？",
+      "question": "Hi AI tools箱中AI工具的更新频率是多少？",
       "answer": "AI工具列表将每天更新。"
     },
     "7": {
@@ -55,7 +55,7 @@
     },
     "8": {
       "question": "故障排除",
-      "answer": "如果内容没有出现，请尝试使用其他浏览器，清除缓存。如果问题仍然存在，请联系我们：contact@6677.ai。"
+      "answer": "如果内容没有出现，请尝试使用其他浏览器，清除缓存。如果问题仍然存在，请联系我们：hiaitools520@gmail.com。"
     },
     "9": {
       "question": "Hiaitools箱的内容是如何生成的？",
@@ -67,7 +67,7 @@
     },
     "11": {
       "question": "Hiaitools箱的Web UI是开源的吗？",
-      "answer": "是的，我们将在GitHub（https://github.com/6677-ai/tap4-ai-webui）上开源Hiaitools箱的Web UI。请给我们点星。"
+      "answer": "是的，本网站是用GitHub（https://github.com/6677-ai/tap4-ai-webui）上开源的Web UI。请给该做着一个小星星。"
     }
   },
   "FooterNavigation": {
