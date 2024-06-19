@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
-import { getWebNavigationDetail } from '@/network/webNavigation';
+import { notFound } from 'next/navigation';
+import { createClient } from '@/db/supabase/client';
 import { CircleArrowRight } from 'lucide-react';
 import { getTranslations } from 'next-intl/server';
 
@@ -12,24 +13,31 @@ export async function generateMetadata({
 }: {
   params: { locale: string; websiteName: string };
 }): Promise<Metadata> {
+  const supabase = createClient();
   const t = await getTranslations({
     locale,
     namespace: 'Metadata.ai',
   });
-  const res = await getWebNavigationDetail(websiteName);
+  const { data } = await supabase.from('web_navigation').select().eq('name', websiteName);
+
+  if (!data || !data[0]) {
+    notFound();
+  }
 
   return {
-    title: `${res.data.title} | ${t('titleSubfix')}`,
-    description: res.data.content,
+    title: `${data[0].title} | ${t('titleSubfix')}`,
+    description: data[0].content,
   };
 }
 
 export default async function Page({ params: { websiteName } }: { params: { websiteName: string } }) {
+  const supabase = createClient();
   const t = await getTranslations('Startup.detail');
-  const res = await getWebNavigationDetail(websiteName);
-  const { data } = res;
-
-  if (!data) return null;
+  const { data: dataList } = await supabase.from('web_navigation').select().eq('name', websiteName);
+  if (!dataList) {
+    notFound();
+  }
+  const data = dataList[0];
 
   return (
     <div className='w-full'>
@@ -60,7 +68,7 @@ export default async function Page({ params: { websiteName } }: { params: { webs
             // width={466}
             // height={243}
             fill
-            src={data.thumbnailUrl || ''}
+            src={data.thumbnail_url || ''}
             className='absolute mt-3 aspect-[466/234] w-full rounded-[16px] border border-[#424242] bg-[#424242] bg-cover lg:mt-0'
           />
           <div className='absolute inset-0 z-10 hidden items-center justify-center gap-1 rounded-[16px] bg-black bg-opacity-50 text-2xl text-white transition-all duration-200 group-hover:flex'>

@@ -1,19 +1,18 @@
 /* eslint-disable react/jsx-no-target-blank */
 
 import Link from 'next/link';
+import { WebNavigation } from '@/db/supabase/types';
 import { CircleArrowRight, SquareArrowOutUpRight } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
-import { WebNavigationListRow } from '@/lib/data';
-
-export default function WebNavCard({ name, thumbnailUrl, title, url, content }: WebNavigationListRow) {
+export default function WebNavCard({ name, thumbnail_url, title, url, content }: WebNavigation) {
   const t = useTranslations('Home');
 
   return (
     <div className='flex h-[210px] flex-col gap-3 rounded-xl bg-[#2C2D36] p-1 lg:h-[343px]'>
       <Link href={`/ai/${name}`} title={title} className='group relative'>
         <img
-          src={thumbnailUrl || ''}
+          src={thumbnail_url || ''}
           alt={title}
           title={title}
           width={310}

@@ -13,6 +13,11 @@ export const NAV_LINKS = [
   },
 ];
 
+export const RevalidateOneHour = 3600;
+export const RevalidateOneDay = 3600 * 24;
+export const RevalidateOneWeek = 3600 * 24 * 7;
+export const RevalidateOneMonth = 3600 * 24 * 30;
+
 export const PAGE_SIZE = 20;
 
 export const FORM_PLACEHOLDER = 'https://tap4.ai/';
