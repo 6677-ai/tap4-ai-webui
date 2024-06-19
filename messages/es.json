@@ -118,10 +118,18 @@
     "goHome": "Ir a Inicio"
   },
   "Home": {
-    "title": "Tap4 AI - Descubre las Mejores Herramientas de IA 2024",
+    "title": "Tap4 AI - Descubre las mejores herramientas de IA 2024",
     "subTitle": "Obtén tus herramientas de IA favoritas en el Directorio de Herramientas de IA de Tap4. La lista de herramientas de IA se actualiza diariamente por GPT-4o. Es gratis enviar aquí para mejorar tu SEO ahora.",
-    "ai-navigate": "Lista de Herramientas de IA",
-    "exploreMore": "Explorar Más Herramientas de IA"
+    "ai-navigate": "Lista de herramientas de IA",
+    "exploreMore": "Obtén más herramientas de IA",
+    "checkDetail": "Ver detalles",
+    "search": "Buscar",
+    "result": "Resultado de búsqueda",
+    "empty": "No hay datos disponibles"
+  },
+  "Category": {
+    "home": "Inicio",
+    "empty": "No hay datos disponibles"
   },
   "Submit": {
     "title": "Envía tu Herramienta de IA",

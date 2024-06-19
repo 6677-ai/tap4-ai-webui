@@ -122,7 +122,14 @@
     "subTitle": "Get your favorite AI tools in Tap4 AI Tools Directory. AI tools list are updated daily by GPT-4o. It's free to submit here to enhance your SEO now. ",
     "ai-navigate": "AI Tools List",
     "exploreMore": "Get More AI Tools",
-    "checkDetail": "View Detail"
+    "checkDetail": "View Detail",
+    "search": "Search",
+    "result": "Search Result",
+    "empty": "No data available"
+  },
+  "Category": {
+    "home": "home",
+    "empty": "No data available"
   },
   "Submit": {
     "title": "Submit your AI Tool",

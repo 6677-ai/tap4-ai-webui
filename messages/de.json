@@ -118,10 +118,18 @@
     "goHome": "Zur Startseite"
   },
   "Home": {
-    "title": "Tap4 AI - Entdecken Sie die besten KI-Tools 2024",
-    "subTitle": "Holen Sie sich Ihre Lieblings-KI-Tools im Tap4 AI Tools Verzeichnis. Die Liste der KI-Tools wird täglich von GPT-4o aktualisiert. Es ist kostenlos, sie hier einzureichen, um Ihr SEO jetzt zu verbessern.",
-    "ai-navigate": "KI-Tools Liste",
-    "exploreMore": "Weitere KI-Tools entdecken"
+    "title": "Tap4 AI - Entdecken Sie die besten AI-Tools 2024",
+    "subTitle": "Holen Sie sich Ihre bevorzugten AI-Tools im Tap4 AI Tools Directory. AI-Toollisten werden täglich von GPT-4o aktualisiert. Es ist kostenlos, hier einzureichen, um Ihr SEO jetzt zu verbessern.",
+    "ai-navigate": "AI-Tool-Liste",
+    "exploreMore": "Weitere AI-Tools erhalten",
+    "checkDetail": "Details anzeigen",
+    "search": "Suche",
+    "result": "Suchergebnis",
+    "empty": "Keine Daten verfügbar"
+  },
+  "Category": {
+    "home": "Startseite",
+    "empty": "Keine Daten verfügbar"
   },
   "Submit": {
     "title": "Reichen Sie Ihr KI-Tool ein",
