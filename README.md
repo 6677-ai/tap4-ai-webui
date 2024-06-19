@@ -6,17 +6,6 @@ click and update your own ai tools by the dataList in the project.
 
 English | [简体中文](https://github.com/6677-ai/tap4-ai-webui/blob/main/README.zh-CN.md)
 
-## Link Me
-
-You can contact me at Twitter: https://x.com/tap4ai
-
-if this project is helpful to you, buy me a coffee.
-
-<a href="https://www.buymeacoffee.com/tap4ai0o" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
-If you are interested with the project, you can scan the qr code and enter the wechat group.
-![tap4-ai-wx-group](./public/images/tap4-ai-wechat-group.jpeg)
-
 ## Features
 
 - Internationalization
@@ -24,7 +13,7 @@ If you are interested with the project, you can scan the qr code and enter the w
 - sitemap.xml (dynamic with i18n)
 - Ship fast
 - NEXT 14 with app route (react server component)
-- Supabase serverless database
+- Supabase serverless database for submit
 
 ![tai4-ai](./public/images/tap4-ai.png)
 
@@ -33,9 +22,6 @@ If you are interested with the project, you can scan the qr code and enter the w
 ### Deploy on Vercel **(Don't forget to setup env)**
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F6677-ai%2Ftap4-ai-webui.git&env=NEXT_PUBLIC_SITE_URL,GOOGLE_TRACKING_ID,GOOGLE_ADSENSE_URL,CONTACT_US_EMAIL,NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY&project-name=tap4-ai)
-
-### Also you can deploy on Zeabui
-[![Deployed on Zeabur](https://zeabur.com/deployed-on-zeabur-dark.svg)](https://zeabur.com?referralCode=leoli202303&utm_source=leoli202303)
 
 
 ## Runs on local
@@ -48,17 +34,23 @@ If you are interested with the project, you can scan the qr code and enter the w
 
 ### setup
 
-#### (1) clone this project
+#### (1) signup a account on supabase then create a project
+
+[https://supabase.com](https://supabase.com)
+
+- Get 
+
+#### (2) clone this project
 
 ```sh
 git clone https://github.com/6677-ai/tap4-ai-webui.git
 ```
 
-#### (2) signup a account on supabase then create a project
+#### (3) run sql in the project of supabase 
 
-[https://supabase.com](https://supabase.com)
+sql script in db/supabase/db.sql
 
-#### (3) setup env
+#### (4) setup env
 
 - root folder, create `.env.local` file and fill with values, for example:
 
@@ -78,7 +70,7 @@ NEXT_PUBLIC_SUPABASE_URL="https://xxxyyyzzz.supabase.co"
 NEXT_PUBLIC_SUPABASE_ANON_KEY="XXX.YYY.ZZZ"
 ```
 
-#### (4) runs on dev mode
+#### (5) runs on dev mode
 
 switch to the particular node version
 
@@ -126,6 +118,19 @@ lib/data.ts -> detailList
 
 - open an issue here: [TAP4-AI-Directory](https://github.com/6677-ai/TAP4-AI-Directory/issues)
 - email us: contact@tap4.ai
+
+
+## Link Me
+
+You can contact me at Twitter: https://x.com/tap4ai
+
+if this project is helpful to you, buy me a coffee.
+
+<a href="https://www.buymeacoffee.com/tap4ai0o" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
+If you are interested with the project, you can scan the qr code and enter the wechat group.
+![tap4-ai-wx-group](./public/images/tap4-ai-wechat-group.jpeg)
+
 
 ## Links to our products
 
