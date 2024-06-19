@@ -12,6 +12,7 @@ export default async function ExploreList({ pageNum }: { pageNum?: string }) {
   const { data: navigationList, count } = await supabase
     .from('web_navigation')
     .select('*', { count: 'exact' })
+    .order('collection_time', { ascending: false })
     .range(currentPage - 1, currentPage - 1 + WEB_PAGE_SIZE - 1);
 
   return (
