@@ -19,6 +19,7 @@ export const RevalidateOneWeek = 3600 * 24 * 7;
 export const RevalidateOneMonth = 3600 * 24 * 30;
 
 export const PAGE_SIZE = 20;
+export const InfoPageSize = 12;
 
 export const FORM_PLACEHOLDER = 'https://tap4.ai/';
 

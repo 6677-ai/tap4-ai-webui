@@ -9,9 +9,9 @@ export default async function ExploreList({ pageNum }: { pageNum?: string }) {
   const supabase = createClient();
   const currentPage = pageNum ? Number(pageNum) : 1;
 
-  const { data: navigationList } = await supabase
+  const { data: navigationList, count } = await supabase
     .from('web_navigation')
-    .select()
+    .select('*', { count: 'exact' })
     .range(currentPage - 1, currentPage - 1 + WEB_PAGE_SIZE - 1);
 
   return (
@@ -20,7 +20,7 @@ export default async function ExploreList({ pageNum }: { pageNum?: string }) {
       <BasePagination
         currentPage={currentPage}
         pageSize={WEB_PAGE_SIZE}
-        total={20}
+        total={count!}
         route='/explore'
         subRoute='/page'
         className='my-5 lg:my-10'
