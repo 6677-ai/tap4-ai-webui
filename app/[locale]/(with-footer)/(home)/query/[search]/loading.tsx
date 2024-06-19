@@ -29,7 +29,7 @@ export default function Loading() {
         <LoadingItem />
         <LoadingItem />
       </div>
-      <div className='h-8 w-10 animate-pulse rounded-full bg-gray-500' />
+      <div className='h-8 w-[120px] animate-pulse rounded-full bg-gray-500' />
       <div className='grid w-full grid-cols-2 gap-3 lg:grid-cols-4 lg:gap-4'>
         {length.map((item) => (
           <LoadingCard key={item} />
