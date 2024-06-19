@@ -37,23 +37,29 @@ export type Database = {
       submit: {
         Row: {
           created_at: string;
-          email: string;
+          email: string | null;
           id: number;
-          name: string;
-          url: string;
+          is_feature: number | null;
+          name: string | null;
+          status: number | null;
+          url: string | null;
         };
         Insert: {
           created_at?: string;
           email?: string | null;
           id?: number;
+          is_feature?: number | null;
           name?: string | null;
+          status?: number | null;
           url?: string | null;
         };
         Update: {
           created_at?: string;
           email?: string | null;
           id?: number;
+          is_feature?: number | null;
           name?: string | null;
+          status?: number | null;
           url?: string | null;
         };
         Relationships: [];

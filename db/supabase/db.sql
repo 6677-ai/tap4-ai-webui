@@ -4,8 +4,12 @@ CREATE TABLE IF NOT EXISTS public.submit (
   name text NULL,
   url text NULL,
   email text NULL,
+  is_feature integer default 0,
+  status integer default 0,
   CONSTRAINT submit_pkey PRIMARY KEY (id)
 ) TABLESPACE pg_default;
+-- 查询submit表，按提交时间，status=0（未处理），按照is_feature desc, created_at asc
+-- 得到结果后，写入web_navigation，同时修改submit的status=1
 
 create table if not exists public.navigation_category (
     id bigint primary key generated always as identity,

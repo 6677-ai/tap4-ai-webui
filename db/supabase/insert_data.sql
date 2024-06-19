@@ -43,7 +43,7 @@ INSERT INTO public.web_navigation (
     'adobe-com',
     'Adobe: Creative, marketing and document management solutions',
     'Adobe is changing the world through digital experiences. We help our customers create, deliver and optimize content and applications.',
-    E'### What is Adobe Creative Cloud?\n\nAdobe Creative Cloud is an AI-driven platform that provides access to a vast array of creative tools and generative AI technologies for various needs, including Photoshop, Adobe Express, and document management solutions.\n\n### How can I use Adobe Creative Cloud for free?\n\nEvery user can utilize Adobe Creative Cloud for free with a trial period. Subscribing to the platform grants additional benefits and extended access beyond the free trial limits.\n\n### Can I generate images using Adobe Creative Cloud?\n\nYes, with Adobe Firefly\'s generative AI capabilities, users can create gorgeous photos, rich graphics, and incredible art using Photoshop and Adobe Express.\n\n### How many apps are available on Adobe Creative Cloud?\n\nAdobe Creative Cloud offers over 20 apps and generative AI tools in the All Apps plan, including Photoshop, Adobe Express, and more.\n\n### How can I maximize my use of Adobe Creative Cloud\'s AI services?\n\nBy leveraging the free trial period and exploring the various AI-powered tools, users can unlock their creative potential and achieve amazing results.\n\n### Will my information be used for training data?\n\nAdobe highly values user privacy, and your data will not be used for any training purposes. If needed, you can delete your account at any time, and all your data will be removed as well.\n\n### When would I need an Adobe Creative Cloud subscription?\n\nIf the free trial period does not meet your needs and you heavily rely on Adobe Creative Cloud\'s AI-powered tools, we invite you to subscribe to our affordable plans.',
+    E'### What is Adobe Creative Cloud?\n\nAdobe Creative Cloud is an AI-driven platform that provides access to a vast array of creative tools and generative AI technologies for various needs, including Photoshop, Adobe Express, and document management solutions.\n\n### How can I use Adobe Creative Cloud for free?\n\nEvery user can utilize Adobe Creative Cloud for free with a trial period. Subscribing to the platform grants additional benefits and extended access beyond the free trial limits.\n\n### Can I generate images using Adobe Creative Cloud?\n\nYes, with Adobe Firefly generative AI capabilities, users can create gorgeous photos, rich graphics, and incredible art using Photoshop and Adobe Express.\n\n### How many apps are available on Adobe Creative Cloud?\n\nAdobe Creative Cloud offers over 20 apps and generative AI tools in the All Apps plan, including Photoshop, Adobe Express, and more.\n\n### How can I maximize my use of Adobe Creative Cloud AI services?\n\nBy leveraging the free trial period and exploring the various AI-powered tools, users can unlock their creative potential and achieve amazing results.\n\n### Will my information be used for training data?\n\nAdobe highly values user privacy, and your data will not be used for any training purposes. If needed, you can delete your account at any time, and all your data will be removed as well.\n\n### When would I need an Adobe Creative Cloud subscription?\n\nIf the free trial period does not meet your needs and you heavily rely on Adobe Creative Cloud AI-powered tools, we invite you to subscribe to our affordable plans.',
     'https://adobe.com/',
     'https://img.tap4.ai/tools/2024/6/13/adobe-com-1718248204.png',
     'https://img.tap4.ai/tools/2024/6/13/adobe-com-thumbnail-1718248205.png',
@@ -54,7 +54,6 @@ INSERT INTO public.web_navigation (
     'design-art'
 );
 
-
 INSERT INTO public.web_navigation (
     name, 
     title, 
@@ -64,23 +63,41 @@ INSERT INTO public.web_navigation (
     image_url, 
     thumbnail_url, 
     collection_time, 
-    tag_name, 
     website_data, 
     star_rating, 
     category_name
 ) VALUES (
-    'affiliate-notion-so-ffsd1156ei0l',
-    'Your connected workspace for wiki, docs & projects | Notion',
-    'A new tool that blends your everyday work apps into one. It''s the all-in-one workspace for you and your team.',
-    E'### What is Notion?\n\nNotion is an AI-driven platform that provides access to a vast array of AI technologies for various needs, including documentation, project management, and knowledge base creation.\n\n### How can I use Notion for free?\n\nEvery user can utilize Notion for free, with access to a range of features and templates. Subscribing to the platform grants additional benefits and extended access beyond the free usage limits.\n\n### Features of Notion\n\n#### Documentation\n\n* Simple, powerful, and beautiful notes and docs\n* Create custom labels, tags, owners, and more to track information\n\n#### Wikis\n\n* Centralize your knowledge and eliminate hunting for answers\n* Create a knowledge base for your team or organization\n\n#### Projects\n\n* Connected and flexible project management\n* Visualize, filter, and sort projects in a way that works for you\n\n#### Calendar\n\n* Manage your time and projects together\n* Integrate with other Notion features for seamless workflow\n\n### Pricing\n\nRequest a demo to learn more about Notion''s pricing plans and features.',
-    'https://www.notion.so/',
-    'https://img.tap4.ai/tools/2024/6/14/affiliate-notion-so-ffsd1156ei0l-1718394976.png',
-    'https://img.tap4.ai/tools/2024/6/14/affiliate-notion-so-ffsd1156ei0l-thumbnail-1718394977.png',
-    '2024-06-15 03:56:21',
-    NULL,
+    'imglarger-com',
+    'AI Image Enlarger | Enlarge Image Without Losing Quality!',
+    'AI Image Enlarger is a FREE online image enlarger that could upscale and enhance small images automatically. Make jpg/png pictures big without losing quality.',
+    '
+### What is AI Image Enlarger?
+AI Image Enlarger is an AI-powered platform that offers a wide range of AI technologies for enhancing images, including enlarging, upscaling, and improving image quality.
+
+### How can I use AI Image Enlarger?
+Every user can access AI Image Enlarger for free up to 10 credits per month. Subscribing to the platform provides additional benefits and extended access beyond the free usage limits.
+
+### Can I enlarge images using AI Image Enlarger?
+Yes, users can enlarge images up to 2k, 4k, and 8k without losing quality using AI Image Enlarger image enlargement feature.
+
+### How many features are available on AI Image Enlarger?
+AI Image Enlarger offers nearly 10 AI-powered tools for image enhancement, such as AI Image Upscaler, AI Anime Upscaler, AI Image Enhancer, AI Image Sharpener, AI Face Retouch, AI Background Remover, AI Cartoonizer, AI Photo Colorizer, and Object Remover.
+
+### How can I maximize my use of AI Image Enlarger services?
+By making use of the daily free tools provided by AI Image Enlarger, users can explore a wide range of AI-powered features to assist with various tasks.
+
+### Will my information be used for training data?
+User privacy is highly respected, and your data will not be utilized for training purposes. You have the option to delete your account at any time, which will also remove all your data.
+
+### When would I need a subscription to AI Image Enlarger?
+If the 10 free credits per month are insufficient for your needs and you heavily rely on AI Image Enlarger services, we recommend subscribing to our cost-effective products.',
+    'https://shareasale.com/r.cfm?b=1434994&u=4306172&m=92386&urllink=&afftrack=&via=tap4-ai&rel=sponsored&utm_source=tap4-ai&utm_medium=referral',
+    'https://img.tap4.ai/tools/2024/6/14/imglarger-com-1718386242.png',
+    'https://img.tap4.ai/tools/2024/6/14/imglarger-com-thumbnail-1718386244.png',
+    '2024-06-09 03:40:07',
     NULL,
     0,
-    'productivity'
+    'image'
 );
 
 INSERT INTO public.web_navigation (
@@ -100,7 +117,7 @@ INSERT INTO public.web_navigation (
     'aigirl-best',
     'Best AI Girlfriend Online Free 2024 | Best AI Girlfriend',
     'The best AI girlfriend and AI girl generator online. Get inspired by free AI generated girls, Best AI Girlfriend is a free AI Girl Generator that allows anyone to create their own AI Girlfriend.',
-    E'### What is Best AI Girlfriend?\n\nBest AI Girlfriend is building an AI Girl Generator that helps you generate your unique AI Girl or AI Girlfriend. It combines artificial intelligence technology to provide personalized girlfriend pattern generation and style for you.\n\n### How to Create a AI Girlfriend?\n\nTo create a AI Girlfriend, you can follow these steps:\n\n1. Enter the AI Characters page in Best AI Girlfriend Website.\n2. Select the ai girl character that you like.\n3. Click \'chat\' to create your AI Girlfriend role and chat with her.\n\n### Features of Best AI Girlfriend\n\nBest AI Girlfriend offers various features, including:\n\n* AI Girlfriend: There are more than 100 AI Girlfriend characters with different styles.\n* AI Girl Generator: Input the description that you like or dream of, then click "Generate" to get your own girl design here.\n\n### Pricing Plans\n\nBest AI Girlfriend offers various pricing plans, including:\n\n* Yearly Plan: $8.33/month (billed yearly), with unlimited AI girlfriend chat, generated images, and models.\n* Monthly Plan: $12.99/month, with unlimited AI girlfriend chat, generated images, and models.\n* One-time Basic Plan: $9.9 for 4000 tokens, with chat about 1000 times, generate about 266 images, and unlimited models.\n\n### Frequently Asked Questions\n\n#### What style of ai girl design does Best AI Girlfriend support?\n\nBest AI Girlfriend supports various girl friend styles, including realistic teacher girl, realistic design girl, realistic hentai girl, anime student girl, anime nurse girl, and more.\n\n#### How can I create a personalized ai girl design using the generator in Best AI Girlfriend?\n\nTo create a personalized girl design using the Best AI Girlfriend Generator, you can input specific descriptions or preferences related to the girl style, theme, or elements you desire. The AI will then generate a customized girl design based on your input.\n\n#### What are the usage rights for the AI Girlfriend designs generated by the Best AI Girlfriend?\n\nUsers are typically free to use the AI Girlfriend designs generated by the AI Girlfriend Generator on Best AI Girlfriend for personal enjoyment, sharing on social media, or even for commercial purposes, as long as they adhere to the platform\'s Terms of Use.',
+    E'### What is Best AI Girlfriend?\n\nBest AI Girlfriend is building an AI Girl Generator that helps you generate your unique AI Girl or AI Girlfriend. It combines artificial intelligence technology to provide personalized girlfriend pattern generation and style for you.\n\n### How to Create a AI Girlfriend?\n\nTo create a AI Girlfriend, you can follow these steps:\n\n1. Enter the AI Characters page in Best AI Girlfriend Website.\n2. Select the ai girl character that you like.\n3. Click chat to create your AI Girlfriend role and chat with her.\n\n### Features of Best AI Girlfriend\n\nBest AI Girlfriend offers various features, including:\n\n* AI Girlfriend: There are more than 100 AI Girlfriend characters with different styles.\n* AI Girl Generator: Input the description that you like or dream of, then click "Generate" to get your own girl design here.\n\n### Pricing Plans\n\nBest AI Girlfriend offers various pricing plans, including:\n\n* Yearly Plan: $8.33/month (billed yearly), with unlimited AI girlfriend chat, generated images, and models.\n* Monthly Plan: $12.99/month, with unlimited AI girlfriend chat, generated images, and models.\n* One-time Basic Plan: $9.9 for 4000 tokens, with chat about 1000 times, generate about 266 images, and unlimited models.\n\n### Frequently Asked Questions\n\n#### What style of ai girl design does Best AI Girlfriend support?\n\nBest AI Girlfriend supports various girl friend styles, including realistic teacher girl, realistic design girl, realistic hentai girl, anime student girl, anime nurse girl, and more.\n\n#### How can I create a personalized ai girl design using the generator in Best AI Girlfriend?\n\nTo create a personalized girl design using the Best AI Girlfriend Generator, you can input specific descriptions or preferences related to the girl style, theme, or elements you desire. The AI will then generate a customized girl design based on your input.\n\n#### What are the usage rights for the AI Girlfriend designs generated by the Best AI Girlfriend?\n\nUsers are typically free to use the AI Girlfriend designs generated by the AI Girlfriend Generator on Best AI Girlfriend for personal enjoyment, sharing on social media, or even for commercial purposes, as long as they adhere to the platform Terms of Use.',
     'https://aigirl.best',
     'https://img.tap4.ai/tools/2024/6/12/aigirl-best-1718203804.png',
     'https://img.tap4.ai/tools/2024/6/12/aigirl-best-thumbnail-1718203808.png',
@@ -111,146 +128,6 @@ INSERT INTO public.web_navigation (
     'chatbot'
 );
 
-INSERT INTO public.web_navigation (
-    name, 
-    title, 
-    content, 
-    detail, 
-    url, 
-    image_url, 
-    thumbnail_url, 
-    collection_time, 
-    tag_name, 
-    website_data, 
-    star_rating, 
-    category_name
-) VALUES (
-    'aigirl-best-girlfriend',
-    'Best AI Girlfriend Online Free | Best AI Girlfriend',
-    'Explore the best AI Girlfriend and create your own ai girl character with the style that you are interested. Chat with ai girlfriend online.',
-    E'### What is Best AI Girlfriend Online Free?\n\nBest AI Girlfriend Online Free is an AI-driven platform that provides access to a vast array of AI technologies for various needs, including AI girlfriend generation and chat capabilities.\n\n### How can I use Best AI Girlfriend Online Free?\n\nEvery user can utilize Best AI Girlfriend Online Free up to a certain limit per day. Subscribing to the platform grants additional benefits and extended access beyond the free usage limits.\n\n### Features of Best AI Girlfriend Online Free\nBest AI Girlfriend Online Free offers various features, including AI-generated girls, chat capabilities, and more. Users can explore a vast range of AI-powered tools to support various tasks.\n\n### Pricing of Best AI Girlfriend Online Free\nIf the free usage limits do not meet your needs and you heavily rely on Best AI Girlfriend Online Free, we invite you to subscribe to our affordable products.',
-    'https://aigirl.best/girlfriend',
-    'https://img.tap4.ai/tools/2024/6/13/aigirl-best-girlfriend-1718247007.png',
-    'https://img.tap4.ai/tools/2024/6/13/aigirl-best-girlfriend-thumbnail-1718247009.png',
-    '2024-06-13 10:50:12',
-    NULL,
-    NULL,
-    0,
-    'other'
-);
-
-INSERT INTO public.web_navigation (
-    name, 
-    title, 
-    content, 
-    detail, 
-    url, 
-    image_url, 
-    thumbnail_url, 
-    collection_time, 
-    tag_name, 
-    website_data, 
-    star_rating, 
-    category_name
-) VALUES (
-    'animegirl-studio',
-    'Anime Girl Studio - Chat With Your AI Anime Girlfriend & Create Your Anime Girl',
-    'Your ai anime girl friend awaits! Create your AI Girlfriend, chat with her, and bring her to life in one click. The AI Anime Girl Generator with 100% AI-powered.',
-    E'### What is Anime Girl Studio?\n\nAnime Girl Studio is a platform that offers an AI-driven chat companion and anime girl generator, allowing users to engage with their ideal anime girl fantasies.\n\n### How to Create Your AI Anime Girl Art?\n\nCreating an anime girl image is as easy as:\n\n1. Opening Anime Girl Generate in Anime Girl Studio.\n2. Inputting the description of your anime girl (be as wild or as specific as you like).\n3. Hitting "GENERATE" to generate your anime girl.\n\n### Features of Anime Girl Studio\n\n* Anime Girlfriend: Engage in conversations with your AI anime girlfriend.\n* AI Anime Girl Generator: Input the description that you like or dream, then click "generate" to get your own anime girl creation.\n\n### Pricing\n\n* ### Yearly: $8.33/month (billed yearly, save 67%) - Unlimited text messages, unlimited generated images, unlimited models, choose image for non-public, remove image blur, NSFW free.\n* ### Monthly: $12.99/month (save 48%) - Unlimited text messages, unlimited generated images, unlimited models, choose image for non-public, remove image blur, NSFW free.\n* ### One-time: $9.9 (4000 tokens) - Text messages about 500 times, generate about 266 images, unlimited models, choose image for non-public, remove image blur, NSFW free.\n\n### Frequently Asked Questions\n\n#### What style of anime girl art in Anime Girl Studio?\n\nThere are several styles supported in Anime Girl Studio, including anime disney girl, anime poster girl, anime angel girl, anime armed girl, anime monster girl, anime shining girl, anime babe girl, anime tattoo girl, anime coloring girl, anime school girl, anime furring girl, anime cat girl, and more.\n\n#### Can I ask for pictures?\n\nYes, your AI chatbot girlfriend can send you uncensored selfies and other flirtatious pictures.\n\n#### Troubleshooting\n\nIf your images aren''t appearing, try a different browser, clear your cache. If issues persist, contact us at contact@animegirl.studio.\n\n#### AI Model Insights\n\nOur AI learns from a vast database of anime styles to create unique and creative images based on your prompts.\n\n#### What''s the Usage Rights?\n\nYou''re free to use the images generated for personal enjoyment, sharing, or even commercial purposes, as long as you adhere to our Terms of Use.\n\n#### Supporting Anime Girl Studio\n\nLove what we''re doing? Consider upgrading to a paid plan, providing feedback, or purchasing merchandise featuring your favorite anime girl creations. Your support helps us improve and grow.',
-    'https://animegirl.studio',
-    'https://img.tap4.ai/tools/2024/6/12/animegirl-studio-1718202003.png',
-    'https://img.tap4.ai/tools/2024/6/12/animegirl-studio-thumbnail-1718202007.png',
-    '2024-06-11 11:00:07',
-    NULL,
-    NULL,
-    0,
-    'chatbot'
-);
-
-INSERT INTO public.web_navigation (
-    name, 
-    title, 
-    content, 
-    detail, 
-    url, 
-    image_url, 
-    thumbnail_url, 
-    collection_time, 
-    tag_name, 
-    website_data, 
-    star_rating, 
-    category_name
-) VALUES (
-    'animegirl-studio-ai-anime-girls',
-    'Chat With Your AI Anime Girlfriend | Anime Girl Studio',
-    'Your ai anime girl friend awaits! Create your AI Girlfriend, chat with her, and bring her to life in one click.',
-    E'### What is Anime Girl Studio?\n\nAnime Girl Studio is an AI-driven platform that provides access to a vast array of AI technologies for various needs, including generating anime girl characters and chatting with them online.\n\n### How can I use Anime Girl Studio for free?\n\nEvery user can utilize Anime Girl Studio\'s AI anime girl character generation and chatting features for free, with optional NSFW options. Subscribing to the platform grants additional benefits and extended access beyond the free usage limits.\n\n### Can I customize my anime girl character?\n\nYes, with Anime Girl Studio\'s AI-generated anime girl characters, users can choose the style of their anime girl friend character and chat with her online.\n\n### How many anime girl characters are available on Anime Girl Studio?\n\nAnime Girl Studio offers a vast array of anime girl characters, with over 20 characters to choose from, each with unique characteristics and personalities.\n\n### How can I maximize my use of Anime Girl Studio\'s AI services?\n\nBy leveraging the daily free uses of Anime Girl Studio\'s AI anime girl character generation and chatting features, users can explore a vast range of AI-powered tools to support various tasks and creative endeavors.\n\n### Will my information be used for your training data?\n\nWe highly value user privacy, and your data will not be used for any training purposes. If needed, you can delete your account at any time, and all your data will be removed as well.\n\n### When would I need an Anime Girl Studio subscription?\n\nIf the free features of Anime Girl Studio do not meet your needs and you heavily rely on the platform\'s AI anime girl character generation and chatting features, we invite you to subscribe to our affordable products.',
-    'https://animegirl.studio/ai-anime-girls',
-    'https://img.tap4.ai/tools/2024/6/12/animegirl-studio-ai-anime-girls-1718205003.png',
-    'https://img.tap4.ai/tools/2024/6/12/animegirl-studio-ai-anime-girls-thumbnail-1718205007.png',
-    '2024-06-11 15:06:33',
-    NULL,
-    NULL,
-    0,
-    'other'
-);
-
-
-INSERT INTO public.web_navigation (
-    name, 
-    title, 
-    content, 
-    detail, 
-    url, 
-    image_url, 
-    thumbnail_url, 
-    collection_time, 
-    tag_name, 
-    website_data, 
-    star_rating, 
-    category_name
-) VALUES (
-    'animegirl-studio-generation',
-    'AI Anime Girl Generator | AI Anime Girlfriend',
-    'Best free AI anime girl | character generator online with NSFW options. Get inspired by free AI generated anime girl arts, AI Anime Girlfriend is a free Anime Girl Generator that allows anyone to create their own ai Anime girl. With nsfw option.',
-    E'### What is AI Anime Girlfriend?\n\n#### What\nAI Anime Girlfriend is a tool that brings your anime girl fantasies to life, offering not just an AI anime girl generator but also a chat companion that\'s always ready to engage with you.\n\n#### How\nCreating your anime girl image is as easy as:\n1. Opening Anime Girl Generate in AI Anime Girlfriend.\n2. Inputting the description of your anime girl (be as wild or as specific as you like).\n3. Hitting "GENERATE" to generate your anime girl.\n\n#### Feature\nThe main features of AI Anime Girlfriend include:\n##### Anime Girlfriend\nEngage in conversations with your AI anime girlfriend.\n##### AI Anime Girl Generator\nInput the description that you like or dream, then click "generate" to get your own anime girl creation here.\n\n#### Price\nWe aim to keep it free for everyone to enjoy! However, we do offer a premium experience for those who wish to support further features like private image or nsfw option.\n\n#### Privacy\nRest assured that your secrets are in good hands when you use our AI chat. Your privacy is our top priority. Here at animegirl.studio, we have state-of-the-art secure data storage, making sure that every seductive selfie, flirtatious text, and gentle whisper is kept private between you and your passionate partner.',
-    'https://animegirl.studio/generation',
-    'https://img.tap4.ai/tools/2024/6/17/animegirl-studio-generation-1718614808.png',
-    'https://img.tap4.ai/tools/2024/6/17/animegirl-studio-generation-thumbnail-1718614812.png',
-    '2024-06-17 17:00:16',
-    NULL,
-    NULL,
-    0,
-    'image'
-);
-
-INSERT INTO public.web_navigation (
-    name, 
-    title, 
-    content, 
-    detail, 
-    url, 
-    image_url, 
-    thumbnail_url, 
-    collection_time, 
-    tag_name, 
-    website_data, 
-    star_rating, 
-    category_name
-) VALUES (
-    'artiversehub-ai',
-    'ArtiverseHub - AI Art Generator',
-    'Get creative with ArtiverseHub online ai art generator. Support multi-platform including DALLE(ChatGPT), Leonardo.ai, Stability.ai, and some more.',
-    E'### What is ArtiverseHub?\n\nArtiverseHub is an AI-driven platform that provides access to a vast array of AI technologies for various artistic needs, including MidJourney, DALL-E 3, Leonardo, and more.\n\n### How can I use ArtiverseHub for free?\n\nEvery user can utilize ArtiverseHub AI art generator for free, with access to a wide range of AI models and styles. Subscribing to the platform grants additional benefits and extended access beyond the free usage limits.\n\n### Can I generate images using ArtiverseHub?\n\nYes, with ArtiverseHub\'s multi-AI art generator, users can create images in various styles, including anime, animal, character, art, car, and more, using different AI models like MidJourney, DALL-E 3, Leonardo, and Stable Diffusion.\n\n### How many AI models are available on ArtiverseHub?\n\nArtiverseHub offers a vast array of AI models for a wide variety of artistic applications, including anime, animal, character, art, car, and more. You can freely use these AI models without the need for a subscription.\n\n### How can I maximize my use of ArtiverseHub\'s AI services?\n\nBy leveraging the free uses of ArtiverseHub\'s AI art generator, users can explore a vast range of AI-powered tools to support various artistic tasks.\n\n### Will my information be used for your training data?\n\nWe highly value user privacy, and your data will not be used for any training purposes. If needed, you can delete your account at any time, and all your data will be removed as well.\n\n### When would I need an ArtiverseHub subscription?\n\nIf the free uses of ArtiverseHub\'s AI art generator do not meet your needs and you heavily rely on the platform, we invite you to subscribe to our affordable products.',
-    'https://artiversehub.ai',
-    'https://img.tap4.ai/tools/2024/6/12/artiversehub-ai-1718202605.png',
-    'https://img.tap4.ai/tools/2024/6/12/artiversehub-ai-thumbnail-1718202608.png',
-    '2024-06-11 12:54:07',
-    NULL,
-    NULL,
-    0,
-    'image'
-);
 
 INSERT INTO public.web_navigation (
     name, 
@@ -323,10 +200,38 @@ INSERT INTO public.web_navigation (
     star_rating, 
     category_name
 ) VALUES (
+    'artiversehub-ai',
+    'ArtiverseHub - AI Art Generator',
+    'Get creative with ArtiverseHub online ai art generator. Support multi-platform including DALLE(ChatGPT), Leonardo.ai, Stability.ai, and some more.',
+    E'### What is ArtiverseHub?\n\nArtiverseHub is an AI-driven platform that provides access to a vast array of AI technologies for various artistic needs, including MidJourney, DALL-E 3, Leonardo, and more.\n\n### How can I use ArtiverseHub for free?\n\nEvery user can utilize ArtiverseHub AI art generator for free, with access to a wide range of AI models and styles. Subscribing to the platform grants additional benefits and extended access beyond the free usage limits.\n\n### Can I generate images using ArtiverseHub?\n\nYes, with ArtiverseHub\'s multi-AI art generator, users can create images in various styles, including anime, animal, character, art, car, and more, using different AI models like MidJourney, DALL-E 3, Leonardo, and Stable Diffusion.\n\n### How many AI models are available on ArtiverseHub?\n\nArtiverseHub offers a vast array of AI models for a wide variety of artistic applications, including anime, animal, character, art, car, and more. You can freely use these AI models without the need for a subscription.\n\n### How can I maximize my use of ArtiverseHub\'s AI services?\n\nBy leveraging the free uses of ArtiverseHub\'s AI art generator, users can explore a vast range of AI-powered tools to support various artistic tasks.\n\n### Will my information be used for your training data?\n\nWe highly value user privacy, and your data will not be used for any training purposes. If needed, you can delete your account at any time, and all your data will be removed as well.\n\n### When would I need an ArtiverseHub subscription?\n\nIf the free uses of ArtiverseHub\'s AI art generator do not meet your needs and you heavily rely on the platform, we invite you to subscribe to our affordable products.',
+    'https://artiversehub.ai',
+    'https://img.tap4.ai/tools/2024/6/12/artiversehub-ai-1718202605.png',
+    'https://img.tap4.ai/tools/2024/6/12/artiversehub-ai-thumbnail-1718202608.png',
+    '2024-06-11 12:54:07',
+    NULL,
+    NULL,
+    0,
+    'image'
+);
+
+INSERT INTO public.web_navigation (
+    name, 
+    title, 
+    content, 
+    detail, 
+    url, 
+    image_url, 
+    thumbnail_url, 
+    collection_time, 
+    tag_name, 
+    website_data, 
+    star_rating, 
+    category_name
+) VALUES (
     'deepl-com',
     'DeepL Translate: The world most accurate translator',
     'Translate texts & full document files instantly. Accurate translations for individuals and Teams. Millions translate with DeepL every day.',
-    E'### What is DeepL?\n\nDeepL is a highly accurate translator that outperforms Google, Microsoft, and Facebook in machine learning translation. It provides quick and accurate translations, surpassing its competitors in many cases.\n\n### How does DeepL work?\n\nDeepL\'s translation tool is as quick as its competitors, but more accurate and nuanced. It recognizes languages quickly and automatically, converting words into the desired language while adding linguistic nuances and expressions.\n\n### Features of DeepL\nDeepL offers various features, including:\n\n#### Translation modes\nDeepL provides translation modes for text, files, and speech.\n\n#### Document translation\nDeepL can translate PDF, Word (.docx), and PowerPoint (.pptx) files.\n\n#### Write\nDeepL Write is an AI-powered editing tool that fixes grammar and punctuation mistakes, rephrases sentences, and finds the perfect tone of voice.\n\n#### Pro features\nDeepL Pro offers additional features, including unlimited text translation, document translation, and editing capabilities.\n\n#### Pricing\nDeepL offers a free version with limited features and a Pro version with additional features and support.\n\n#### Integrations\nDeepL integrates with various platforms, including Google Workspace, Microsoft 365, and Microsoft Word.',
+    E'### What is DeepL?\n\nDeepL is a highly accurate translator that outperforms Google, Microsoft, and Facebook in machine learning translation. It provides quick and accurate translations, surpassing its competitors in many cases.\n\n### How does DeepL work?\n\nDeepL translation tool is as quick as its competitors, but more accurate and nuanced. It recognizes languages quickly and automatically, converting words into the desired language while adding linguistic nuances and expressions.\n\n### Features of DeepL\nDeepL offers various features, including:\n\n#### Translation modes\nDeepL provides translation modes for text, files, and speech.\n\n#### Document translation\nDeepL can translate PDF, Word (.docx), and PowerPoint (.pptx) files.\n\n#### Write\nDeepL Write is an AI-powered editing tool that fixes grammar and punctuation mistakes, rephrases sentences, and finds the perfect tone of voice.\n\n#### Pro features\nDeepL Pro offers additional features, including unlimited text translation, document translation, and editing capabilities.\n\n#### Pricing\nDeepL offers a free version with limited features and a Pro version with additional features and support.\n\n#### Integrations\nDeepL integrates with various platforms, including Google Workspace, Microsoft 365, and Microsoft Word.',
     'https://deepl.com/',
     'https://img.tap4.ai/tools/2024/6/13/deepl-com-1718248810.png',
     'https://img.tap4.ai/tools/2024/6/13/deepl-com-thumbnail-1718248811.png',
@@ -437,6 +342,88 @@ Gamma offers a free trial, and users can sign up for free to explore its feature
     'https://img.tap4.ai/tools/2024/6/17/gamma-app-thumbnail-1718635828.png',
     '2024-06-17 22:50:43',
     NULL,
+    NULL,
+    0,
+    'productivity'
+);
+
+
+INSERT INTO public.web_navigation (
+    name, 
+    title, 
+    content, 
+    detail, 
+    url, 
+    image_url, 
+    thumbnail_url, 
+    collection_time, 
+    tag_name, 
+    website_data, 
+    star_rating, 
+    category_name
+) VALUES (
+    'animegirl-studio',
+    'Anime Girl Studio - Chat With Your AI Anime Girlfriend & Create Your Anime Girl',
+    'Your ai anime girl friend awaits! Create your AI Girlfriend, chat with her, and bring her to life in one click. The AI Anime Girl Generator with 100% AI-powered.',
+    E'### What is Anime Girl Studio?\n\nAnime Girl Studio is a platform that offers an AI-driven chat companion and anime girl generator, allowing users to engage with their ideal anime girl fantasies.\n\n### How to Create Your AI Anime Girl Art?\n\nCreating an anime girl image is as easy as:\n\n1. Opening Anime Girl Generate in Anime Girl Studio.\n2. Inputting the description of your anime girl (be as wild or as specific as you like).\n3. Hitting "GENERATE" to generate your anime girl.\n\n### Features of Anime Girl Studio\n\n* Anime Girlfriend: Engage in conversations with your AI anime girlfriend.\n* AI Anime Girl Generator: Input the description that you like or dream, then click "generate" to get your own anime girl creation.\n\n### Pricing\n\n* ### Yearly: $8.33/month (billed yearly, save 67%) - Unlimited text messages, unlimited generated images, unlimited models, choose image for non-public, remove image blur, NSFW free.\n* ### Monthly: $12.99/month (save 48%) - Unlimited text messages, unlimited generated images, unlimited models, choose image for non-public, remove image blur, NSFW free.\n* ### One-time: $9.9 (4000 tokens) - Text messages about 500 times, generate about 266 images, unlimited models, choose image for non-public, remove image blur, NSFW free.\n\n### Frequently Asked Questions\n\n#### What style of anime girl art in Anime Girl Studio?\n\nThere are several styles supported in Anime Girl Studio, including anime disney girl, anime poster girl, anime angel girl, anime armed girl, anime monster girl, anime shining girl, anime babe girl, anime tattoo girl, anime coloring girl, anime school girl, anime furring girl, anime cat girl, and more.\n\n#### Can I ask for pictures?\n\nYes, your AI chatbot girlfriend can send you uncensored selfies and other flirtatious pictures.\n\n#### Troubleshooting\n\nIf your images aren''t appearing, try a different browser, clear your cache. If issues persist, contact us at contact@animegirl.studio.\n\n#### AI Model Insights\n\nOur AI learns from a vast database of anime styles to create unique and creative images based on your prompts.\n\n#### What''s the Usage Rights?\n\nYou''re free to use the images generated for personal enjoyment, sharing, or even commercial purposes, as long as you adhere to our Terms of Use.\n\n#### Supporting Anime Girl Studio\n\nLove what we''re doing? Consider upgrading to a paid plan, providing feedback, or purchasing merchandise featuring your favorite anime girl creations. Your support helps us improve and grow.',
+    'https://animegirl.studio',
+    'https://img.tap4.ai/tools/2024/6/12/animegirl-studio-1718202003.png',
+    'https://img.tap4.ai/tools/2024/6/12/animegirl-studio-thumbnail-1718202007.png',
+    '2024-06-11 11:00:07',
+    NULL,
+    NULL,
+    0,
+    'chatbot'
+);
+
+INSERT INTO public.web_navigation (
+    name, title, content, detail, url, image_url, thumbnail_url, collection_time, website_data, star_rating, category_name
+) VALUES (
+    'pdf-ai',
+    'PDF.ai | Chat with your PDF documents',
+    'We built the ultimate ChatPDF app that allows you to chat with any PDF: ask questions, get summaries, find anything you need!',
+    '
+### What is PDF.ai?
+PDF.ai is an AI-driven platform that allows users to interact with their PDF documents through chat, extracting information, and receiving summaries and answers to questions.
+
+### How can I use PDF.ai for free?
+You can use PDF.ai for free with unlimited uploads and instant answers. Simply sign up and begin chatting with your PDF documents.
+
+### What are the key features of PDF.ai?
+PDF.ai offers various features, such as:
+
+- Uploading documents: Easily upload PDF documents for interaction.
+- Instant answers: Ask questions, extract information, and summarize documents using AI.
+- Source verification: Responses are supported by extracted sources from the uploaded document.
+
+### What are some popular use cases for PDF.ai?
+PDF.ai is suitable for a wide range of applications, including:
+
+- Legal documents
+- Financial reports
+- Books
+- Scientific papers
+- User manuals
+- Employee training
+
+### What sets PDF.ai apart from other PDF tools?
+PDF.ai is favored by over 1,000,000 satisfied users due to its unique AI-driven approach to PDF document interaction.
+
+### How can I make the most of PDF.ai features?
+By taking advantage of unlimited uploads and instant answers, users can explore a variety of AI-powered tools for different tasks.
+
+### Is PDF.ai secure and private?
+User privacy is highly valued, and data will not be used for training purposes. You can delete your account at any time, and all data will be removed.
+
+### When would I need a PDF.ai subscription?
+If you require additional features or support, you can consider subscribing to our affordable products.
+
+### Get started with PDF.ai today!
+Sign up for free and try the demo to experience the benefits of interacting with your PDF documents through chat.',
+    'https://pdf.ai/?via=tap4-ai&rel=sponsored&utm_source=tap4-ai&utm_medium=referral',
+    'https://img.tap4.ai/tools/2024/6/8/pdf-ai-1717879804.png',
+    'https://img.tap4.ai/tools/2024/6/8/pdf-ai-thumbnail-1717879804.png',
+    '2024-06-09 04:50:10',
     NULL,
     0,
     'productivity'
@@ -594,7 +581,7 @@ We highly value user privacy, and your data will not be used for any training pu
 
 ### When would I need a Monica subscription?
 If the daily free usage limits do not meet your needs and you heavily rely on Monica AI services, we invite you to subscribe to our affordable products.',
-    'https://monica.im?via=tap4-ai&utm_source=tap4-ai&utm_medium=referral',
+    'https://monica.im?ref=zjm5zgi&rel=sponsored&utm_source=tap4-ai&utm_medium=referral',
     'https://img.tap4.ai/tools/2024/6/12/monica-im-1718169603.png',
     'https://img.tap4.ai/tools/2024/6/12/monica-im-thumbnail-1718169606.png',
     '2024-06-12 13:20:11',
@@ -604,106 +591,6 @@ If the daily free usage limits do not meet your needs and you heavily rely on Mo
     'text-writing'
 );
 
-INSERT INTO public.web_navigation (
-    name, title, content, detail, url, image_url, thumbnail_url, collection_time, tag_name, website_data, star_rating, category_name
-) VALUES (
-    'nsfwcharacterai-com',
-    'NSFW Character AI: Free and no Filter',
-    'NSFW Character AI: Free and no Filter',
-    '
-### What is NSFW Character AI?
-
-NSFW Character AI is a platform that provides access to a vast array of AI technologies for various needs, including text generation and image understanding.
-
-### How can I use NSFW Character AI for free?
-
-Every user can utilize NSFW Character AI for free, with no filters or restrictions. Subscribing to the platform grants additional benefits and extended access beyond the free usage limits.
-
-### Can I generate images using NSFW Character AI?
-
-Yes, with the platform text-to-image generation capability, users can create images, sharing credits with other AI models for a seamless creative experience.
-
-### How many AI models are available on NSFW Character AI?
-
-NSFW Character AI offers a vast array of AI models for a wide variety of applications in work, study, and everyday life. You can freely use these models without the need for a subscription.
-
-### How can I maximize my use of NSFW Character AI AI services?
-
-By leveraging the free uses of the platform AI services, users can explore a vast range of AI-powered tools to support various tasks.
-
-### Will my information be used for training data?
-
-We highly value user privacy, and your data will not be used for any training purposes. If needed, you can delete your account at any time, and all your data will be removed as well.
-
-### When would I need a NSFW Character AI subscription?
-
-If the free usage limits do not meet your needs and you heavily rely on the platform AI services, we invite you to subscribe to our affordable products.',
-    'https://nsfwcharacterai.com/',
-    'https://img.tap4.ai/tools/2024/6/12/nsfwcharacterai-com-1718182201.png',
-    'https://img.tap4.ai/tools/2024/6/12/nsfwcharacterai-com-thumbnail-1718182204.png',
-    '2024-06-12 16:50:08',
-     NULL,
-    NULL,
-    0,
-    'chatbot'
-);
-
-
-INSERT INTO public.web_navigation (
-    name, title, content, detail, url, image_url, thumbnail_url, collection_time, tag_name, website_data, star_rating, category_name
-) VALUES (
-    'nudify-online-undress-ai',
-    'Undress AI: Remove Clothes From Pics – Nudify Online!',
-    'Explore the power of Undressing AI with our Undress application and nude filters online! Check for real dressed / undressed photos below!',
-    '
-### What is Nudify?
-
-Nudify.Online is an AI nudifier that harnesses the power of nude technology. This innovative app is specifically designed to remove clothing from images, providing users with an undressed version of the subject.
-
-### How does Nudify work?
-
-Nudify.Online leverages sophisticated AI technology to undress images with remarkable precision and realism. By utilizing nude AI algorithms, this cutting-edge app scans the photo and identifies the clothing worn by the subject. Once the clothing is detected, Nudify.Online advanced AI undress AI capabilities come into play. The AI algorithm removes the clothing and generates a lifelike rendition of the undressed form, seamlessly blending it with the original image.
-
-### What is the main feature of Nudify?
-
-The main feature of Nudify.Online is its Undress AI, which utilizes advanced nude AI technology to digitally remove clothing from images.
-
-### Features of Nudify
-
-Nudify.Online offers a range of features that set it apart from other AI undress apps. Some key features include:
-
-#### Advanced nude technology
-#### Precision and accuracy in undressing images
-#### Fast and efficient results
-#### Easy-to-use interface
-#### Compatibility with various devices
-
-### Why choose Nudify?
-
-Nudify.Online stands out as the go-to choice for AI nudification due to several reasons:
-
-#### Utilizes advanced nude technology
-#### Provides high-quality and realistic results
-#### Offers user-friendly experience
-#### Ensures privacy and security
-
-### How to use Nudify?
-
-Using Nudify.Online is incredibly straightforward. Simply follow these steps:
-
-#### Upload the photo you want to undress
-#### Wait for the app to process the image
-#### Preview and confirm the undressed version of the photo
-#### Download or share the transformed image as desired',
-    'https://nudify.online/undress-ai',
-    'https://img.tap4.ai/tools/2024/6/13/nudify-online-undress-ai-1718244605.png',
-    'https://img.tap4.ai/tools/2024/6/13/nudify-online-undress-ai-thumbnail-1718244606.png',
-    '2024-06-13 10:10:29',
-    NULL,
-    NULL,
-    0,
-    'image'
-);
 
 
 INSERT INTO public.web_navigation (
@@ -736,6 +623,55 @@ If the free features do not meet your needs and you heavily rely on Adobe Podcas
     NULL,
     0,
     'education'
+);
+
+INSERT INTO public.web_navigation (
+    name, title, content, detail, url, image_url, thumbnail_url, collection_time, website_data, star_rating, category_name
+) VALUES (
+    'soulgen-net',
+    'SoulGen: Free AI Magic Tool to Create Art from Text Online',
+    'SoulGen is an AI Magic Tool to create stunning art of real girls from text or prompt. Get FREE trial now and create customized AI character.',
+    '
+### What is SoulGen?
+SoulGen is a free AI magic tool that creates art from text online. It provides an easy-to-use interface to generate images from text prompts, allowing users to bring their imagination to life.
+
+### How to Use SoulGen
+SoulGen offers various features to create and edit images using AI. Here how to get started:
+
+#### Create an Image from Text
+Create an image from nothing but a text prompt in mere seconds. SoulGen AI art tool makes your dream character come to reality.
+
+#### Create a Portrait of Someone Lookalike
+Make your created AI character look like someone! Upload a reference photo and ask AI to draw a character with the face of someone lookalike.
+
+#### Edit Your Image
+Use SoulGen AI tool to activate your creative superpowers. Add, extend, and remove content from your images with simple text prompts.
+
+#### Explore Never-Ending Images
+Expand your image beyond your imagination with AI Outpainting! Resize the image and enter a text prompt to add new elements to your picture, like background, characters, and more.
+
+#### Create a Real Soulmate with Imagination
+Describe your dream character with simple words, and SoulGen will create your art in mere seconds. Making a soulmate has never been this easy and real!
+
+### FAQs
+#### How Do AI Image Tools Work?
+AI Image tools use machine learning algorithms and deep neural networks to create pictures. Large sets of already-made art are used to teach these algorithms how to find patterns and styles that can be used to make new images.
+
+#### Is Commercial Use Allowed?
+You can use SoulGen for commercial purposes only if you create the art on your own.
+
+#### Are AI Created Images Copyrighted?
+No, SoulGen creates images that do not exist, so there is no need to worry about copyright issues.
+
+#### Is My AI-created Image Going to Be Completely Unique?
+Yes, SoulGen produces photos based on your description, and unique text will make the AI-created image unique as well.',
+    'https://www.soulgen.net?utm_source=a7P4Ro1E2Y3UF&cp_id=MZ2xnCtdOSRic&rel=sponsored&utm_source=tap4-ai&utm_medium=referral',
+    'https://img.tap4.ai/tools/2024/6/13/soulgen-net-1718238602.png',
+    'https://img.tap4.ai/tools/2024/6/13/soulgen-net-thumbnail-1718238605.png',
+    '2024-06-13 08:30:10',
+    NULL, 
+    0,
+    'design-art'
 );
 
 INSERT INTO public.web_navigation (
@@ -775,6 +711,84 @@ If the free AI model usage per day does not meet your needs and you heavily rely
     'marketing'
 );
 
+INSERT INTO public.web_navigation (
+    name, title, content, detail, url, image_url, thumbnail_url, collection_time, website_data, star_rating, category_name
+) VALUES (
+    'getliner-com',
+    'Liner | AI Copilot on Your Workspace, Powered by ChatGPT',
+    'Try Liner. Enhance productivity and streamline your workflow with AI Copilot by summarizing articles, generating codes, and writing emails.',
+    '
+### What is Liner?
+Liner is a productivity AI copilot that provides instant answers to questions, summarizes websites and documents, and interacts with PDFs. Powered by various AI models, Liner is designed to enhance research productivity.
+
+### How can I use Liner for free?
+Every user can utilize Liner basic features for free, including the one-click summarizer for articles, PDFs, and YouTube videos. Users can also upgrade to Liner Pro feature for unlimited access to AI models and agents.
+
+### What features does Liner offer?
+Liner features include:
+- Instant summarization of articles, PDFs, and YouTube videos
+- PDF upload and collaboration with AI for summarization and insight extraction
+- AI-powered writing suggestions for tone, grammar, and delivery
+- Access to various AI models and agents
+- Highlight and organization tools for insightful texts, YouTube videos, or images
+- Browser extension for seamless integration
+
+### What is Liner pricing plan?
+Liner offers a Basic plan with limited features and a Professional plan with unlimited access to AI models and agents. The Pro plan also includes additional features such as unlimited file uploads and AI calls.
+
+### What do users say about Liner?
+Liner is loved by users worldwide, with over 10 million users across 218 countries and 40 million AI searches per month. Trusted by Forbes, Liner has been selected as a "2022 Favorite" on the Chrome Web Store.',
+    'https://getliner.com/?via=tap4-ai&utm_source=tap4-ai&utm_medium=referral',
+    'https://img.tap4.ai/tools/2024/6/11/getliner-com-1718104218.png',
+    'https://img.tap4.ai/tools/2024/6/11/getliner-com-thumbnail-1718104219.png',
+    '2024-06-11 19:10:22',
+    NULL,
+    0,
+    'text-writing'
+);
+
+
+INSERT INTO public.web_navigation (
+    name, title, content, detail, url, image_url, thumbnail_url, collection_time, tag_name, website_data, star_rating, category_name
+) VALUES (
+    'undressbaby-com',
+    'Grey Secret Room - Undress AI Nudify',
+    'Explore creativity with AI-powered image services. From AI undress to inventive face swaps, explore endless possibilities. Prioritizing privacy and age verification, offering a secure experience for adults. Discover now!',
+    '
+### What is Grey Secret Room?
+
+Grey Secret Room is an AI-driven platform that provides access to a vast array of AI technologies for various needs, including AI image and video generation, face swap, and more.
+
+### How can I use Grey Secret Room for free?
+
+Every user can utilize Grey Secret Room for free up to a certain limit. Subscribing to the platform grants additional benefits and extended access beyond the free usage limits.
+
+### Features of Grey Secret Room
+
+#### AI Image Generation
+
+Grey Secret Room offers AI image generation capabilities, including dress/undress and photo face swap features.
+
+#### AI Video Generation
+
+The platform also provides AI video generation capabilities, including face swap videos.
+
+### Pricing of Grey Secret Room
+
+Grey Secret Room offers a premium subscription with additional benefits and extended access beyond the free usage limits.
+
+### Privacy and Terms of Grey Secret Room
+
+Grey Secret Room prioritizes user privacy and does not store any data, ensuring that user information is confidential. The platform also has a privacy policy and terms of service that users must agree to before using the platform.',
+    'https://aigirl.best/',
+    'https://img.tap4.ai/tools/2024/6/15/undressbaby-com-1718442426.png',
+    'https://img.tap4.ai/tools/2024/6/15/undressbaby-com-thumbnail-1718442429.png',
+    '2024-06-15 17:07:12',
+    NULL,
+    NULL,
+    0,
+    'image'
+);
 
 INSERT INTO public.web_navigation (
     name, title, content, detail, url, image_url, thumbnail_url, collection_time, tag_name, website_data, star_rating, category_name
@@ -854,6 +868,7 @@ The aim of Semantic Scholar is to provide an efficient and accessible research t
     0,
     'education'
 );
+
 
 INSERT INTO public.web_navigation (
     name, title, content, detail, url, image_url, thumbnail_url, collection_time, tag_name, website_data, star_rating, category_name
@@ -1027,88 +1042,125 @@ Note: The content is generated based on the provided template, and the markdown 
 );
 
 
+
 INSERT INTO public.web_navigation (
-    name, title, content, detail, url, image_url, thumbnail_url, collection_time, tag_name, website_data, star_rating, category_name
+    name, title, content, detail, url, image_url, thumbnail_url, collection_time, website_data, star_rating, category_name
 ) VALUES (
-    'undress-app',
-    'Undress AI - Create Deepnude for FREE',
-    'Undress AI photos with our deepnude AI app. Make nudes with AI in a few seconds. The ultimate photo nudify, best AI deep nudes.',
+    'askyourpdf-com',
+    'AskYourPDF: The Best PDF AI Chat App',
+    'We built AskYourPDF as the only ChatPDF AI App you will ever need. Easily upload your PDF files and engage with our intelligent chat AI to extract valuable insights from your documents.',
     '
-### What is Undress AI?
-Undress AI is an innovative platform that provides access to AI-driven technologies, including the revolutionary Deepnude feature for image manipulation and generation. 
+### What is AskYourPDF?
+AskYourPDF is a revolutionary AI chat app that transforms your PDF documents into interactive chat partners. With our platform, you can upload your PDF files and engage with our intelligent chat AI to extract valuable information.
 
-### How can I use Deepnude for free on Undress AI?
-Every user can utilize Deepnude for free up to 20 times a day on Undress AI. Subscribing to the platform grants additional benefits and extended access beyond the free usage limits.
+### How does AskYourPDF work?
+Our platform uses the power of ChatGPT to breathe life into your documents, making them interactive and engaging. You can upload your PDF files, ask questions, and get answers directly from your document. Our AI-powered chat system provides accurate information and fosters an enjoyable learning environment.
 
-### Can I generate explicit images using Undress AI?
-Yes, with Deepnude advanced image manipulation capabilities, users can create explicit images, sharing credits with other features for a seamless creative experience.
+### Features of AskYourPDF
+- Upload and chat with your PDF documents.
+- Get answers directly from your document.
+- Track and revisit all your conversations.
+- Enjoy an interactive reading experience.
+- Save time with smart navigation.
+- Learn playfully with our AI-powered chat system.
 
-### How many AI models are available on Undress AI?
-Undress AI offers nearly 100,000 AI models for a wide variety of adult applications. You can freely use these models without the need for a subscription.
+### Pricing Plans
+We offer a range of pricing plans to fit your needs:
 
-### How can I maximize my use of Undress AI AI services?
-By leveraging the daily free uses of Deepnude image manipulation and generation, users can explore a vast range of AI-powered tools to support various tasks.
+#### Free
+- 100 chats per month.
+- 100 pages per document (max 15MB).
+- 50 questions per day.
+- 3 conversations per day.
+- 1 document per day.
 
-### Will my information be used for your training data?
-We highly value user privacy, and your data will not be used for any training purposes. If needed, you can delete your account at any time, and all your data will be removed as well.
+#### Premium
+- Unlimited chats.
+- 2500 pages per document (max 30MB).
+- 1200 questions per day.
+- 50 conversations per day.
+- 50 documents per day.
+- GPT-3.5 and GPT-4 models (credits required).
+- Claude and Claude 2 models (credits required).
+- Chat with 10 documents at once (Knowledge Base).
+- Access to Summarisation Service.
+- 10 free credits.
+- Chrome Extension Access.
+- OCR Support.
 
-### When would I need an Undress AI subscription?
-If the 20 free Deepnude uses per day do not meet your needs and you heavily rely on Deepnude, we invite you to subscribe to our affordable products.
+#### Pro
+- Unlimited chats.
+- 6000 pages per document (max 90MB).
+- Unlimited questions per day.
+- Unlimited conversations per day.
+- 150 documents per day.
+- GPT-3.5 and GPT-4 models (credits required).
+- Claude and Claude 2 models (credits required).
+- Chat with 20 documents at once (Knowledge Base).
+- Access to Summarisation Service.
+- 30 free credits.
+- Chrome Extension Access.
+- OCR Support.
+- Longer reply length.
+- Priority support.
+- Priority access to new features.
 
-### Pricing:
-Our subscription plans start at just $9.99/month, providing extended access to Deepnude and other AI features.',
-    'https://undress.app/',
-    'https://img.tap4.ai/tools/2024/6/11/undress-app-1718085962.png',
-    'https://img.tap4.ai/tools/2024/6/11/undress-app-thumbnail-1718085963.png',
-    '2024-06-11 14:06:06',
-     NULL,
-    NULL,
+#### Enterprise
+- Custom pages per document.
+- Custom max upload size.
+- Unlimited questions per day.
+- Unlimited conversations per day.
+- Unlimited documents per day.
+- Customizable link.
+- Dedicated 24/7 support.
+- Priority document processing.
+- Access to new features.',
+    'https://www.askyourpdf.com/?via=tap4-ai&rel=sponsored&utm_source=tap4-ai&utm_medium=referral',
+    'https://img.tap4.ai/tools/2024/6/15/askyourpdf-com-1718420826.png',
+    'https://img.tap4.ai/tools/2024/6/15/askyourpdf-com-thumbnail-1718420829.png',
+    '2024-06-15 11:07:13',
+    NULL, 
     0,
-    'image'
+    'productivity'
 );
 
 INSERT INTO public.web_navigation (
-    name, title, content, detail, url, image_url, thumbnail_url, collection_time, tag_name, website_data, star_rating, category_name
+    name, title, content, detail, url, image_url, thumbnail_url, collection_time, website_data, star_rating, category_name
 ) VALUES (
-    'undressbaby-com',
-    'Grey Secret Room - Undress AI Nudify',
-    'Explore creativity with AI-powered image services. From AI undress to inventive face swaps, explore endless possibilities. Prioritizing privacy and age verification, offering a secure experience for adults. Discover now!',
+    'unriddle-ai',
+    'Unriddle | Faster research',
+    'Simplify complex documents, ask questions, and receive instant answers.',
     '
-### What is Grey Secret Room?
+### What is Unriddle?
+Unriddle is a platform that provides AI-driven research tools to help users quickly find information in documents, simplify complex topics, take notes, and write with the power of AI.
 
-Grey Secret Room is an AI-driven platform that provides access to a vast array of AI technologies for various needs, including AI image and video generation, face swap, and more.
+### How does Unriddle work?
+Unriddle allows users to generate an AI assistant on top of any document, enabling them to quickly find, summarize, and understand information. The platform uses AI to link relevant sources from the user library, making it easy to write, cite, and uncover hidden themes.
 
-### How can I use Grey Secret Room for free?
+### Features of Unriddle
+- Quickly find information in documents.
+- Simplify complex topics.
+- Take notes and write with the power of AI.
+- Automatically link relevant sources from the user library.
+- Uncover hidden themes and patterns.
+- Collaborate with colleagues in a shared workspace.
+- Supports 90+ languages.
+- Import PDFs up to 10,000 pages long.
+- Chrome extension available.
 
-Every user can utilize Grey Secret Room for free up to a certain limit. Subscribing to the platform grants additional benefits and extended access beyond the free usage limits.
+### Pricing
+Unriddle offers a free trial, and users can get started for free. The pricing details are not explicitly stated, but users can try Unriddle without providing credit card information.
 
-### Features of Grey Secret Room
-
-#### AI Image Generation
-
-Grey Secret Room offers AI image generation capabilities, including dress/undress and photo face swap features.
-
-#### AI Video Generation
-
-The platform also provides AI video generation capabilities, including face swap videos.
-
-### Pricing of Grey Secret Room
-
-Grey Secret Room offers a premium subscription with additional benefits and extended access beyond the free usage limits.
-
-### Privacy and Terms of Grey Secret Room
-
-Grey Secret Room prioritizes user privacy and does not store any data, ensuring that user information is confidential. The platform also has a privacy policy and terms of service that users must agree to before using the platform.',
-    'https://aigirl.best/',
-    'https://img.tap4.ai/tools/2024/6/15/undressbaby-com-1718442426.png',
-    'https://img.tap4.ai/tools/2024/6/15/undressbaby-com-thumbnail-1718442429.png',
-    '2024-06-15 17:07:12',
-    NULL,
+### Testimonials
+Unriddle has received positive reviews from researchers, students, and professionals, who have praised the platform ability to save time, simplify research, and provide accurate information.',
+    'https://www.unriddle.ai/?via=tap4-ai&rel=sponsored&utm_source=tap4-ai&utm_medium=referral',
+    'https://img.tap4.ai/tools/2024/6/15/unriddle-ai-1718445372.png',
+    'https://img.tap4.ai/tools/2024/6/15/unriddle-ai-thumbnail-1718445373.png',
+    '2024-06-15 17:56:17',
     NULL,
     0,
-    'image'
+    'business'
 );
-
 
 INSERT INTO public.web_navigation (
     name, title, content, detail, url, image_url, thumbnail_url, collection_time, tag_name, website_data, star_rating, category_name
@@ -1156,6 +1208,42 @@ Depending on the plan, different tools will become available, allowing for perso
     NULL,
     0,
     'image'
+);
+
+
+INSERT INTO public.web_navigation (
+    name, title, content, detail, url, image_url, thumbnail_url, collection_time, tag_name, website_data, star_rating, category_name
+) VALUES (
+    'woy-ai',
+    'Woy AI Directory: List of the Best & Latest AI Tools in 2024',
+    'Discover the top AI tools of 2024 with the Woy.ai AI Directory! Explore the best and latest innovations in artificial intelligence technology.',
+    '
+### What is Woy AI Directory?
+
+Woy AI Directory is a comprehensive collection of the latest and most effective AI tools across various domains, serving as a one-stop hub for tech enthusiasts, developers, and businesses.
+
+### How can I use Woy AI Directory?
+
+Woy AI Directory offers a curated list of top AI tools in 2024, including AI search engines, text-to-image generative AI models, video creation tools, and more. Users can explore and discover new AI tools to support various tasks and applications.
+
+### Features of Woy AI Directory
+
+* Comprehensive collection of AI tools across various domains
+* Curated list of top AI tools in 2024
+* Supports tech enthusiasts, developers, and businesses
+* Offers a one-stop hub for AI tool discovery
+
+### Pricing of Woy AI Directory
+
+Woy AI Directory is a free resource, providing users with access to a vast array of AI tools and products.',
+    'https://woy.ai',
+    'https://img.tap4.ai/tools/2024/6/18/woy-ai-1718679610.png',
+    'https://img.tap4.ai/tools/2024/6/18/woy-ai-thumbnail-1718679611.png',
+    '2024-06-18 11:00:14',
+     NULL,
+    NULL,
+    0,
+    'other'
 );
 
 
@@ -1257,40 +1345,43 @@ You can `/animate` a static character with a text motion prompt.
 
 
 INSERT INTO public.web_navigation (
-    name, title, content, detail, url, image_url, thumbnail_url, collection_time, tag_name, website_data, star_rating, category_name
+    name, title, content, detail, url, image_url, thumbnail_url, collection_time, website_data, star_rating, category_name
 ) VALUES (
-    'woy-ai',
-    'Woy AI Directory: List of the Best & Latest AI Tools in 2024',
-    'Discover the top AI tools of 2024 with the Woy.ai AI Directory! Explore the best and latest innovations in artificial intelligence technology.',
+    'mymap-ai',
+    'mymap.ai: Mapping Ideas That Change the World',
+    'MyMap turns your text ideas into visuals like mind maps and presentations through a simple chat interface. Ideal for students, teachers, and professionals with no design skills required. It’s your time-saving tool for easy, collaborative visual creation',
     '
-### What is Woy AI Directory?
+### What is MyMap.ai?
+MyMap.ai is a platform that turns your text ideas into visuals like mind maps and presentations through a simple chat interface, making it ideal for students, teachers, and professionals with no design skills required.
 
-Woy AI Directory is a comprehensive collection of the latest and most effective AI tools across various domains, serving as a one-stop hub for tech enthusiasts, developers, and businesses.
+### How
+#### How can I use MyMap.ai for free?
+Every user can utilize MyMap.ai for free to create a certain number of visuals per day. Subscribing to the platform grants additional benefits and extended access beyond the free usage limits.
 
-### How can I use Woy AI Directory?
+#### Can I generate mind maps and presentations using MyMap.ai?
+Yes, with MyMap.ai capability, users can create mind maps and presentations, sharing credits with its intuitive chat interface for a seamless experience.
 
-Woy AI Directory offers a curated list of top AI tools in 2024, including AI search engines, text-to-image generative AI models, video creation tools, and more. Users can explore and discover new AI tools to support various tasks and applications.
+#### How many design options are available on MyMap.ai?
+MyMap.ai offers a wide variety of design options, ensuring that users can freely express their ideas without the need for a premium subscription.
 
-### Features of Woy AI Directory
+#### How can I maximize my use of MyMap.ai AI services?
+By leveraging the daily free uses of MyMap.ai, users can explore a vast range of AI-powered tools to support various visual creation tasks.
 
-* Comprehensive collection of AI tools across various domains
-* Curated list of top AI tools in 2024
-* Supports tech enthusiasts, developers, and businesses
-* Offers a one-stop hub for AI tool discovery
+### Features
+#### Will my information be used for your training data?
+We highly value user privacy, and your data will not be used for any training purposes. If needed, you can delete your account at any time, and all your data will be removed as well.
 
-### Pricing of Woy AI Directory
-
-Woy AI Directory is a free resource, providing users with access to a vast array of AI tools and products.',
-    'https://woy.ai',
-    'https://img.tap4.ai/tools/2024/6/18/woy-ai-1718679610.png',
-    'https://img.tap4.ai/tools/2024/6/18/woy-ai-thumbnail-1718679611.png',
-    '2024-06-18 11:00:14',
-     NULL,
-    NULL,
+### Price
+#### When would I need a MyMap.ai subscription?
+If the free uses per day do not meet your needs and you heavily rely on MyMap.ai for visual creation, we invite you to subscribe to our affordable products.',
+    'https://mymap.ai/?via=tap4-ai&rel=sponsored&utm_source=tap4-ai&utm_medium=referral',
+    'https://img.tap4.ai/tools/2024/6/19/mymap-ai-1718775625.png',
+    'https://img.tap4.ai/tools/2024/6/19/mymap-ai-thumbnail-1718775631.png',
+    '2024-06-19 13:40:36',
+    NULL, -- Assuming website_data can be NULL if not provided
     0,
-    'other'
+    'text-writing'
 );
-
 
 INSERT INTO public.web_navigation (
     name, title, content, detail, url, image_url, thumbnail_url, collection_time, tag_name, website_data, star_rating, category_name
