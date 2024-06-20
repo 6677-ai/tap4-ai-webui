@@ -37,7 +37,7 @@ export default async function Page({ params }: { params: { search?: string } }) 
   const { data: dataList } = await supabase
     .from('web_navigation')
     .select()
-    .like('detail', `%${decodeURI(params?.search || '')}%`);
+    .ilike('detail', `%${decodeURI(params?.search || '')}%`);
 
   return (
     <Suspense fallback={<Loading />}>
