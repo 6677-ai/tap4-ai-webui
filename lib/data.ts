@@ -34,6 +34,15 @@ export const dataList: WebNavigationListRow[] = [
     thumbnailUrl: 'https://img.artiversehub.ai/2024/05/20/7d246f5ac3d240a4bc03e6c01d68f845.png',
   },
   {
+    id: '1792434701288771599',
+    name: 'dragon-coloring-pages',
+    title: 'dragon coloring pages',
+    content: 'AI coloring pages generator and free coloring pages for download',
+    url: 'https://dragon-colroingpages.com',
+    imageUrl: 'https://img.artiversehub.ai/2024/05/20/c5a29d0bd95f4788a592d363b3ee4117.png',
+    thumbnailUrl: 'https://img.artiversehub.ai/2024/05/20/7d246f5ac3d240a4bc03e6c01d68f845.png',
+  },
+  {
     id: '1792107164427784194',
     name: 'chatgpt-mac',
     title: 'ChatGPT for MacOS: Your AI Assistant for Enhanced Productivity',
@@ -62,6 +71,7 @@ export const dataList: WebNavigationListRow[] = [
     imageUrl: 'https://img.artiversehub.ai/2024/05/23/668e9c65d3e9458b87cc6a382b1dee83.png',
     thumbnailUrl: 'https://img.artiversehub.ai/2024/05/23/87d5c4e9b91f41d0b5eed738e1a813f9.png',
   },
+
   {
     id: '1791402384042659841',
     name: 'viggle',
@@ -254,6 +264,17 @@ export const dataList: WebNavigationListRow[] = [
     imageUrl: 'https://img.artiversehub.ai/2024/05/17/d46533e95b4e419bb043ed71dadbba06.png',
     thumbnailUrl: 'https://img.artiversehub.ai/2024/05/17/2f3ad3237754483a87032e17d0764b8d.png',
   },
+
+  {
+    id: '1791348237226381320',
+    name: 'dragon-coloringpage',
+    title: 'Dragon coloring pages:AI generate coloring pages,a gift for the kids and auldts',
+    content:
+      'OpenAI is a company that is focused on creating safe AGI (Artificial General Intelligence) that benefits all of humanity. They conduct pioneering research in the field of AI and develop advanced models and technologies.',
+    url: 'https://openai.com/',
+    imageUrl: 'https://img.artiversehub.ai/2024/05/17/d46533e95b4e419bb043ed71dadbba06.png',
+    thumbnailUrl: 'https://img.artiversehub.ai/2024/05/17/2f3ad3237754483a87032e17d0764b8d.png',
+  },
 ];
 
 export const detailList: WebNavigationDetailData[] = [
@@ -274,6 +295,24 @@ export const detailList: WebNavigationDetailData[] = [
     starRating: 5,
     categoryName: 'Other',
   },
+  {
+    name: 'dragon-coloringpage',
+    title: 'Dragon coloring pages: AI-generated coloring pages, a gift for kids and adults',
+
+    detail:
+      "### What is AIGirl.best?\nAIGirl.best is an AI-driven platform that provides access to a vast array of AI technologies for generating anime-style girls. With our advanced AI models, users can create stunning anime-style characters with ultra-realistic features, intricate details, and captivating poses.\n\n### How can I use AIGirl.best for free?\nEvery user can utilize AIGirl.best for free, with unlimited generations per day. Our platform offers a wide range of anime-style characters, from school girls to fantasy monsters, all available for free.\n\n### Can I generate anime-style images using AIGirl.best?\nYes, with our advanced AI models, users can generate stunning anime-style images, including characters, landscapes, and scenes. Our AI models can create intricate details, vibrant colors, and captivating poses, making your imagination come to life.\n\n### How many anime-style characters are available on AIGirl.best?\nAIGirl.best offers an extensive library of anime-style characters, with new additions every week. Our platform features a vast array of characters, from cute school girls to fierce warriors, and from fantasy monsters to beautiful angels.\n\n### How can I maximize my use of AIGirl.best's AI services?\nBy leveraging our daily free generations, users can explore a vast range of AI-powered tools to support various tasks, from creating stunning anime-style characters to generating captivating scenes and landscapes.\n\n### Will my information be used for training data?\nWe highly value user privacy, and your data will not be used for any training purposes. If needed, you can delete your account at any time, and all your data will be removed as well.\n\n### When would I need a subscription on AIGirl.best?\nIf the daily free generations do not meet your needs, and you heavily rely on our AI services, we invite you to subscribe to our affordable products, which offer additional benefits and extended access to our AI models.",
+    content:
+      'AIGirl.best is an online platform touted as the best Anime/Realistic AI Girl Generator. It allows users to create ultra-detailed anime characters, including school girls, cat girls, and more, in high resolutions like 8K CG. The site features a variety of styles and settings, from tropical gardens to cyberpunk cities, and offers a free trial for users to explore its capabilities. Additionally, it includes a blog, pricing information, and a gallery of generated images.',
+    url: 'https://aigirl.best',
+    imageUrl: 'https://img.artiversehub.ai/2024/05/23/e8494b7617674af59a1e92e0fca59f66.png',
+    thumbnailUrl: 'https://img.artiversehub.ai/2024/05/23/e08dd1ce53194e138671f0681f6e4eea.png',
+    collectionTime: '2024-05-20 00:00:00',
+    tagName: 'Website',
+    websiteData: '1000',
+    starRating: 5,
+    categoryName: 'Other',
+  },
+
   {
     name: 'tattooai-design',
     title: 'AI Tattoo Generator and Design | Tattoo AI Design',

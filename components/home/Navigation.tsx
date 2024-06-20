@@ -26,18 +26,17 @@ export default function Navigation() {
 
   return (
     <>
-      <header className='bg-frosted-glass sticky left-0 top-0 z-50 flex h-[64px] bg-[#252A464A] px-5 blur-[60%] filter lg:px-0'>
+      <header className='sticky left-0 top-0 z-50 flex h-[64px] bg-white bg-opacity-80 px-5 backdrop-blur-lg lg:px-0'>
         <nav className='mx-auto flex max-w-pc flex-1 items-center'>
           <div>
             <Link href='/' title={t('title')}>
-              {/* Removed className='hover:opacity-80' */}
               <BaseImage
                 src='/images/tap4-ai1.svg'
                 alt={t('title')}
                 title={t('title')}
                 width={64}
                 height={64}
-                className='size-[58px] lg:size-16' // Updated className to include 'size-[58px]' for LG screens
+                className='size-[58px] lg:size-16'
               />
             </Link>
           </div>
@@ -48,10 +47,10 @@ export default function Navigation() {
                 <Link key={item.code} href={item.href} title={item.code}>
                   <li
                     className={cn(
-                      'flex h-full items-center text-white/40 hover:text-white',
-                      pathname === item.href && 'text-white',
-                      pathname.includes(item.href) && item.href !== '/' && 'text-white',
-                    )} // Ensured className concatenation uses `cn` function for clarity
+                      'flex h-full items-center text-gray-700 hover:text-gray-900',
+                      pathname === item.href && 'text-gray-900',
+                      pathname.includes(item.href) && item.href !== '/' && 'text-gray-900',
+                    )}
                   >
                     {item.label}
                   </li>
@@ -64,7 +63,7 @@ export default function Navigation() {
           </div>
           {/* mobile */}
           <div className='mx-3 flex items-center gap-x-4 lg:hidden'>
-            <MenuBtn open={open} onClick={() => setOpen(!open)} /> {/* Simplified onClick handler */}
+            <MenuBtn open={open} onClick={() => setOpen(!open)} />
           </div>
         </nav>
       </header>

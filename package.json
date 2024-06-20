@@ -9,7 +9,7 @@
     "lint": "next lint --cache",
     "lint:fix": "eslint --fix .",
     "prettier": "prettier --write .",
-    "prepare": "husky"
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
@@ -31,6 +31,7 @@
     "@radix-ui/react-slot": "1.0.2",
     "@supabase/ssr": "0.3.0",
     "@supabase/supabase-js": "2.43.2",
+    "@tailwindcss/typography": "0.5.12",
     "class-variance-authority": "0.7.0",
     "clsx": "2.1.0",
     "dayjs": "1.11.10",
@@ -41,6 +42,7 @@
     "query-string": "9.0.0",
     "rc-pagination": "4.0.4",
     "react": "^18",
+    "react-accessible-accordion": "5.0.0",
     "react-dom": "^18",
     "react-hook-form": "7.51.2",
     "react-markdown": "9.0.1",
@@ -51,7 +53,6 @@
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "4.2.1",
-    "@tailwindcss/typography": "0.5.12",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

@@ -35,6 +35,12 @@
     --radius: 0.5rem;
   }
 
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer base {
   .dark {
     --background: 210 15% 20%;  /* 更深的灰色背景 */
     --foreground: 0 0% 100%;    /* 白色字体 */
@@ -66,16 +72,19 @@
   }
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-}
-
 @layer utilities {
+  .border-border {
+    border-color: var(--border);
+  }
+
+  .bg-background {
+    background-color: var(--background);
+  }
+
+  .text-foreground {
+    color: var(--foreground);
+  }
+
   .flex-center {
     @apply flex items-center justify-center;
   }

@@ -1,6 +1,6 @@
 # Tap4 AI Web UI
 
-这是一个由[Tap4 AI工具导航站](https://tap4.ai)开源的AI导航站项目。我们的目标是让大家很容易就拥有一个属于自己的AI导航站，
+这是一个由[Tap4 AI工具导航站](https://hiaitools.com)开源的AI导航站项目。我们的目标是让大家很容易就拥有一个属于自己的AI导航站，
 收录自己喜欢的AI工具产品。这个项目非常轻量级，维护简单，适合对AI导航站感兴趣的个人开发者，也适合对NextJs有兴趣的学习者，
 欢迎大家fork和star。
 
@@ -63,14 +63,14 @@ git clone https://github.com/6677-ai/tap4-ai-webui.git
 
 ```sh
 # 你的域名
-NEXT_PUBLIC_SITE_URL="https://www.tap4.ai"
+NEXT_PUBLIC_SITE_URL="https://www.hiaitools.com"
 
 # 谷歌索引 id 和 广告 URL
 GOOGLE_TRACKING_ID="G-XXXXXXX"
 GOOGLE_ADSENSE_URL="https://xxxx.googlesyndication.com/xxxxx/xxxxx"
 
 # 底部的联系邮箱
-CONTACT_US_EMAIL="contact@tap4.ai"
+CONTACT_US_EMAIL="hiaitools520@gmail.com"
 
 # supabase 数据库的 url 和 key
 NEXT_PUBLIC_SUPABASE_URL="https://xxxyyyzzz.supabase.co"
@@ -119,19 +119,19 @@ lib/data.ts -> detailList
 2. 输入数值并提交表单
 3. 打开并检查您的 Supabase 项目
 
-## 打算在 Tap4.ai 上提交您的网站？
+## 打算在 hiaitools.com 上提交您的网站？
 
 ### 打算将您的网站添加到我们的 `/startup` 页面？
 
 - 在这里打开一个问题：[TAP4-AI-Directory](https://github.com/6677-ai/TAP4-AI-Directory/issues)
-- 给我们发邮件：[contact@tap4.ai](mailto:contact@tap4.ai)
+- 给我们发邮件：[hiaitools520@gmail.com](mailto:hiaitools520@gmail.com)
 
 ## 我们产品的链接
 
 ### TAP4-AI-Directory
 
 全球AI工具的集合。| 收集免费的ChatGPT镜像、替代品、prompt、其他AI工具等。欲了解更多信息，请访
-问：[Tap4 AI](https://tap4.ai)
+问：[Tap4 AI](https://hiaitools.com)
 
 ### 如何在网站列表中获得您的首批用户
 

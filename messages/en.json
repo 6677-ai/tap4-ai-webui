@@ -4,7 +4,7 @@
   },
   "Navigation": {
     "title": "Hi AI tools Tools Directory",
-    "discover": "Discover AI",
+    "discover": "Discover AI product",
     "submit": "Submit",
     "newtools": "New Tools",
     "startup": "Startup",
@@ -12,7 +12,7 @@
   },
   "Footer": {
     "title": "Hi AI Tools Directory",
-    "subTitle": "Discover the latest AI tools of 2024 with the Hi AI Tools Directory!",
+    "subTitle": "Discover the Money-making & great  AI tools of 2024 with the Hi AI Tools Directory!",
     "support": "Support",
     "tap4": "Hi AI tools",
     "AI Coloring Pages": "AI Coloring Pages",
@@ -24,11 +24,11 @@
     "title": "Frequently Asked Questions",
     "1": {
       "question": "What is Hi AI  Tools Directory?",
-      "answer": "Hi AI  Tools Directory - tap4.ai is building an ai tools directory that helps you get your favorite ai tools. It can get ai writing tools, ai markting tools, ai paraphrasing tools, ai seo tools, ai study tools, ai generator tools, ai research tools, ai art tools, ai music tools, ai video tools, ai coding tools, ai photo tools and more here."
+      "answer": "Hi AI  Tools Directory - hiaitools.com is building an ai tools directory that helps you get your favorite ai tools. It can get ai writing tools, ai markting tools, ai paraphrasing tools, ai seo tools, ai study tools, ai generator tools, ai research tools, ai art tools, ai music tools, ai video tools, ai coding tools, ai photo tools and more here."
     },
     "2": {
       "question": "How to found your ai tools in Hi AI  tools directory?",
-      "answer-1": "1. Open tap4.ai.",
+      "answer-1": "1. Open hiaitools.com.",
       "answer-2": "2. Explore the ai tools in the Hi AI  tools directory.",
       "answer-3": "3. Click the ai tools that you need to get the detail and visit it."
     },
@@ -96,11 +96,11 @@
     },
     "termsConditions": {
       "1-h1": "Terms of Service for Hi AI  Directory",
-      "1-p": "Welcome to Hi AI  Directory! Our website, located at https://tap4.ai (\"Website\"), is dedicated to providing you with the ability to create custom images. By accessing or using our Website, you agree to be bound by these Terms of Service (\"Terms\"). If you do not agree with any part of the terms, then you are prohibited from using the Website.",
+      "1-p": "Welcome to Hi AI  Directory! Our website, located at https://hiaitools.com (\"Website\"), is dedicated to providing you with the ability to create custom images. By accessing or using our Website, you agree to be bound by these Terms of Service (\"Terms\"). If you do not agree with any part of the terms, then you are prohibited from using the Website.",
       "2-h2": "1. Use License",
       "2-p": "You are granted a limited, non-exclusive, non-transferable license to use the Website and its services for personal, non-commercial purposes. This license does not include any rights to copy, modify, or distribute the Website's content or use it for commercial purposes without our prior written consent.",
       "3-h2": "2. Ownership",
-      "3-p": "The ownership of images generated from text on the Website belongs to the person who created the image. Tap4.ai claims no ownership over images created by users.",
+      "3-p": "The ownership of images generated from text on the Website belongs to the person who created the image. hiaitools.com claims no ownership over images created by users.",
       "4-h2": "3. User Data Collection",
       "4-p": "We collect personal data (name, email, and payment information) and non-personal data (web cookies) to improve our services. The use of this data is governed by our Privacy Policy, which can be found at",
       "terms-of-service": "terms-of-service",
@@ -115,11 +115,12 @@
   },
   "NotFound": {
     "title": "404 Not Found",
+    "description": "Sorry, the page you are looking for does not exist.",
     "goHome": "go home"
   },
   "Home": {
-    "title": "Hi AItools - Discover The Latest AI Tools 2024",
-    "subTitle": "Get your favorite AI tools in Hi AItools AI Tools Directory. AI tools list are updated daily by GPT-4o. It's free to submit here to enhance your SEO now. ",
+    "title": "Hi AI tools - Discover the Money-making & great startup AI Tools",
+    "subTitle": "Get your favorite AI tools in Hi AItools AI Tools Directory.From idea to execution, these tools will take you up-up-up 🚀",
     "ai-navigate": "AI Tools List",
     "exploreMore": "Get More AI Tools"
   },
@@ -136,7 +137,7 @@
   },
   "Startup": {
     "title": "Kickstart Your Startup Launch",
-    "subTitle": "The Ultimate List of Websites to Launch and Promote Your Startup Online. For adding to the list or helping to submit for your product to the free list, please email us: contact@tap4.ai. ",
+    "subTitle": "The Ultimate List of Websites to Launch and Promote Your Startup Online. For adding to the list or helping to submit for your product to the free list, please email us: hiaitools520@gmail.com. ",
     "updateTime": "Curated and updated daily. Last updated:",
     "table": {
       "da": "DA",
@@ -147,11 +148,12 @@
     },
     "detail": {
       "visitWebsite": "Visit Website",
-      "introduction": "Introduction"
+      "introduction": "Introduction",
+      "noDataMessage": "No data available"
     }
   },
   "Explore": {
-    "title": "Discover The Best AI Tools 2024",
+    "title": "Discover The money-making & great AI tools  ",
     "subTitle": "Get your favorite AI tools in Hi AI  Tools Directory. AI tools list are updated daily by GPT-4o."
   },
   "Metadata": {
@@ -161,7 +163,9 @@
       "keywords": "Hi AI  Directory"
     },
     "ai": {
-      "titleSubfix": "Hi AI  Directory"
+      "titleSubfix": "Hi AI  Directory",
+      "defaultTitle": "Default Title",
+      "defaultDescription": "Default description"
     },
     "explore": {
       "title": "Best AI Tools Explore 2024 | Hi AI  Directory",

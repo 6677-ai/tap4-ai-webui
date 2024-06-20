@@ -1,6 +1,6 @@
 # Tap4 AI Web UI
 
-Tap4 AI Web UI is the open source AI tools directory build by [Tap4 AI Tools Directory](https://tap4.ai). The project
+Tap4 AI Web UI is the open source AI tools directory build by [Tap4 AI Tools Directory](https://hiaitools.com). The project
 aims to help everyone build their own AI Tools Directory easily. You can fork the project and deploy to vercel by one
 click and update your own ai tools by the dataList in the project.
 
@@ -64,14 +64,14 @@ git clone https://github.com/6677-ai/tap4-ai-webui.git
 
 ```sh
 # your domain
-NEXT_PUBLIC_SITE_URL="https://www.tap4.ai"
+NEXT_PUBLIC_SITE_URL="https://www.hiaitools.com"
 
 # google tracking id and adsense URL
 GOOGLE_TRACKING_ID="G-XXXXXXX"
 GOOGLE_ADSENSE_URL="https://xxxx.googlesyndication.com/xxxxx/xxxxx"
 
 # Footer contact email
-CONTACT_US_EMAIL="contact@tap4.ai"
+CONTACT_US_EMAIL="hiaitools520@gmail.com"
 
 # your supabase database url and key
 NEXT_PUBLIC_SUPABASE_URL="https://xxxyyyzzz.supabase.co"
@@ -120,19 +120,19 @@ lib/data.ts -> detailList
 2. input the values and then submit the form
 3. open and check your supabase project
 
-## Wanna submit your website on Tap4.ai?
+## Wanna submit your website on hiaitools.com?
 
 ### Wanna add you website to our `/startup` page?
 
 - open an issue here: [TAP4-AI-Directory](https://github.com/6677-ai/TAP4-AI-Directory/issues)
-- email us: contact@tap4.ai
+- email us: hiaitools520@gmail.com
 
 ## Links to our products
 
 ### TAP4-AI-Directory
 
 The Collection for the AI tools all over the world. | Collect free ChatGPT mirrors, alternatives,prompt, other AI tools,
-etc. For more, please visit: [Tap4 AI](https://tap4.ai)
+etc. For more, please visit: [Tap4 AI](https://hiaitools.com)
 
 ### How to get your first users for startup at the website list
 

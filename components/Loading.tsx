@@ -8,7 +8,7 @@ export default function Loading({ className }: { className?: string }) {
   return (
     <div role='status' className='flex flex-col items-center gap-1'>
       <Spinning className={className} />
-      <span className='text-xs'>{t('loading')}</span>
+      <span className='text-xs text-gray-900'>{t('loading')}</span>
     </div>
   );
 }

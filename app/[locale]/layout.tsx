@@ -1,3 +1,4 @@
+// app/layout.tsx
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 
 import { Toaster } from '@/components/ui/sonner';
@@ -22,11 +23,12 @@ export default function RootLayout({
   const messages = useMessages();
 
   return (
-    <html lang={locale} suppressHydrationWarning className='dark'>
+    <html lang={locale} suppressHydrationWarning>
       <head>
-        <meta name='_foundr' content='9e859e5ac8925b8966ced3381ddb42a5' />
+        <link rel='canonical' href='https://www.hiaitools.com' />
+        <link rel='icon' href='/favicon.png' type='image/x-icon' />
       </head>
-      <body className='relative mx-auto flex min-h-screen flex-col bg-tap4-black text-white'>
+      <body className='relative mx-auto flex min-h-screen flex-col bg-gray-100 text-gray-900'>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Toaster
             position='top-center'
@@ -42,7 +44,7 @@ export default function RootLayout({
           <Navigation />
           <Suspense fallback={<Loading />}>{children}</Suspense>
         </NextIntlClientProvider>
-        <SeoScript />
+        <SeoScript title='Your Global Title' />
         <GoogleAdScript />
       </body>
     </html>

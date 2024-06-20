@@ -18,6 +18,8 @@ import Spinning from '@/components/Spinning';
 const FormSchema = z.object({
   website: z.string(),
   url: z.string().url(),
+  tags: z.string(),
+  description: z.string(),
 });
 
 export default function SubmitForm({ className }: { className?: string }) {
@@ -31,6 +33,8 @@ export default function SubmitForm({ className }: { className?: string }) {
     defaultValues: {
       website: '',
       url: '',
+      tags: '',
+      description: '',
     },
   });
 
@@ -41,7 +45,8 @@ export default function SubmitForm({ className }: { className?: string }) {
       const { error } = await supabase.from('submit').insert({
         name: formData.website,
         url: formData.url,
-        // email: ''
+        tags: formData.tags,
+        description: formData.description,
       });
       if (error) {
         errMsg = error.message;
@@ -61,7 +66,7 @@ export default function SubmitForm({ className }: { className?: string }) {
       <form
         onSubmit={form.handleSubmit(onSubmit)}
         className={cn(
-          'mx-3 mb-5 flex h-[449px] flex-col justify-between rounded-[12px] bg-[#2C2D36] px-3 py-5 lg:h-[557px] lg:w-[444px] lg:p-8',
+          'mx-3 mb-5 flex h-[449px] flex-col justify-between rounded-[12px] bg-gray-200 px-3 py-5 lg:h-[557px] lg:w-[444px]',
           className,
         )}
       >
@@ -71,11 +76,11 @@ export default function SubmitForm({ className }: { className?: string }) {
             name='website'
             render={({ field }) => (
               <FormItem className='space-y-1'>
-                <FormLabel>{t('website')}</FormLabel>
+                <FormLabel className='text-gray-900'>Product name</FormLabel>
                 <FormControl>
                   <Input
                     placeholder='Hiaitools'
-                    className='input-border-pink h-[42px] w-full rounded-[8px] border-[0.5px] bg-dark-bg p-5'
+                    className='input-border-pink h-[42px] w-full rounded-[8px] border-[0.5px] bg-gray-100 p-5 text-gray-900'
                     {...field}
                   />
                 </FormControl>
@@ -88,11 +93,45 @@ export default function SubmitForm({ className }: { className?: string }) {
             name='url'
             render={({ field }) => (
               <FormItem className='space-y-1'>
-                <FormLabel>{t('url')}</FormLabel>
+                <FormLabel className='text-gray-900'>Product url</FormLabel>
                 <FormControl>
                   <Input
                     placeholder={FORM_PLACEHOLDER}
-                    className='input-border-pink h-[42px] w-full rounded-[8px] border-[0.5px] bg-dark-bg p-5'
+                    className='input-border-pink h-[42px] w-full rounded-[8px] border-[0.5px] bg-gray-100 p-5 text-gray-900'
+                    {...field}
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+          <FormField
+            control={form.control}
+            name='tags'
+            render={({ field }) => (
+              <FormItem className='space-y-1'>
+                <FormLabel className='text-gray-900'>Product tags</FormLabel>
+                <FormControl>
+                  <Input
+                    placeholder='ai,design,cms...'
+                    className='input-border-pink h-[42px] w-full rounded-[8px] border-[0.5px] bg-gray-100 p-5 text-gray-900'
+                    {...field}
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+          <FormField
+            control={form.control}
+            name='description'
+            render={({ field }) => (
+              <FormItem className='space-y-1'>
+                <FormLabel className='text-gray-900'>Product Description</FormLabel>
+                <FormControl>
+                  <Input
+                    placeholder='Description of the website'
+                    className='input-border-pink h-[42px] w-full rounded-[8px] border-[0.5px] bg-gray-100 p-5 text-gray-900'
                     {...field}
                   />
                 </FormControl>
@@ -106,14 +145,14 @@ export default function SubmitForm({ className }: { className?: string }) {
             type='submit'
             disabled={loading}
             className={cn(
-              'flex-center mt-auto h-[48px] w-full gap-4 rounded-[8px] bg-white text-center font-bold text-black hover:cursor-pointer hover:opacity-80',
-              loading && 'hover:cursor-not-allowed',
+              'flex-center mt-auto h-[48px] w-full gap-4 rounded-[8px] bg-white text-center font-bold text-black hover:bg-gray-200',
+              loading && 'hover:bg-gray-100',
             )}
           >
             {loading ? <Spinning className='size-[22px]' /> : t('submit')}
           </button>
-          <p className='text-[13px] text-white/40'>
-            {t('add')} <span className='text-white'>{WEBSITE_EXAMPLE}</span> {t('text')}
+          <p className='text-[13px] text-gray-900'>
+            {t('add')} <span className='text-blue-600'>{WEBSITE_EXAMPLE}</span> {t('text')}
           </p>
         </div>
       </form>

@@ -1,9 +1,12 @@
 import type { Config } from 'tailwindcss';
 
-const config = {
+// 将 require() 语句移到文件顶部
+const tailwindcssAnimate = require('tailwindcss-animate');
+const tailwindcssTypography = require('@tailwindcss/typography');
+
+const config: Config = {
   darkMode: ['class'],
   content: ['./pages/**/*.{ts,tsx}', './components/**/*.{ts,tsx}', './app/**/*.{ts,tsx}', './src/**/*.{ts,tsx}'],
-  prefix: '',
   theme: {
     container: {
       center: true,
@@ -14,49 +17,34 @@ const config = {
     },
     extend: {
       colors: {
-        'tap4-black': '#0F0E14',
+        primary: '#4f46e5',
+        secondary: '#fbbf24',
+        background: '#f7f7f7', // 浅灰色背景
+        foreground: '#1f2937',
+        accent: '#4f46e5',
+        muted: '#9ca3af',
         'dark-bg': '#1E1B24',
-        border: 'hsl(var(--border))',
-        input: 'hsl(var(--input))',
-        ring: 'hsl(var(--ring))',
-        background: 'hsl(var(--background))',
-        foreground: 'hsl(var(--foreground))',
-        primary: {
-          DEFAULT: 'hsl(var(--primary))',
-          foreground: 'hsl(var(--primary-foreground))',
-        },
-        secondary: {
-          DEFAULT: 'hsl(var(--secondary))',
-          foreground: 'hsl(var(--secondary-foreground))',
-        },
-        destructive: {
-          DEFAULT: 'hsl(var(--destructive))',
-          foreground: 'hsl(var(--destructive-foreground))',
-        },
-        muted: {
-          DEFAULT: 'hsl(var(--muted))',
-          foreground: 'hsl(var(--muted-foreground))',
-        },
-        accent: {
-          DEFAULT: 'hsl(var(--accent))',
-          foreground: 'hsl(var(--accent-foreground))',
+        'light-bg': '#F3F4F6',
+        'gray-bg': '#e0e0e0', // 新增的稍深的灰色
+        border: '#e5e7eb',
+        input: '#e5e7eb',
+        ring: '#4f46e5',
+        card: {
+          DEFAULT: '#ffffff',
+          foreground: '#1f2937',
         },
         popover: {
-          DEFAULT: 'hsl(var(--popover))',
-          foreground: 'hsl(var(--popover-foreground))',
-        },
-        card: {
-          DEFAULT: 'hsl(var(--card))',
-          foreground: 'hsl(var(--card-foreground))',
+          DEFAULT: '#ffffff',
+          foreground: '#1f2937',
         },
       },
       maxWidth: {
         pc: '1322px',
       },
       borderRadius: {
-        lg: 'var(--radius)',
-        md: 'calc(var(--radius) - 2px)',
-        sm: 'calc(var(--radius) - 4px)',
+        lg: '0.5rem',
+        md: '0.375rem',
+        sm: '0.25rem',
       },
       keyframes: {
         'accordion-down': {
@@ -79,8 +67,7 @@ const config = {
       },
     },
   },
-  // eslint-disable-next-line import/no-extraneous-dependencies, global-require
-  plugins: [require('tailwindcss-animate'), require('@tailwindcss/typography')],
-} satisfies Config;
+  plugins: [tailwindcssAnimate, tailwindcssTypography],
+};
 
 export default config;
