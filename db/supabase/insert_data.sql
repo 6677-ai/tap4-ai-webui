@@ -19,7 +19,7 @@ INSERT INTO public.web_navigation (
     'https://www.123rf.com/',
     'https://img.tap4.ai/tools/2024/6/12/123rf-com-1718212803.png',
     'https://img.tap4.ai/tools/2024/6/12/123rf-com-thumbnail-1718212807.png',
-    '2024-06-12 02:30:09',
+    '2024-06-08 02:30:09',
     NULL,
     NULL,
     0,
@@ -47,7 +47,7 @@ INSERT INTO public.web_navigation (
     'https://adobe.com/',
     'https://img.tap4.ai/tools/2024/6/13/adobe-com-1718248204.png',
     'https://img.tap4.ai/tools/2024/6/13/adobe-com-thumbnail-1718248205.png',
-    '2024-06-13 11:10:08',
+    '2024-06-08 11:10:08',
     NULL,
     NULL,
     0,
@@ -121,7 +121,7 @@ INSERT INTO public.web_navigation (
     'https://aigirl.best',
     'https://img.tap4.ai/tools/2024/6/12/aigirl-best-1718203804.png',
     'https://img.tap4.ai/tools/2024/6/12/aigirl-best-thumbnail-1718203808.png',
-    '2024-06-11 13:00:09',
+    '2024-06-09 13:00:09',
     NULL,
     NULL,
     0,
@@ -150,7 +150,7 @@ INSERT INTO public.web_navigation (
     'https://beta.character.ai/',
     'https://img.tap4.ai/tools/2024/6/12/beta-character-ai-1718211603.png',
     'https://img.tap4.ai/tools/2024/6/12/beta-character-ai-thumbnail-1718211607.png',
-    '2024-06-11 22:30:13',
+    '2024-06-09 22:30:13',
     NULL,
     NULL,
     0,
@@ -178,7 +178,7 @@ INSERT INTO public.web_navigation (
     'https://capcut.com/',
     'https://img.tap4.ai/tools/2024/6/14/capcut-com-1718396471.png',
     'https://img.tap4.ai/tools/2024/6/14/capcut-com-thumbnail-1718396473.png',
-    '2024-06-15 04:21:22',
+    '2024-06-10 04:21:22',
     NULL,
     NULL,
     0,
@@ -207,7 +207,7 @@ INSERT INTO public.web_navigation (
     'https://artiversehub.ai',
     'https://img.tap4.ai/tools/2024/6/12/artiversehub-ai-1718202605.png',
     'https://img.tap4.ai/tools/2024/6/12/artiversehub-ai-thumbnail-1718202608.png',
-    '2024-06-11 12:54:07',
+    '2024-06-10 12:54:07',
     NULL,
     NULL,
     0,
@@ -235,7 +235,7 @@ INSERT INTO public.web_navigation (
     'https://deepl.com/',
     'https://img.tap4.ai/tools/2024/6/13/deepl-com-1718248810.png',
     'https://img.tap4.ai/tools/2024/6/13/deepl-com-thumbnail-1718248811.png',
-    '2024-06-13 11:20:48',
+    '2024-06-11 11:20:48',
     NULL,
     NULL,
     0,
@@ -286,7 +286,7 @@ If the free usage limits do not meet your needs and you heavily rely on Salesfor
     'https://force.com/',
     'https://img.tap4.ai/tools/2024/6/14/force-com-1718395626.png',
     'https://img.tap4.ai/tools/2024/6/14/force-com-thumbnail-1718395628.png',
-    '2024-06-15 04:07:11',
+    '2024-06-11 15:07:11',
     NULL,
     NULL,
     0,
@@ -340,7 +340,7 @@ Gamma offers a free trial, and users can sign up for free to explore its feature
     'https://gamma.app/',
     'https://img.tap4.ai/tools/2024/6/17/gamma-app-1718635825.png',
     'https://img.tap4.ai/tools/2024/6/17/gamma-app-thumbnail-1718635828.png',
-    '2024-06-17 22:50:43',
+    '2024-06-10 20:50:43',
     NULL,
     NULL,
     0,
@@ -369,65 +369,62 @@ INSERT INTO public.web_navigation (
     'https://animegirl.studio',
     'https://img.tap4.ai/tools/2024/6/12/animegirl-studio-1718202003.png',
     'https://img.tap4.ai/tools/2024/6/12/animegirl-studio-thumbnail-1718202007.png',
-    '2024-06-11 11:00:07',
+    '2024-06-11 01:00:07',
     NULL,
     NULL,
     0,
     'chatbot'
 );
 
+
 INSERT INTO public.web_navigation (
-    name, title, content, detail, url, image_url, thumbnail_url, collection_time, website_data, star_rating, category_name
+    name, title, content, detail, url, image_url, thumbnail_url, collection_time, tag_name, website_data, star_rating, category_name
 ) VALUES (
-    'pdf-ai',
-    'PDF.ai | Chat with your PDF documents',
-    'We built the ultimate ChatPDF app that allows you to chat with any PDF: ask questions, get summaries, find anything you need!',
+    'sunoai-ai',
+    'Free Suno AI Music Generator by SunoAI.ai',
+    'Explore SunoAI.ai for the revolutionary Suno AI Music Generator V3.5. Create unique Suno AI MP3 Music instantly, free to use.',
     '
-### What is PDF.ai?
-PDF.ai is an AI-driven platform that allows users to interact with their PDF documents through chat, extracting information, and receiving summaries and answers to questions.
+### What is Suno AI?
+Suno AI is an advanced AI platform specializing in music generation and text-to-music conversion. We provide Suno AI free music generation services to help users quickly create high-quality music tracks.
 
-### How can I use PDF.ai for free?
-You can use PDF.ai for free with unlimited uploads and instant answers. Simply sign up and begin chatting with your PDF documents.
+### How to use Suno AI
+#### What are the main features of Suno AI?
+Suno AI offers music generation features. Our AI technology can assist you in generating unique music tracks from text descriptions using the Suno AI music generator.
 
-### What are the key features of PDF.ai?
-PDF.ai offers various features, such as:
+#### How to generate music using Suno AI?
+Generating music with Suno AI is very simple. Just enter a text description on our website, and our AI system will automatically generate the corresponding music for you using Suno AI text to music technology.
 
-- Uploading documents: Easily upload PDF documents for interaction.
-- Instant answers: Ask questions, extract information, and summarize documents using AI.
-- Source verification: Responses are supported by extracted sources from the uploaded document.
+### Features of Suno AI
+#### Is Suno AI music generation service free?
+Suno AI provides a limited number of free music generation services. You can visit our website anytime to start creating your music tracks with Suno AI free services.
 
-### What are some popular use cases for PDF.ai?
-PDF.ai is suitable for a wide range of applications, including:
+#### What types of music can Suno AI generate?
+Suno AI can generate various types of music, including pop, classical, electronic, and jazz. You can choose different music styles according to your needs with the help of the Suno AI music generator.
 
-- Legal documents
-- Financial reports
-- Books
-- Scientific papers
-- User manuals
-- Employee training
+#### How fast is the music generation speed of Suno AI?
+The music generation speed of Suno AI is very fast. Typically, you can get the generated music tracks within a few minutes using Suno AI music technology.
 
-### What sets PDF.ai apart from other PDF tools?
-PDF.ai is favored by over 1,000,000 satisfied users due to its unique AI-driven approach to PDF document interaction.
+#### What is the quality of the music generated by Suno AI?
+Suno AI uses the most advanced AI technology to ensure high-quality music generation. Our system is extensively trained to produce professional-level music tracks with Suno AI music generator.
 
-### How can I make the most of PDF.ai features?
-By taking advantage of unlimited uploads and instant answers, users can explore a variety of AI-powered tools for different tasks.
+#### What languages does Suno AI support for text input?
+Suno AI supports text input in multiple languages. No matter what language you use, our system can understand and generate the corresponding music using Suno AI text to music capabilities.
 
-### Is PDF.ai secure and private?
-User privacy is highly valued, and data will not be used for training purposes. You can delete your account at any time, and all data will be removed.
+#### How to download the music generated by Suno AI?
+After generating the music, you can directly download it from our website.
 
-### When would I need a PDF.ai subscription?
-If you require additional features or support, you can consider subscribing to our affordable products.
-
-### Get started with PDF.ai today!
-Sign up for free and try the demo to experience the benefits of interacting with your PDF documents through chat.',
-    'https://pdf.ai/?via=tap4-ai&rel=sponsored&utm_source=tap4-ai&utm_medium=referral',
-    'https://img.tap4.ai/tools/2024/6/8/pdf-ai-1717879804.png',
-    'https://img.tap4.ai/tools/2024/6/8/pdf-ai-thumbnail-1717879804.png',
-    '2024-06-09 04:50:10',
+### Pricing
+Please check our pricing page for more information.',
+    'https://sunoai.ai/',
+    'https://img.tap4.ai/tools/2024/6/16/sunoai-ai-1718570705.png',
+    'https://img.tap4.ai/tools/2024/6/16/sunoai-ai-thumbnail-1718570707.png',
+    '2024-06-11 07:45:11',
+     NULL,
     NULL,
     0,
-    'productivity'
+    'voice'
 );
+
 
 INSERT INTO public.web_navigation (
     name, 
@@ -462,7 +459,7 @@ INSERT INTO public.web_navigation (
     'https://gemini.google.com/',
     'https://img.tap4.ai/tools/2024/6/11/gemini-google-com-1718092802.png',
     'https://img.tap4.ai/tools/2024/6/11/gemini-google-com-thumbnail-1718092804.png',
-    '2024-06-11 16:00:07',
+    '2024-06-11 10:00:07',
     NULL,
     NULL,
     0,
@@ -511,7 +508,7 @@ Instagram Summit 2023 is a 2-day virtual event where you can learn hyper-growth 
     'https://igsummit.com/',
     'https://img.tap4.ai/tools/2024/6/18/igsummit-com-1718680214.png',
     'https://img.tap4.ai/tools/2024/6/18/igsummit-com-thumbnail-1718680216.png',
-    '2024-06-18 11:10:21',
+    '2024-06-11 11:10:21',
      NULL,
     NULL,
     0,
@@ -547,7 +544,7 @@ Learn Prompting is trusted by forward-thinking organizations and individuals wor
     'https://learnprompting.org/',
     'https://img.tap4.ai/tools/2024/6/10/learnprompting-org-1718054405.png',
     'https://img.tap4.ai/tools/2024/6/10/learnprompting-org-thumbnail-1718054407.png',
-    '2024-06-11 05:20:10',
+    '2024-06-11 20:20:10',
      NULL,
     NULL,
     0,
@@ -584,7 +581,7 @@ If the daily free usage limits do not meet your needs and you heavily rely on Mo
     'https://monica.im?ref=zjm5zgi&rel=sponsored&utm_source=tap4-ai&utm_medium=referral',
     'https://img.tap4.ai/tools/2024/6/12/monica-im-1718169603.png',
     'https://img.tap4.ai/tools/2024/6/12/monica-im-thumbnail-1718169606.png',
-    '2024-06-12 13:20:11',
+    '2024-06-12 01:20:11',
      NULL,
     NULL,
     0,
@@ -618,7 +615,7 @@ If the free features do not meet your needs and you heavily rely on Adobe Podcas
     'https://podcast.adobe.com/',
     'https://img.tap4.ai/tools/2024/6/12/podcast-adobe-com-1718220001.png',
     'https://img.tap4.ai/tools/2024/6/12/podcast-adobe-com-thumbnail-1718220005.png',
-    '2024-06-12 17:50:09',
+    '2024-06-12 06:50:09',
      NULL,
     NULL,
     0,
@@ -668,7 +665,7 @@ Yes, SoulGen produces photos based on your description, and unique text will mak
     'https://www.soulgen.net?utm_source=a7P4Ro1E2Y3UF&cp_id=MZ2xnCtdOSRic&rel=sponsored&utm_source=tap4-ai&utm_medium=referral',
     'https://img.tap4.ai/tools/2024/6/13/soulgen-net-1718238602.png',
     'https://img.tap4.ai/tools/2024/6/13/soulgen-net-thumbnail-1718238605.png',
-    '2024-06-13 08:30:10',
+    '2024-06-12 08:30:10',
     NULL, 
     0,
     'design-art'
@@ -704,48 +701,49 @@ If the free AI model usage per day does not meet your needs and you heavily rely
     'https://poe.com/',
     'https://img.tap4.ai/tools/2024/6/11/poe-com-1718105402.png',
     'https://img.tap4.ai/tools/2024/6/11/poe-com-thumbnail-1718105403.png',
-    '2024-06-11 19:30:06',
+    '2024-06-12 12:30:06',
      NULL,
     NULL,
     0,
     'marketing'
 );
 
+
 INSERT INTO public.web_navigation (
-    name, title, content, detail, url, image_url, thumbnail_url, collection_time, website_data, star_rating, category_name
+    name, title, content, detail, url, image_url, thumbnail_url, collection_time, tag_name, website_data, star_rating, category_name
 ) VALUES (
-    'getliner-com',
-    'Liner | AI Copilot on Your Workspace, Powered by ChatGPT',
-    'Try Liner. Enhance productivity and streamline your workflow with AI Copilot by summarizing articles, generating codes, and writing emails.',
+    'woy-ai',
+    'Woy AI Directory: List of the Best & Latest AI Tools in 2024',
+    'Discover the top AI tools of 2024 with the Woy.ai AI Directory! Explore the best and latest innovations in artificial intelligence technology.',
     '
-### What is Liner?
-Liner is a productivity AI copilot that provides instant answers to questions, summarizes websites and documents, and interacts with PDFs. Powered by various AI models, Liner is designed to enhance research productivity.
+### What is Woy AI Directory?
 
-### How can I use Liner for free?
-Every user can utilize Liner basic features for free, including the one-click summarizer for articles, PDFs, and YouTube videos. Users can also upgrade to Liner Pro feature for unlimited access to AI models and agents.
+Woy AI Directory is a comprehensive collection of the latest and most effective AI tools across various domains, serving as a one-stop hub for tech enthusiasts, developers, and businesses.
 
-### What features does Liner offer?
-Liner features include:
-- Instant summarization of articles, PDFs, and YouTube videos
-- PDF upload and collaboration with AI for summarization and insight extraction
-- AI-powered writing suggestions for tone, grammar, and delivery
-- Access to various AI models and agents
-- Highlight and organization tools for insightful texts, YouTube videos, or images
-- Browser extension for seamless integration
+### How can I use Woy AI Directory?
 
-### What is Liner pricing plan?
-Liner offers a Basic plan with limited features and a Professional plan with unlimited access to AI models and agents. The Pro plan also includes additional features such as unlimited file uploads and AI calls.
+Woy AI Directory offers a curated list of top AI tools in 2024, including AI search engines, text-to-image generative AI models, video creation tools, and more. Users can explore and discover new AI tools to support various tasks and applications.
 
-### What do users say about Liner?
-Liner is loved by users worldwide, with over 10 million users across 218 countries and 40 million AI searches per month. Trusted by Forbes, Liner has been selected as a "2022 Favorite" on the Chrome Web Store.',
-    'https://getliner.com/?via=tap4-ai&utm_source=tap4-ai&utm_medium=referral',
-    'https://img.tap4.ai/tools/2024/6/11/getliner-com-1718104218.png',
-    'https://img.tap4.ai/tools/2024/6/11/getliner-com-thumbnail-1718104219.png',
-    '2024-06-11 19:10:22',
+### Features of Woy AI Directory
+
+* Comprehensive collection of AI tools across various domains
+* Curated list of top AI tools in 2024
+* Supports tech enthusiasts, developers, and businesses
+* Offers a one-stop hub for AI tool discovery
+
+### Pricing of Woy AI Directory
+
+Woy AI Directory is a free resource, providing users with access to a vast array of AI tools and products.',
+    'https://woy.ai',
+    'https://img.tap4.ai/tools/2024/6/18/woy-ai-1718679610.png',
+    'https://img.tap4.ai/tools/2024/6/18/woy-ai-thumbnail-1718679611.png',
+    '2024-06-12 19:00:14',
+     NULL,
     NULL,
     0,
-    'text-writing'
+    'other'
 );
+
 
 
 INSERT INTO public.web_navigation (
@@ -783,7 +781,7 @@ Grey Secret Room prioritizes user privacy and does not store any data, ensuring 
     'https://aigirl.best/',
     'https://img.tap4.ai/tools/2024/6/15/undressbaby-com-1718442426.png',
     'https://img.tap4.ai/tools/2024/6/15/undressbaby-com-thumbnail-1718442429.png',
-    '2024-06-15 17:07:12',
+    '2024-06-14 10:07:12',
     NULL,
     NULL,
     0,
@@ -827,7 +825,7 @@ Runway values user privacy and ensures that your data will not be used for any t
     'https://runwayml.com/',
     'https://img.tap4.ai/tools/2024/6/12/runwayml-com-1718166602.png',
     'https://img.tap4.ai/tools/2024/6/12/runwayml-com-thumbnail-1718166606.png',
-    '2024-06-12 12:30:10',
+    '2024-06-14 12:30:10',
      NULL,
     NULL,
     0,
@@ -862,7 +860,7 @@ The aim of Semantic Scholar is to provide an efficient and accessible research t
     'https://www.semanticscholar.org/',
     'https://img.tap4.ai/tools/2024/6/11/semanticscholar-org-1718141402.png',
     'https://img.tap4.ai/tools/2024/6/11/semanticscholar-org-thumbnail-1718141403.png',
-    '2024-06-12 05:30:06',
+    '2024-06-14 20:30:06',
     NULL,
     NULL,
     0,
@@ -898,7 +896,7 @@ Shutterstock offers an affordable subscription plan that grants access to millio
     'https://shutterstock.com/',
     'https://img.tap4.ai/tools/2024/6/14/shutterstock-com-1718396048.png',
     'https://img.tap4.ai/tools/2024/6/14/shutterstock-com-thumbnail-1718396050.png',
-    '2024-06-15 04:14:14',
+    '2024-06-15 01:14:14',
      NULL,
     NULL,
     0,
@@ -951,61 +949,13 @@ If the free usage limits do not meet your needs and you heavily rely on Stabilit
     'https://stability.ai/',
     'https://img.tap4.ai/tools/2024/6/12/stability-ai-1718229603.png',
     'https://img.tap4.ai/tools/2024/6/12/stability-ai-thumbnail-1718229606.png',
-    '2024-06-13 06:00:11',
+    '2024-06-15 02:00:11',
      NULL,
     NULL,
     0,
     'image'
 );
 
-
-INSERT INTO public.web_navigation (
-    name, title, content, detail, url, image_url, thumbnail_url, collection_time, tag_name, website_data, star_rating, category_name
-) VALUES (
-    'sunoai-ai',
-    'Free Suno AI Music Generator by SunoAI.ai',
-    'Explore SunoAI.ai for the revolutionary Suno AI Music Generator V3.5. Create unique Suno AI MP3 Music instantly, free to use.',
-    '
-### What is Suno AI?
-Suno AI is an advanced AI platform specializing in music generation and text-to-music conversion. We provide Suno AI free music generation services to help users quickly create high-quality music tracks.
-
-### How to use Suno AI
-#### What are the main features of Suno AI?
-Suno AI offers music generation features. Our AI technology can assist you in generating unique music tracks from text descriptions using the Suno AI music generator.
-
-#### How to generate music using Suno AI?
-Generating music with Suno AI is very simple. Just enter a text description on our website, and our AI system will automatically generate the corresponding music for you using Suno AI text to music technology.
-
-### Features of Suno AI
-#### Is Suno AI music generation service free?
-Suno AI provides a limited number of free music generation services. You can visit our website anytime to start creating your music tracks with Suno AI free services.
-
-#### What types of music can Suno AI generate?
-Suno AI can generate various types of music, including pop, classical, electronic, and jazz. You can choose different music styles according to your needs with the help of the Suno AI music generator.
-
-#### How fast is the music generation speed of Suno AI?
-The music generation speed of Suno AI is very fast. Typically, you can get the generated music tracks within a few minutes using Suno AI music technology.
-
-#### What is the quality of the music generated by Suno AI?
-Suno AI uses the most advanced AI technology to ensure high-quality music generation. Our system is extensively trained to produce professional-level music tracks with Suno AI music generator.
-
-#### What languages does Suno AI support for text input?
-Suno AI supports text input in multiple languages. No matter what language you use, our system can understand and generate the corresponding music using Suno AI text to music capabilities.
-
-#### How to download the music generated by Suno AI?
-After generating the music, you can directly download it from our website.
-
-### Pricing
-Please check our pricing page for more information.',
-    'https://sunoai.ai/',
-    'https://img.tap4.ai/tools/2024/6/16/sunoai-ai-1718570705.png',
-    'https://img.tap4.ai/tools/2024/6/16/sunoai-ai-thumbnail-1718570707.png',
-    '2024-06-17 04:45:11',
-     NULL,
-    NULL,
-    0,
-    'voice'
-);
 
 INSERT INTO public.web_navigation (
     name, title, content, detail, url, image_url, thumbnail_url, collection_time, tag_name, website_data, star_rating, category_name
@@ -1118,7 +1068,7 @@ We offer a range of pricing plans to fit your needs:
     'https://www.askyourpdf.com/?via=tap4-ai&rel=sponsored&utm_source=tap4-ai&utm_medium=referral',
     'https://img.tap4.ai/tools/2024/6/15/askyourpdf-com-1718420826.png',
     'https://img.tap4.ai/tools/2024/6/15/askyourpdf-com-thumbnail-1718420829.png',
-    '2024-06-15 11:07:13',
+    '2024-06-15 09:07:13',
     NULL, 
     0,
     'productivity'
@@ -1156,7 +1106,7 @@ Unriddle has received positive reviews from researchers, students, and professio
     'https://www.unriddle.ai/?via=tap4-ai&rel=sponsored&utm_source=tap4-ai&utm_medium=referral',
     'https://img.tap4.ai/tools/2024/6/15/unriddle-ai-1718445372.png',
     'https://img.tap4.ai/tools/2024/6/15/unriddle-ai-thumbnail-1718445373.png',
-    '2024-06-15 17:56:17',
+    '2024-06-15 10:56:17',
     NULL,
     0,
     'business'
@@ -1212,39 +1162,41 @@ Depending on the plan, different tools will become available, allowing for perso
 
 
 INSERT INTO public.web_navigation (
-    name, title, content, detail, url, image_url, thumbnail_url, collection_time, tag_name, website_data, star_rating, category_name
+    name, title, content, detail, url, image_url, thumbnail_url, collection_time, website_data, star_rating, category_name
 ) VALUES (
-    'woy-ai',
-    'Woy AI Directory: List of the Best & Latest AI Tools in 2024',
-    'Discover the top AI tools of 2024 with the Woy.ai AI Directory! Explore the best and latest innovations in artificial intelligence technology.',
+    'getliner-com',
+    'Liner | AI Copilot on Your Workspace, Powered by ChatGPT',
+    'Try Liner. Enhance productivity and streamline your workflow with AI Copilot by summarizing articles, generating codes, and writing emails.',
     '
-### What is Woy AI Directory?
+### What is Liner?
+Liner is a productivity AI copilot that provides instant answers to questions, summarizes websites and documents, and interacts with PDFs. Powered by various AI models, Liner is designed to enhance research productivity.
 
-Woy AI Directory is a comprehensive collection of the latest and most effective AI tools across various domains, serving as a one-stop hub for tech enthusiasts, developers, and businesses.
+### How can I use Liner for free?
+Every user can utilize Liner basic features for free, including the one-click summarizer for articles, PDFs, and YouTube videos. Users can also upgrade to Liner Pro feature for unlimited access to AI models and agents.
 
-### How can I use Woy AI Directory?
+### What features does Liner offer?
+Liner features include:
+- Instant summarization of articles, PDFs, and YouTube videos
+- PDF upload and collaboration with AI for summarization and insight extraction
+- AI-powered writing suggestions for tone, grammar, and delivery
+- Access to various AI models and agents
+- Highlight and organization tools for insightful texts, YouTube videos, or images
+- Browser extension for seamless integration
 
-Woy AI Directory offers a curated list of top AI tools in 2024, including AI search engines, text-to-image generative AI models, video creation tools, and more. Users can explore and discover new AI tools to support various tasks and applications.
+### What is Liner pricing plan?
+Liner offers a Basic plan with limited features and a Professional plan with unlimited access to AI models and agents. The Pro plan also includes additional features such as unlimited file uploads and AI calls.
 
-### Features of Woy AI Directory
-
-* Comprehensive collection of AI tools across various domains
-* Curated list of top AI tools in 2024
-* Supports tech enthusiasts, developers, and businesses
-* Offers a one-stop hub for AI tool discovery
-
-### Pricing of Woy AI Directory
-
-Woy AI Directory is a free resource, providing users with access to a vast array of AI tools and products.',
-    'https://woy.ai',
-    'https://img.tap4.ai/tools/2024/6/18/woy-ai-1718679610.png',
-    'https://img.tap4.ai/tools/2024/6/18/woy-ai-thumbnail-1718679611.png',
-    '2024-06-18 11:00:14',
-     NULL,
+### What do users say about Liner?
+Liner is loved by users worldwide, with over 10 million users across 218 countries and 40 million AI searches per month. Trusted by Forbes, Liner has been selected as a "2022 Favorite" on the Chrome Web Store.',
+    'https://getliner.com/?via=tap4-ai&utm_source=tap4-ai&utm_medium=referral',
+    'https://img.tap4.ai/tools/2024/6/11/getliner-com-1718104218.png',
+    'https://img.tap4.ai/tools/2024/6/11/getliner-com-thumbnail-1718104219.png',
+    '2024-06-15 19:10:22',
     NULL,
     0,
-    'other'
+    'text-writing'
 );
+
 
 
 INSERT INTO public.web_navigation (
@@ -1299,7 +1251,7 @@ Vidnoz AI offers various pricing plans, including the Vidnoz AI Plan, Vidnoz Fle
     'https://www.vidnoz.com?a_aid=6670690a5354c&a_bid=5849fedc&rel=sponsored&utm_source=tap4-ai&utm_medium=referral',
     'https://img.tap4.ai/tools/2024/6/15/vidnoz-com-1718410026.png',
     'https://img.tap4.ai/tools/2024/6/15/vidnoz-com-thumbnail-1718410027.png',
-    '2024-06-15 08:07:13',
+    '2024-06-16 08:07:13',
      NULL,
     NULL,
     0,
@@ -1336,7 +1288,7 @@ You can `/animate` a static character with a text motion prompt.
     'https://www.viggle.ai/',
     'https://img.tap4.ai/tools/2024/6/15/viggle-ai-1718415726.png',
     'https://img.tap4.ai/tools/2024/6/15/viggle-ai-thumbnail-1718415728.png',
-    '2024-06-13 08:10:09',
+    '2024-06-16 10:10:09',
      NULL,
     NULL,
     0,
@@ -1377,10 +1329,116 @@ If the free uses per day do not meet your needs and you heavily rely on MyMap.ai
     'https://mymap.ai/?via=tap4-ai&rel=sponsored&utm_source=tap4-ai&utm_medium=referral',
     'https://img.tap4.ai/tools/2024/6/19/mymap-ai-1718775625.png',
     'https://img.tap4.ai/tools/2024/6/19/mymap-ai-thumbnail-1718775631.png',
-    '2024-06-19 13:40:36',
+    '2024-06-16 12:40:36',
     NULL, -- Assuming website_data can be NULL if not provided
     0,
     'text-writing'
+);
+
+
+INSERT INTO public.web_navigation (
+    name, title, content, detail, url, image_url, thumbnail_url, collection_time, website_data, star_rating, category_name
+) VALUES (
+    'pdf-ai',
+    'PDF.ai | Chat with your PDF documents',
+    'We built the ultimate ChatPDF app that allows you to chat with any PDF: ask questions, get summaries, find anything you need!',
+    '
+### What is PDF.ai?
+PDF.ai is an AI-driven platform that allows users to interact with their PDF documents through chat, extracting information, and receiving summaries and answers to questions.
+
+### How can I use PDF.ai for free?
+You can use PDF.ai for free with unlimited uploads and instant answers. Simply sign up and begin chatting with your PDF documents.
+
+### What are the key features of PDF.ai?
+PDF.ai offers various features, such as:
+
+- Uploading documents: Easily upload PDF documents for interaction.
+- Instant answers: Ask questions, extract information, and summarize documents using AI.
+- Source verification: Responses are supported by extracted sources from the uploaded document.
+
+### What are some popular use cases for PDF.ai?
+PDF.ai is suitable for a wide range of applications, including:
+
+- Legal documents
+- Financial reports
+- Books
+- Scientific papers
+- User manuals
+- Employee training
+
+### What sets PDF.ai apart from other PDF tools?
+PDF.ai is favored by over 1,000,000 satisfied users due to its unique AI-driven approach to PDF document interaction.
+
+### How can I make the most of PDF.ai features?
+By taking advantage of unlimited uploads and instant answers, users can explore a variety of AI-powered tools for different tasks.
+
+### Is PDF.ai secure and private?
+User privacy is highly valued, and data will not be used for training purposes. You can delete your account at any time, and all data will be removed.
+
+### When would I need a PDF.ai subscription?
+If you require additional features or support, you can consider subscribing to our affordable products.
+
+### Get started with PDF.ai today!
+Sign up for free and try the demo to experience the benefits of interacting with your PDF documents through chat.',
+    'https://pdf.ai/?via=tap4-ai&rel=sponsored&utm_source=tap4-ai&utm_medium=referral',
+    'https://img.tap4.ai/tools/2024/6/8/pdf-ai-1717879804.png',
+    'https://img.tap4.ai/tools/2024/6/8/pdf-ai-thumbnail-1717879804.png',
+    '2024-06-17 04:50:10',
+    NULL,
+    0,
+    'productivity'
+);
+
+
+
+INSERT INTO public.web_navigation (
+    name, title, content, detail, url, image_url, thumbnail_url, collection_time, tag_name, website_data, star_rating, category_name
+) VALUES (
+    'suno-ai',
+    'Suno',
+    'Suno is building a future where anyone can make great music.',
+    '
+### What is tap4.ai?
+tap4.ai is an AI-driven platform that provides access to a vast array of AI technologies for various needs, including ChatGPT, GPT-4o for text generation and image understanding, Dalle3 for image creation, and document analysis.
+
+### How Can I Use GPT-4o for Free on tap4.ai?
+Every user can utilize GPT-4o for free up to 20 times a day on tap4.ai. Subscribing to the platform grants additional benefits and extended access beyond the free usage limits.
+
+### Can I Generate Images Using tap4.ai?
+Yes, with Dalle3 text-to-image generation capability, users can create images, sharing credits with GPT-4o for a seamless creative experience.
+
+### How Many GPTs are Available on tap4.ai?
+tap4.ai offers nearly 200,000 GPT models for a wide variety of applications in work, study, and everyday life. You can freely use these GPTs without the need for a ChatGPT Plus subscription.
+
+### How Can I Maximize My Use of tap4.ai AI Services?
+By leveraging the daily free uses of GPT-4o document reading, and Dalle image generation, users can explore a vast range of AI-powered tools to support various tasks.
+
+### Will My Information be Used for Your Training Data?
+We highly value user privacy, and your data will not be used for any training purposes. If needed, you can delete your account at any time, and all your data will be removed as well.
+
+### When Would I Need a tap4.ai Subscription?
+If the 20 free GPT-4o conversations per day do not meet your needs and you heavily rely on GPT-4o, we invite you to subscribe to our affordable products.
+
+### Features:
+
+* Access to a vast array of AI technologies
+* GPT-4o for text generation and image understanding
+* Dalle3 for image creation
+* Document analysis
+* 200,000 GPT models for various applications
+* Free daily uses of GPT-4o and Dalle image generation
+* Affordable subscription options
+
+### Price:
+Our subscription options are designed to be affordable and accessible to everyone. Subscribe to tap4.ai today and unlock unlimited access to our AI services!',
+    'https://suno.ai/',
+    'https://img.tap4.ai/tools/2024/6/11/suno-ai-1718109003.png',
+    'https://img.tap4.ai/tools/2024/6/11/suno-ai-thumbnail-1718109004.png',
+    '2024-06-17 15:30:08',
+     NULL,
+    NULL,
+    0,
+    'voice'
 );
 
 INSERT INTO public.web_navigation (
@@ -1420,7 +1478,7 @@ If the 20 free GPT-4o conversations per day do not meet your needs and you heavi
     'https://openai.com/',
     'https://img.tap4.ai/tools/2024/6/17/openai-com-1718632263.png',
     'https://img.tap4.ai/tools/2024/6/17/openai-com-thumbnail-1718632268.png',
-    '2024-06-17 21:51:17',
+    '2024-06-17 18:51:17',
      NULL,
     NULL,
     0,
@@ -1490,7 +1548,7 @@ And many more!',
     'https://shipfa.st/?via=tap4-ai&rel=sponsored&utm_source=tap4-ai&utm_medium=referral',
     'https://img.tap4.ai/tools/2024/6/18/shipfa-st-1718678540.png',
     'https://img.tap4.ai/tools/2024/6/18/shipfa-st-thumbnail-1718678542.png',
-    '2024-06-18 10:42:33',
+    '2024-06-17 20:42:33',
     NULL,
     NULL,
     0,
@@ -1542,7 +1600,7 @@ If the 20 free GPT-4o conversations per day do not meet your needs and you heavi
     'https://openai.com/sora',
     'https://img.tap4.ai/tools/2024/6/17/openai-com-sora-1718635265.png',
     'https://img.tap4.ai/tools/2024/6/17/openai-com-sora-thumbnail-1718635327.png',
-    '2024-06-17 22:37:56',
+    '2024-06-18 10:37:56',
      NULL,
     NULL,
     0,
@@ -1587,60 +1645,9 @@ If the 20 free GPT-4o conversations per day do not meet your needs and you heavi
     'https://www.perplexity.ai/',
     'https://img.tap4.ai/tools/2024/6/13/perplexity-ai-1718250005.png',
     'https://img.tap4.ai/tools/2024/6/13/perplexity-ai-thumbnail-1718250007.png',
-    '2024-06-13 11:40:10',
+    '2024-06-18 12:40:10',
      NULL,
     NULL,
     0,
     'life-assistant'
-);
-
-
-INSERT INTO public.web_navigation (
-    name, title, content, detail, url, image_url, thumbnail_url, collection_time, tag_name, website_data, star_rating, category_name
-) VALUES (
-    'suno-ai',
-    'Suno',
-    'Suno is building a future where anyone can make great music.',
-    '
-### What is tap4.ai?
-tap4.ai is an AI-driven platform that provides access to a vast array of AI technologies for various needs, including ChatGPT, GPT-4o for text generation and image understanding, Dalle3 for image creation, and document analysis.
-
-### How Can I Use GPT-4o for Free on tap4.ai?
-Every user can utilize GPT-4o for free up to 20 times a day on tap4.ai. Subscribing to the platform grants additional benefits and extended access beyond the free usage limits.
-
-### Can I Generate Images Using tap4.ai?
-Yes, with Dalle3 text-to-image generation capability, users can create images, sharing credits with GPT-4o for a seamless creative experience.
-
-### How Many GPTs are Available on tap4.ai?
-tap4.ai offers nearly 200,000 GPT models for a wide variety of applications in work, study, and everyday life. You can freely use these GPTs without the need for a ChatGPT Plus subscription.
-
-### How Can I Maximize My Use of tap4.ai AI Services?
-By leveraging the daily free uses of GPT-4o document reading, and Dalle image generation, users can explore a vast range of AI-powered tools to support various tasks.
-
-### Will My Information be Used for Your Training Data?
-We highly value user privacy, and your data will not be used for any training purposes. If needed, you can delete your account at any time, and all your data will be removed as well.
-
-### When Would I Need a tap4.ai Subscription?
-If the 20 free GPT-4o conversations per day do not meet your needs and you heavily rely on GPT-4o, we invite you to subscribe to our affordable products.
-
-### Features:
-
-* Access to a vast array of AI technologies
-* GPT-4o for text generation and image understanding
-* Dalle3 for image creation
-* Document analysis
-* 200,000 GPT models for various applications
-* Free daily uses of GPT-4o and Dalle image generation
-* Affordable subscription options
-
-### Price:
-Our subscription options are designed to be affordable and accessible to everyone. Subscribe to tap4.ai today and unlock unlimited access to our AI services!',
-    'https://suno.ai/',
-    'https://img.tap4.ai/tools/2024/6/11/suno-ai-1718109003.png',
-    'https://img.tap4.ai/tools/2024/6/11/suno-ai-thumbnail-1718109004.png',
-    '2024-06-11 20:30:08',
-     NULL,
-    NULL,
-    0,
-    'voice'
 );
