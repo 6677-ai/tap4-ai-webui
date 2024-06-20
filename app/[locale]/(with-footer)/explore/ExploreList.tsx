@@ -1,27 +1,45 @@
-import { getWebNavigationList } from '@/network/webNavigation';
+import { createClient } from '@/db/supabase/client';
 
+import SearchForm from '@/components/home/SearchForm';
 import BasePagination from '@/components/page/BasePagination';
 import WebNavCardList from '@/components/webNav/WebNavCardList';
 
-const WEB_PAGE_SIZE = 20;
+import { TagList } from '../(home)/Tag';
 
-export const revalidate = 3600;
+const WEB_PAGE_SIZE = 12;
 
 export default async function ExploreList({ pageNum }: { pageNum?: string }) {
+  const supabase = createClient();
   const currentPage = pageNum ? Number(pageNum) : 1;
 
-  const res = await getWebNavigationList({
-    pageNum: currentPage,
-    pageSize: WEB_PAGE_SIZE,
-  });
+  const [{ data: categoryList }, { data: navigationList, count }] = await Promise.all([
+    supabase.from('navigation_category').select(),
+    supabase
+      .from('web_navigation')
+      .select('*', { count: 'exact' })
+      .order('collection_time', { ascending: false })
+      .range(currentPage - 1, currentPage - 1 + WEB_PAGE_SIZE - 1),
+  ]);
 
   return (
     <>
-      <WebNavCardList dataList={res.rows} />
+      <div className='flex w-full items-center justify-center'>
+        <SearchForm />
+      </div>
+      <div className='mb-10 mt-5'>
+        <TagList
+          data={categoryList!.map((item) => ({
+            id: String(item.id),
+            name: item.name,
+            href: `/category/${item.name}`,
+          }))}
+        />
+      </div>
+      <WebNavCardList dataList={navigationList!} />
       <BasePagination
         currentPage={currentPage}
         pageSize={WEB_PAGE_SIZE}
-        total={20}
+        total={count!}
         route='/explore'
         subRoute='/page'
         className='my-5 lg:my-10'

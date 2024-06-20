@@ -110,10 +110,18 @@
     "goHome": "ホームへ"
   },
   "Home": {
-    "title": "Tap4 AI - 2024年のベストAIツールを発見する",
-    "subTitle": "Tap4 AIツールディレクトリでお気に入りのAIツールを手に入れましょう。 AIツールリストはGPT-4oによって毎日更新されます。 ここで無料で提出して、SEOを強化しましょう。",
+    "title": "Tap4 AI - 最高のAIツールを発見 2024",
+    "subTitle": "Tap4 AIツールディレクトリでお気に入りのAIツールを入手してください。AIツールリストはGPT-4oによって毎日更新されます。今すぐSEOを強化するためにここで無料で提出できます。",
     "ai-navigate": "AIツールリスト",
-    "exploreMore": "もっと多くのAIツールを入手する"
+    "exploreMore": "さらに多くのAIツールを入手",
+    "checkDetail": "詳細を見る",
+    "search": "検索",
+    "result": "検索結果",
+    "empty": "データがありません"
+  },
+  "Category": {
+    "home": "ホーム",
+    "empty": "データがありません"
   },
   "Submit": {
     "title": "AIツールを提出する",

@@ -118,10 +118,18 @@
     "goHome": "回到首頁"
   },
   "Home": {
-    "title": "Tap4 AI - 發現2024年最佳AI工具",
-    "subTitle": "在Tap4 AI工具目錄中找到您喜愛的AI工具。AI工具列表每天由GPT-4o更新。現在免費提交以提升您的SEO。",
+    "title": "Tap4 AI - 探索最佳AI工具 2024",
+    "subTitle": "在Tap4 AI工具目錄中獲取您喜歡的AI工具。AI工具列表由GPT-4o每天更新。現在免費提交以增強您的SEO。",
     "ai-navigate": "AI工具列表",
-    "exploreMore": "獲取更多AI工具"
+    "exploreMore": "獲取更多AI工具",
+    "checkDetail": "查看詳情",
+    "search": "搜索",
+    "result": "搜索結果",
+    "empty": "無數據"
+  },
+  "Category": {
+    "home": "首頁",
+    "empty": "無數據"
   },
   "Submit": {
     "title": "提交您的AI工具",

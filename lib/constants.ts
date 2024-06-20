@@ -13,7 +13,13 @@ export const NAV_LINKS = [
   },
 ];
 
+export const RevalidateOneHour = 3600;
+export const RevalidateOneDay = 3600 * 24;
+export const RevalidateOneWeek = 3600 * 24 * 7;
+export const RevalidateOneMonth = 3600 * 24 * 30;
+
 export const PAGE_SIZE = 20;
+export const InfoPageSize = 12;
 
 export const FORM_PLACEHOLDER = 'https://tap4.ai/';
 
@@ -295,6 +301,20 @@ export const STARTUP_LIST = [
     Tag: '',
   },
   {
+    DA: 38,
+    Website: 'Tap4 AI',
+    URL: 'https://tap4.ai/submit',
+    Price: 'Free',
+    Tag: 'AI',
+  },
+  {
+    DA: 38,
+    Website: 'TopFree AI',
+    URL: 'https://topfree.ai/submit/',
+    Price: 'Free',
+    Tag: 'AI',
+  },
+  {
     DA: 34,
     Website: 'AITools.fyi',
     URL: 'https://www.aitools.fyi/',
@@ -424,13 +444,6 @@ export const STARTUP_LIST = [
     DA: 9,
     Website: 'AiProjectTools',
     URL: 'https://aiprojecttools.com/',
-    Price: 'Free',
-    Tag: 'AI',
-  },
-  {
-    DA: 7,
-    Website: 'Tap4 AI',
-    URL: 'https://tap4.ai/',
     Price: 'Free',
     Tag: 'AI',
   },

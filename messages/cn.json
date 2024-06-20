@@ -3,7 +3,7 @@
     "loading": "加载中..."
   },
   "Navigation": {
-    "title": "Tap4 AI工具目录",
+    "title": "开源Tap4 AI工具目录",
     "discover": "发现AI",
     "submit": "提交",
     "newtools": "新工具",
@@ -11,7 +11,7 @@
     "menu": "菜单"
   },
   "Footer": {
-    "title": "Tap4 AI工具目录",
+    "title": "开源Tap4 AI工具目录",
     "subTitle": "发现2024年最佳AI工具，尽在Tap4 AI工具目录！",
     "support": "支持",
     "tap4": "Tap4 AI",
@@ -118,10 +118,18 @@
     "goHome": "回到首页"
   },
   "Home": {
-    "title": "Tap4 AI - 发现2024年最佳AI工具",
-    "subTitle": "在Tap4 AI工具目录中找到您喜爱的AI工具。AI工具列表每天由GPT-4o更新。现在免费提交以提升您的SEO。",
+    "title": "Tap4 AI - 探索最佳AI工具 2024",
+    "subTitle": "在Tap4 AI工具目录中获取您喜欢的AI工具。AI工具列表由GPT-4o每天更新。现在免费提交以增强您的SEO。",
     "ai-navigate": "AI工具列表",
-    "exploreMore": "获取更多AI工具"
+    "exploreMore": "获取更多AI工具",
+    "checkDetail": "查看详情",
+    "search": "搜索",
+    "result": "搜索结果",
+    "empty": "无数据"
+  },
+  "Category": {
+    "home": "首页",
+    "empty": "无数据"
   },
   "Submit": {
     "title": "提交您的AI工具",

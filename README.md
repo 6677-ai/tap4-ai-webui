@@ -1,84 +1,165 @@
-# Tap4 AI Web UI
+# Open Source Tap4 AI Web UI
 
-Tap4 AI Web UI is the open source AI tools directory build by [Tap4 AI Tools Directory](https://tap4.ai). The project
-aims to help everyone build their own AI Tools Directory easily. You can fork the project and deploy to vercel by one
-click and update your own ai tools by the dataList in the project.
+This is an open-source AI Tools Directory project from [Tap4 AI Tool Directory](https://tap4.ai). Our goal is to make it
+easy for everyone to have their own AI Tools Directory, to collect their favorite AI tool products. This project is very
+lightweight and easy to maintain, suitable for individual developers interested in AI navigation sites, and also
+suitable for learners interested in NextJs. Everyone is welcome to fork and star.
 
-English | [简体中文](https://github.com/6677-ai/tap4-ai-webui/blob/main/README.zh-CN.md)
+[Simplified Chinese](https://github.com/6677-ai/tap4-ai-webui/blob/main/README.zh-CN.md) | English
 
-## Link Me
+# Support Tap4 AI in Producthunt
 
-You can contact me at Twitter: https://x.com/tap4ai
+<a href="https://www.producthunt.com/posts/ai-tools-directory-by-tap4-ai?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-ai&#0045;tools&#0045;directory&#0045;by&#0045;tap4&#0045;ai" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=464357&theme=light" alt="AI&#0032;Tools&#0032;Directory&#0032;by&#0032;Tap4&#0032;AI - Open&#0045;source&#0032;AI&#0032;navigation&#0032;&#0038;&#0032;discovery&#0032;with&#0032;multi&#0045;language | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
-if this project is helpful to you, buy me a coffee.
+## Version 2.0.0 Update Notes
+
+- AI site data is stored using a supabase database.
+- It is connected to the Tap4 AI crawler project, supporting fully automatic submission and collection.
+- Supports simple categorization and search.
+
+Note: If you are not familiar with the database, or are concerned about compatibility issues with version 1.0.0, please
+click to switch to the [version 1.0.0 branch](https://github.com/6677-ai/tap4-ai-webui/tree/v1.0.0).
+
+## Latest Features Introduction
+
+- Supports the display of AI tool lists.
+- Supports AI tool category filtering.
+- Supports AI tool search.
+- Supports the display of AI tool Markdown details.
+- SEO friendly (supports i18n).
+
+## Technical Stack Description
+
+- Uses NEXT 14 and app routing (React server components).
+- Supabase serverless database.
+- Internationalization.
+- SEO friendly (supports i18n).
+- Dynamic sitemap.xml (supports i18n).
+- Tailwind CSS.
+
+## Front-end Page Screenshot
+
+![tap4-ai](./public/images/tap4ai.zh-CN.png)
+
+## Follow and Support Links
+
+Please follow our Twitter: https://x.com/tap4ai
+
+If you find the project helpful, please consider buying me a coffee:
 
 <a href="https://www.buymeacoffee.com/tap4ai0o" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
-If you are interested with the project, you can add my wechat: helloleo2023, comment: "tap4 ai open-source" and I will add you to the wechat group. 
+If you are interested in the project, please add my WeChat: helloleo2023, note: "tap4 ai open source", or scan the QR
+code: ![tap4-ai-wx](./public/images/tap4-ai-wechat.jpg)
 
+## Deployment Instructions
 
-## Features
+### Deploying Tap4 AI Crawler
 
-- Internationalization
-- SEO friendly (with i18n)
-- sitemap.xml (dynamic with i18n)
-- Ship fast
-- NEXT 14 with app route (react server component)
-- Supabase serverless database
+See [Tap4 AI Crawler](https://github.com/6677-ai/tap4-ai-crawler) for details. After deployment, you can use the
+platform's domain name or a custom domain name as the API interface for generating AI tool web page content (e.g.,
+https://{domain}/site/crawl, where {domain} is your specific domain name).
 
-![tai4-ai](./public/images/tap4-ai.png)
+**You need to configure it in the CRAWLER_API environment variable.**
 
-## Quick Start
+### Creating a Supabase Database and Executing SQL Scripts
 
-### Deploy on Vercel **(Don't forget to setup env)**
+- Register on [Supabase](https://supabase.com/), create a database, and record the SUPABASE_URL and SUPABASE_ANON_KEY
+  for later Vercel environment variable deployment.
+- Execute the SQL files in the project's db directory on the Supabase backend: create_table.sql,
+  insert_category_data.sql, insert_data.sql.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F6677-ai%2Ftap4-ai-webui.git&env=NEXT_PUBLIC_SITE_URL,GOOGLE_TRACKING_ID,GOOGLE_ADSENSE_URL,CONTACT_US_EMAIL,NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY&project-name=tap4-ai)
+**Note: If you need to modify the data, you can refer to the SQL files or directly edit them on the Supabase backend.**
 
-### Also you can deploy on Zeabui
-[![Deployed on Zeabur](https://zeabur.com/deployed-on-zeabur-dark.svg)](https://zeabur.com?referralCode=leoli202303&utm_source=leoli202303)
+### Deploy on Vercel **(Don't forget to set the environment variables)**
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F6677-ai%2Ftap4-ai-webui.git&env=NEXT_PUBLIC_SITE_URL,GOOGLE_TRACKING_ID,GOOGLE_ADSENSE_URL,CONTACT_US_EMAIL,NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY,CRAWLER_API,API_AUTH_KEY&project-name=tap4-ai)
 
-## Runs on local
+Environment params as below:
 
-### install
+```sh
+# Your domain
+NEXT_PUBLIC_SITE_URL="https://tap4.ai"
 
-- node
-- nvm
-- pnpm
+# Google tracking ID and ad URL
+GOOGLE_TRACKING_ID="G-XXXXXXX" GOOGLE_ADSENSE_URL="https://xxxx.googlesyndication.com/xxxxx/xxxxx"
 
-### setup
+# Contact email at the bottom
+CONTACT_US_EMAIL="contact@tap4.ai"
 
-#### (1) clone this project
+# Supabase database URL and key
+NEXT_PUBLIC_SUPABASE_URL="https://xxxyyyzzz.supabase.co" NEXT_PUBLIC_SUPABASE_ANON_KEY="XXX.YYY.ZZZ"
+
+# Web crawler API interface
+CRAWLER_API="https://craw_domain/site/crawl"
+
+# Crawler interface verification key
+CRAWLER_API_KEY="xxxx"
+
+# Custom interface verification key
+CRON_AUTH_KEY="keyxxxx"
+
+```
+
+**Note: This version uses Vercel's scheduled tasks to automatically read and submit websites and generate website
+results.**
+
+- Free version of Vercel: Supports only one call per day, you can manually call {domain}/api/cron, using POST, Header:
+  {"Authorization":"Bearer auth_key"}, where auth_key is a custom configured environment variable.
+- Pro version of Vercel: You can refer to this document to configure
+  [Vercel Cron Jobs](https://vercel.com/docs/cron-jobs#cron-expressions).
+
+## Running Locally
+
+### Installation
+
+- Node
+- NVM
+- PNPM
+
+### Setup
+
+#### Clone this project
 
 ```sh
 git clone https://github.com/6677-ai/tap4-ai-webui.git
 ```
 
-#### (2) signup a account on supabase then create a project
+#### Create a Supabase Database and Execute SQL Scripts
 
-[https://supabase.com](https://supabase.com)
+Register on Supabase, create a database, and record the SUPABASE_URL and SUPABASE_ANON_KEY for later Vercel environment
+variable deployment. Execute the SQL files in the project's db directory on the Supabase backend: create_table.sql,
+insert_category_data.sql, insert_data.sql.
 
-#### (3) setup env
+**Note: If you need to modify the data, you can refer to the SQL files or directly edit them on the Supabase backend.**
 
-- root folder, create `.env.local` file and fill with values, for example:
+#### Set Environment Variables In the root directory, create a .env.local file and fill in the specific values, as shown below:
 
 ```sh
-# your domain
-NEXT_PUBLIC_SITE_URL="https://www.tap4.ai"
+# Your domain
+NEXT_PUBLIC_SITE_URL="https://tap4.ai"
 
-# google tracking id and adsense URL
-GOOGLE_TRACKING_ID="G-XXXXXXX"
-GOOGLE_ADSENSE_URL="https://xxxx.googlesyndication.com/xxxxx/xxxxx"
+# Google tracking ID and ad URL
+GOOGLE_TRACKING_ID="G-XXXXXXX" GOOGLE_ADSENSE_URL="https://xxxx.googlesyndication.com/xxxxx/xxxxx"
 
-# Footer contact email
+# Contact email at the bottom
 CONTACT_US_EMAIL="contact@tap4.ai"
 
-# your supabase database url and key
-NEXT_PUBLIC_SUPABASE_URL="https://xxxyyyzzz.supabase.co"
-NEXT_PUBLIC_SUPABASE_ANON_KEY="XXX.YYY.ZZZ"
+# Supabase database URL and key
+NEXT_PUBLIC_SUPABASE_URL="https://xxxyyyzzz.supabase.co" NEXT_PUBLIC_SUPABASE_ANON_KEY="XXX.YYY.ZZZ"
+
+# Web crawler API interface
+CRAWLER_API="https://craw_domain/site/crawl"
+
+# Crawler interface verification key
+CRAWLER_API_KEY="xxxx"
+
+# Custom interface verification key
+CRON_AUTH_KEY="keyxxxx"
+
 ```
 
-#### (4) runs on dev mode
+#### (5) runs on dev mode
 
 switch to the particular node version
 
@@ -100,25 +181,15 @@ pnpm dev
 
 ## How to upate your content?
 
-### update "home" or "explore" page (`/` or `/explore`)
+### Manually Modify the Database
 
-```sh
-lib/data.ts -> dataList
-```
+Modify the data in the web_navigation table of Supabase, please pay attention to the format of markdown.
 
-### update detail page (`/ai/website-name`)
+### If the Crawler Fails to Load, How to Handle It
 
-- PS: `detail` supports markdown
-
-```sh
-lib/data.ts -> detailList
-```
-
-### submit website and read it from database
-
-1. runs the website and then go to `/submit` page
-2. input the values and then submit the form
-3. open and check your supabase project
+Due to compatibility issues with different site anti-crawling mechanisms, the crawler may currently fail to load. For
+such issues, you currently need to manually query the database submit table, and then manually create the relevant
+website content and insert it into the web_navigation table.
 
 ## Wanna submit your website on Tap4.ai?
 
@@ -139,10 +210,10 @@ etc. For more, please visit: [Tap4 AI](https://tap4.ai)
 Here is the website list for submit your product to get users. Please visit
 [StartUp Your Product List](https://github.com/6677-ai/TAP4-AI-Directory/blob/main/Startup-Your-Product-List.md)
 
-### GPT-4o in OpenAI
+### Free Stable Diffusion 3 Online
 
-The amazing new feature released in 2024.05.14. GPT-4o is coming, let's chat with her. Please
-[GPT-4o](https://openai.com/index/hello-gpt-4o/)
+Stable Diffusion 3 Medium is currently available for free experience, please visit
+[Free Stable Diffusion 3 Online](https://stable-diffusion-3.online/)
 
 ### The Tattoo AI Generator and Design
 
@@ -165,8 +236,4 @@ girl, please visit [Best AI Girl Friend](https://aigirl.best)
 
 ### Website content AI crawler
 
-visit: [6677-ai/tap4-ai-crawler](https://github.com/6677-ai/tap4-ai-crawler), coming soon
-
-## LICENSE
-
-MIT
+visit: [6677-ai/tap4-ai-crawler](https://github.com/6677-ai/tap4-ai-crawler)
