@@ -1,5 +1,5 @@
 /* eslint-disable import/prefer-default-export */
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@/db/supabase/client';
 
 import crawler from './crawler';
@@ -14,7 +14,7 @@ import crawler from './crawler';
 // insert web_nav table (tags <- tags[0] or 'other')
 // update submit table status
 
-export async function POST(req) {
+export async function POST(req: NextRequest) {
   try {
     // 获取请求头中的 Authorization
     const authHeader = req.headers.get('Authorization');

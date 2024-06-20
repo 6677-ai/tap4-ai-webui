@@ -43,7 +43,6 @@ export default async function Page({ params }: { params: { code: string; pageNum
   return (
     <Content
       headerTitle={categoryList[0]!.title || params.code}
-      code={params.code}
       navigationList={navigationList!}
       currentPage={currentPage}
       total={count!}
