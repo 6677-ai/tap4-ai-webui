@@ -7,6 +7,10 @@ suitable for learners interested in NextJs. Everyone is welcome to fork and star
 
 [Simplified Chinese](https://github.com/6677-ai/tap4-ai-webui/blob/main/README.zh-CN.md) | English
 
+# Support Tap4 AI in Producthunt
+
+<a href="https://www.producthunt.com/posts/ai-tools-directory-by-tap4-ai?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-ai&#0045;tools&#0045;directory&#0045;by&#0045;tap4&#0045;ai" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=464357&theme=light" alt="AI&#0032;Tools&#0032;Directory&#0032;by&#0032;Tap4&#0032;AI - Open&#0045;source&#0032;AI&#0032;navigation&#0032;&#0038;&#0032;discovery&#0032;with&#0032;multi&#0045;language | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 ## Version 2.0.0 Update Notes
 
 - AI site data is stored using a supabase database.
@@ -194,14 +198,6 @@ website content and insert it into the web_navigation table.
 - open an issue here: [TAP4-AI-Directory](https://github.com/6677-ai/TAP4-AI-Directory/issues)
 - email us: contact@tap4.ai
 
-## Link Me
-
-You can contact me at Twitter: https://x.com/tap4ai
-
-if this project is helpful to you, buy me a coffee.
-
-<a href="https://www.buymeacoffee.com/tap4ai0o" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
 ## Links to our products
 
 ### TAP4-AI-Directory
@@ -240,8 +236,4 @@ girl, please visit [Best AI Girl Friend](https://aigirl.best)
 
 ### Website content AI crawler
 
-visit: [6677-ai/tap4-ai-crawler](https://github.com/6677-ai/tap4-ai-crawler), coming soon
-
-## LICENSE
-
-MIT
+visit: [6677-ai/tap4-ai-crawler](https://github.com/6677-ai/tap4-ai-crawler)
