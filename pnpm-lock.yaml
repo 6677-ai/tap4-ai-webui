@@ -29,6 +29,9 @@ importers:
       '@supabase/supabase-js':
         specifier: 2.43.2
         version: 2.43.2
+      '@tailwindcss/typography':
+        specifier: 0.5.12
+        version: 0.5.12(tailwindcss@3.4.4)
       class-variance-authority:
         specifier: 0.7.0
         version: 0.7.0
@@ -87,9 +90,6 @@ importers:
       '@ianvs/prettier-plugin-sort-imports':
         specifier: 4.2.1
         version: 4.2.1(prettier@3.2.5)
-      '@tailwindcss/typography':
-        specifier: 0.5.12
-        version: 0.5.12(tailwindcss@3.4.4)
       '@types/node':
         specifier: ^20
         version: 20.14.5
