@@ -53,6 +53,9 @@ importers:
       next-themes:
         specifier: 0.3.0
         version: 0.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      prop-types:
+        specifier: 15.8.1
+        version: 15.8.1
       query-string:
         specifier: 9.0.0
         version: 9.0.0
@@ -93,6 +96,9 @@ importers:
       '@types/node':
         specifier: ^20
         version: 20.14.5
+      '@types/prop-types':
+        specifier: 15.7.12
+        version: 15.7.12
       '@types/react':
         specifier: ^18
         version: 18.3.3

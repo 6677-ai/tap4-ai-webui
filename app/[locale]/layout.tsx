@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang={locale} suppressHydrationWarning>
       <head>
         <link rel='canonical' href='https://www.hiaitools.com' />
-        <link rel='icon' href='/favicon.png' type='image/x-icon' />
+        <link rel='icon' sizes='16x16' href='/app/11.png' type='image/x-icon' />
       </head>
       <body className='relative mx-auto flex min-h-screen flex-col bg-gray-100 text-gray-900'>
         <NextIntlClientProvider locale={locale} messages={messages}>

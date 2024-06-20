@@ -1,20 +1,18 @@
-import { HTMLAttributeAnchorTarget } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import PropTypes from 'prop-types';
 
 import { CONTACT_US_EMAIL } from '@/lib/env';
 
-function InfoLink({
-  href,
-  title,
-  target,
-  type,
-}: {
+interface InfoLinkProps {
   href: string;
   title: string;
-  target?: HTMLAttributeAnchorTarget;
+  target?: string;
   type?: string;
-}) {
+}
+
+function InfoLink({ href, title, target, type }: InfoLinkProps): JSX.Element {
   return (
     <Link
       href={href}
@@ -27,8 +25,14 @@ function InfoLink({
     </Link>
   );
 }
+InfoLink.propTypes = {
+  href: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  target: PropTypes.string,
+  type: PropTypes.string,
+};
 
-export default function Footer() {
+function Footer(): JSX.Element {
   const t = useTranslations('Footer');
 
   const SupportLinks = [
@@ -52,9 +56,12 @@ export default function Footer() {
   return (
     <footer className='w-full bg-gray-200'>
       <div className='mx-auto flex min-h-[150px] max-w-pc flex-col items-center justify-between p-10 pb-5 lg:h-[180px] lg:flex-row lg:px-0 lg:pb-10'>
-        <div className='flex flex-col items-center lg:items-stretch'>
-          <h1 className='text-xl font-bold text-gray-900 lg:h-8 lg:text-[32px]'>{t('title')}</h1>
-          <h2 className='text-xs text-gray-700'>{t('subTitle')}</h2>
+        <div className='flex items-center lg:flex-row'>
+          <Image src='/app/favicon.png' alt='Logo' width={100} height={100} />
+          <div className='flex flex-col items-center lg:items-start'>
+            <h1 className='text-xl font-bold text-gray-900 lg:h-8 lg:text-[32px]'>{t('title')}</h1>
+            <h2 className='text-xs text-gray-700'>{t('subTitle')}</h2>
+          </div>
         </div>
         <div className='mt-5 flex flex-col items-center gap-y-5 lg:mt-0 lg:flex-row lg:items-stretch lg:gap-x-10'>
           <div className='flex w-full flex-col gap-2'>
@@ -90,3 +97,5 @@ export default function Footer() {
     </footer>
   );
 }
+
+export default Footer;
