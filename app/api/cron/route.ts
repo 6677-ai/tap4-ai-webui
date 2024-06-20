@@ -1,4 +1,5 @@
 /* eslint-disable import/prefer-default-export */
+import { NextResponse } from 'next/server';
 import { createClient } from '@/db/supabase/client';
 
 import crawler from './crawler';
@@ -13,8 +14,24 @@ import crawler from './crawler';
 // insert web_nav table (tags <- tags[0] or 'other')
 // update submit table status
 
-export async function POST() {
+export async function POST(req) {
   try {
+    // 获取请求头中的 Authorization
+    const authHeader = req.headers.get('Authorization');
+
+    // 检查 Authorization 是否存在并验证 token
+    if (!authHeader || !authHeader.startsWith('Bearer ')) {
+      return NextResponse.json({ error: 'Authorization header is missing or malformed' }, { status: 401 });
+    }
+
+    const token = authHeader.split(' ')[1];
+    const cronKey = process.env.CRON_AUTH_KEY;
+    // 假设这里有一个函数 `verifyToken` 用于验证 token，如果验证失败则抛出错误
+    const isValid = cronKey === token;
+    if (!isValid) {
+      return NextResponse.json({ error: 'Invalid token' }, { status: 401 });
+    }
+
     const supabase = createClient();
 
     const [{ data: categoryList, error: categoryListError }, { data: submitList, error: submitListError }] =
