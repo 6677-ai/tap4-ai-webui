@@ -25,17 +25,39 @@
 
 <a href="https://www.buymeacoffee.com/tap4ai0o" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
-如果你对项目有兴趣，欢迎扫描二维码加微信群沟通： ![tap4-ai-wx-group](./public/images/tap4-ai-wechat-group.jpeg)
+如果你对项目有兴趣，欢迎添加我微信：helloleo2023， 备注："tap4 ai开源"，我会拉你进微信交流群.
 
 ## 快速开始
+
+#### 在supabase上注册一个账户，然后创建一个项目
+
+[https://supabase.com](https://supabase.com), 执行项目的sql脚本： db/db.sql
 
 ### 在Vercel上部署 **（别忘了设置环境变量）**
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F6677-ai%2Ftap4-ai-webui.git&env=NEXT_PUBLIC_SITE_URL,GOOGLE_TRACKING_ID,GOOGLE_ADSENSE_URL,CONTACT_US_EMAIL,NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY&project-name=tap4-ai)
 
-### 当然，你也可以选择Zeabui这种平台
-[![Deployed on Zeabur](https://zeabur.com/deployed-on-zeabur-dark.svg)](https://zeabur.com?referralCode=leoli202303&utm_source=leoli202303)
+环境变量如下：
 
+```sh
+# 你的域名
+NEXT_PUBLIC_SITE_URL="https://www.tap4.ai"
+
+# 谷歌索引 id 和 广告 URL
+GOOGLE_TRACKING_ID="G-XXXXXXX"
+GOOGLE_ADSENSE_URL="https://xxxx.googlesyndication.com/xxxxx/xxxxx"
+
+# 底部的联系邮箱
+CONTACT_US_EMAIL="contact@tap4.ai"
+
+# supabase 数据库的 url 和 key
+NEXT_PUBLIC_SUPABASE_URL="https://xxxyyyzzz.supabase.co"
+NEXT_PUBLIC_SUPABASE_ANON_KEY="XXX.YYY.ZZZ"
+```
+
+### 当然，你也可以选择Zeabui这种平台
+
+[![Deployed on Zeabur](https://zeabur.com/deployed-on-zeabur-dark.svg)](https://zeabur.com?referralCode=leoli202303&utm_source=leoli202303)
 
 ## 本地运行
 
@@ -55,7 +77,7 @@ git clone https://github.com/6677-ai/tap4-ai-webui.git
 
 #### （2）在supabase上注册一个账户，然后创建一个项目
 
-[https://supabase.com](https://supabase.com)
+[https://supabase.com](https://supabase.com), 执行项目的sql脚本： db/db.sql
 
 #### （3）设置环境变量
 
@@ -162,8 +184,4 @@ Best AI Girl Friend生成器和聊天产品。您可以生成您喜欢的角色�
 
 ### 网站内容爬虫代码
 
-访问：: [6677-ai/tap4-ai-crawler](https://github.com/6677-ai/tap4-ai-crawler), 即将上线
-
-## 许可证
-
-MIT
+访问：: [6677-ai/tap4-ai-crawler](https://github.com/6677-ai/tap4-ai-crawler).

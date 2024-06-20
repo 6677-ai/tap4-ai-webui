@@ -14,8 +14,8 @@ if this project is helpful to you, buy me a coffee.
 
 <a href="https://www.buymeacoffee.com/tap4ai0o" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
-If you are interested with the project, you can scan the qr code and enter the wechat group.
-![tap4-ai-wx-group](./public/images/tap4-ai-wechat-group.jpeg)
+If you are interested with the project, you can add my wechat: helloleo2023, comment: "tap4 ai open-source" and I will
+add you to the wechat group.
 
 ## Features
 
@@ -30,13 +30,31 @@ If you are interested with the project, you can scan the qr code and enter the w
 
 ## Quick Start
 
+#### Signup a account on supabase then create a project
+
+[https://supabase.com](https://supabase.com) and run the script in the project: db/db.sql
+
 ### Deploy on Vercel **(Don't forget to setup env)**
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F6677-ai%2Ftap4-ai-webui.git&env=NEXT_PUBLIC_SITE_URL,GOOGLE_TRACKING_ID,GOOGLE_ADSENSE_URL,CONTACT_US_EMAIL,NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY&project-name=tap4-ai)
 
-### Also you can deploy on Zeabui
-[![Deployed on Zeabur](https://zeabur.com/deployed-on-zeabur-dark.svg)](https://zeabur.com?referralCode=leoli202303&utm_source=leoli202303)
+The environment as below:
 
+```sh
+# your domain
+NEXT_PUBLIC_SITE_URL="https://www.tap4.ai"
+
+# google tracking id and adsense URL
+GOOGLE_TRACKING_ID="G-XXXXXXX"
+GOOGLE_ADSENSE_URL="https://xxxx.googlesyndication.com/xxxxx/xxxxx"
+
+# Footer contact email
+CONTACT_US_EMAIL="contact@tap4.ai"
+
+# your supabase database url and key
+NEXT_PUBLIC_SUPABASE_URL="https://xxxyyyzzz.supabase.co"
+NEXT_PUBLIC_SUPABASE_ANON_KEY="XXX.YYY.ZZZ"
+```
 
 ## Runs on local
 
@@ -56,7 +74,7 @@ git clone https://github.com/6677-ai/tap4-ai-webui.git
 
 #### (2) signup a account on supabase then create a project
 
-[https://supabase.com](https://supabase.com)
+[https://supabase.com](https://supabase.com) and run the script in the project: db/db.sql
 
 #### (3) setup env
 
@@ -165,8 +183,4 @@ girl, please visit [Best AI Girl Friend](https://aigirl.best)
 
 ### Website content AI crawler
 
-visit: [6677-ai/tap4-ai-crawler](https://github.com/6677-ai/tap4-ai-crawler), coming soon
-
-## LICENSE
-
-MIT
+visit: [6677-ai/tap4-ai-crawler](https://github.com/6677-ai/tap4-ai-crawler).
