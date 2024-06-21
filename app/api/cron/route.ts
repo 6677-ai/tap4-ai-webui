@@ -34,6 +34,8 @@ export async function POST(req: NextRequest) {
 
     const supabase = createClient();
 
+    console.log('supabase connected!');
+
     const [{ data: categoryList, error: categoryListError }, { data: submitList, error: submitListError }] =
       await Promise.all([
         supabase.from('navigation_category').select(),
@@ -44,6 +46,8 @@ export async function POST(req: NextRequest) {
           .order('is_feature', { ascending: false })
           .order('created_at', { ascending: true }),
       ]);
+
+    console.log('supabase get categoryList succeed!');
     if (categoryListError || !categoryList) {
       throw new Error(categoryListError.message);
     }
@@ -51,9 +55,12 @@ export async function POST(req: NextRequest) {
     if (submitListError || !submitList || !submitList[0]) {
       throw new Error(submitListError?.message);
     }
+    console.log('supabase get submitList succeed!');
 
     const firstSubmitData = submitList[0];
     const res = await crawler({ url: firstSubmitData.url!, tags: categoryList!.map((item) => item.name) });
+
+    console.log('api get crawler succeed!');
 
     if (res.code !== 200) {
       throw new Error(res.msg);
@@ -73,6 +80,7 @@ export async function POST(req: NextRequest) {
     if (insertWebNavigationError) {
       throw new Error(insertWebNavigationError.message);
     }
+    console.log('save result succeed!');
 
     const { error: updateSubmitError } = await supabase
       .from('submit')
@@ -82,7 +90,7 @@ export async function POST(req: NextRequest) {
     if (updateSubmitError) {
       throw new Error(updateSubmitError.message);
     }
-
+    console.log('update submit succeed!');
     return Response.json(res);
   } catch (error) {
     return Response.json({ error });

@@ -1475,9 +1475,45 @@ We highly value user privacy, and your data will not be used for any training pu
 ### When would I need a tap4.ai subscription?
 
 If the 20 free GPT-4o conversations per day do not meet your needs and you heavily rely on GPT-4o, we invite you to subscribe to our affordable products.',
-    'https://openai.com/',
+    'https://tap4.ai/',
     'https://img.tap4.ai/tools/2024/6/17/openai-com-1718632263.png',
     'https://img.tap4.ai/tools/2024/6/17/openai-com-thumbnail-1718632268.png',
+    '2024-06-17 18:51:17',
+     NULL,
+    NULL,
+    0,
+    'other'
+);
+
+INSERT INTO public.web_navigation (
+    name, title, content, detail, url, image_url, thumbnail_url, collection_time, tag_name, website_data, star_rating, category_name
+) VALUES (
+    'topfree-ai',
+    'TopFree AI Tools Directory',
+    'Top AI Tools 2024 - TopFree.AI Directory.',
+    '
+### What is TopFree.ai?
+
+TopFree.ai is an AI-driven platform that provides access to a vast array of AI technologies for various needs, including ChatGPT, GPT-4o for text generation and image understanding, and Dalle3 for image creation and document analysis.
+
+### How can I use GPT-4o for free on TopFree.ai?
+
+Every user can utilize GPT-4o for free up to 20 times a day on tap4.ai. Subscribing to the platform grants additional benefits and extended access beyond the free usage limits.
+
+### Can I generate images using TopFree.ai?
+
+Yes, with Dalle3 text-to-image generation capability, users can create images, sharing credits with GPT-4o for a seamless creative experience.
+
+### How many GPTs are available on TopFree.ai?
+
+TopFree.ai offers nearly 200,000 GPT models for a wide variety of applications in work, study, and everyday life. You can freely use these GPTs without the need for a ChatGPT Plus subscription.
+
+### How can I maximize my use of TopFree.ai AI services?
+
+By leveraging the daily free uses of GPT-4o document reading, and Dalle image generation, users can explore a vast range of AI-powered tools to support various tasks.',
+    'https://topfree.ai/',
+    'https://img.tap4.ai/tools/2024/6/20/topfree-ai-thumbnail-1718895757.png',
+    'https://img.tap4.ai/tools/2024/6/20/topfree-ai-thumbnail-1718895757.png',
     '2024-06-17 18:51:17',
      NULL,
     NULL,
