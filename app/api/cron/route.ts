@@ -49,11 +49,11 @@ export async function POST(req: NextRequest) {
 
     console.log('supabase get categoryList succeed!');
     if (categoryListError || !categoryList) {
-      throw new Error(categoryListError.message);
+      return NextResponse.json({ error: 'Category is null' }, { status: 201 });
     }
 
     if (submitListError || !submitList || !submitList[0]) {
-      throw new Error(submitListError?.message);
+      return NextResponse.json({ error: 'Submit list is null' }, { status: 202 });
     }
     console.log('supabase get submitList succeed!');
 
