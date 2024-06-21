@@ -57,41 +57,22 @@ export async function POST(req: NextRequest) {
     }
     console.log('supabase get submitList succeed!');
 
+    const callbackUrl = `${process.env.NEXT_PUBLIC_SITE_URL}/api/cron_callback`;
+
     const firstSubmitData = submitList[0];
-    const res = await crawler({ url: firstSubmitData.url!, tags: categoryList!.map((item) => item.name) });
+    const res = await crawler({
+      url: firstSubmitData.url!,
+      tags: categoryList!.map((item) => item.name),
+      callback_url: callbackUrl,
+      key: cronKey,
+    });
 
     console.log('api get crawler succeed!');
 
     if (res.code !== 200) {
       throw new Error(res.msg);
     }
-
-    const { error: insertWebNavigationError } = await supabase.from('web_navigation').insert({
-      content: res.data.description,
-      detail: res.data.detail,
-      name: res.data.name,
-      image_url: res.data.screenshot_data,
-      thumbnail_url: res.data.screenshot_thumbnail_data,
-      tag_name: res.data.tags && res.data.tags?.length ? res.data.tags[0] : 'other',
-      title: res.data.title,
-      url: res.data.url,
-    });
-
-    if (insertWebNavigationError) {
-      throw new Error(insertWebNavigationError.message);
-    }
-    console.log('save result succeed!');
-
-    const { error: updateSubmitError } = await supabase
-      .from('submit')
-      .update({ status: 1 })
-      .eq('id', firstSubmitData.id);
-
-    if (updateSubmitError) {
-      throw new Error(updateSubmitError.message);
-    }
-    console.log('update submit succeed!');
-    return Response.json(res);
+    return NextResponse.json({ message: 'Success' });
   } catch (error) {
     return Response.json({ error });
   }
