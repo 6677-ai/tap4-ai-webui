@@ -56,8 +56,8 @@
 ### 部署Tap4 AI Crawler
 
 具体见[Tap4 AI Crawler](https://github.com/6677-ai/tap4-ai-crawler) 部署完成后，可以使用平台提供的域名或者自定义域名，作
-为生成AI工具网页内容的API接口(示例：https://{domain}/site/crawl, {domain}为你的具体域名)，**需要配置到env环境变量
-CRAWLER_API**中
+为生成AI工具网页内容的API接口(示例：https://{crawler_domain}/site/crawl, {crawler_domain}为你的具体域名)，**需要配置到
+env环境变量CRAWLER_API**中
 
 ### 创建Supabase数据库及执行sql脚本
 
@@ -69,7 +69,8 @@ CRAWLER_API**中
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F6677-ai%2Ftap4-ai-webui.git&env=NEXT_PUBLIC_SITE_URL,GOOGLE_TRACKING_ID,GOOGLE_ADSENSE_URL,CONTACT_US_EMAIL,NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY,CRAWLER_API,API_AUTH_KEY&project-name=tap4-ai)
 
-环境变量参考如下:
+环境变量参考如下: **注：环境变量key必须添加，必须正确的key包括
+NEXT_PUBLIC_SITE_URL,NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY，其他可填写随意字符串**
 
 ```sh
 # Your domain
@@ -85,7 +86,7 @@ CONTACT_US_EMAIL="contact@tap4.ai"
 NEXT_PUBLIC_SUPABASE_URL="https://xxxyyyzzz.supabase.co" NEXT_PUBLIC_SUPABASE_ANON_KEY="XXX.YYY.ZZZ"
 
 # Web crawler API interface
-CRAWLER_API="https://craw_domain/site/crawl"
+CRAWLER_API="https://crawler_domain/site/crawl_async"
 
 # Crawler interface verification key
 CRAWLER_API_KEY="xxxx"
@@ -130,23 +131,27 @@ git clone https://github.com/6677-ai/tap4-ai-webui.git
 
 - 在根目录下，创建 `.env.local` 文件，填入具体数值，例子如下：
 
-环境变量参考如下:
+环境变量参考如下: **注：环境变量key必须添加，必须正确的key包括
+NEXT_PUBLIC_SITE_URL,NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY，其他可填写随意字符串**
 
 ```sh
 # Your domain
 NEXT_PUBLIC_SITE_URL="https://tap4.ai"
 
 # Google tracking ID and ad URL
-GOOGLE_TRACKING_ID="G-XXXXXXX" GOOGLE_ADSENSE_URL="https://xxxx.googlesyndication.com/xxxxx/xxxxx"
+GOOGLE_TRACKING_ID="G-XXXXXXX"
+
+GOOGLE_ADSENSE_URL="https://xxxx.googlesyndication.com/xxxxx/xxxxx"
 
 # Contact email at the bottom
 CONTACT_US_EMAIL="contact@tap4.ai"
 
 # Supabase database URL and key
-NEXT_PUBLIC_SUPABASE_URL="https://xxxyyyzzz.supabase.co" NEXT_PUBLIC_SUPABASE_ANON_KEY="XXX.YYY.ZZZ"
+NEXT_PUBLIC_SUPABASE_URL="https://xxxyyyzzz.supabase.co"
+NEXT_PUBLIC_SUPABASE_ANON_KEY="XXX.YYY.ZZZ"
 
 # Web crawler API interface
-CRAWLER_API="https://craw_domain/site/crawl"
+CRAWLER_API="https://crawler_domain/site/crawl_async"
 
 # Crawler interface verification key
 CRAWLER_API_KEY="xxxx"
