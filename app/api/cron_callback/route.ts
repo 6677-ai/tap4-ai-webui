@@ -36,28 +36,66 @@ export async function POST(req: NextRequest) {
 
     const supabase = createClient();
 
-    const { error: insertWebNavigationError } = await supabase.from('web_navigation').insert({
-      content: description,
-      detail,
-      name,
-      image_url: screenshot_data,
-      thumbnail_url: screenshot_thumbnail_data,
-      tag_name: tags && tags.length ? tags[0] : 'other',
-      title,
-      url,
-    });
+    // Check if name already exists
+    const { data: existingEntry, error: existingEntryError } = await supabase
+      .from('web_navigation')
+      .select('id')
+      .eq('name', name)
+      .single();
 
-    if (insertWebNavigationError) {
-      throw new Error(insertWebNavigationError.message);
+    if (existingEntryError && existingEntryError.code !== 'PGRST116') {
+      // PGRST116 means no rows found
+      throw new Error(existingEntryError.message);
     }
-    console.log('save result succeed!');
 
+    if (existingEntry) {
+      // Update existing entry
+      const { error: updateWebNavigationError } = await supabase
+        .from('web_navigation')
+        .update({
+          content: description,
+          detail,
+          image_url: screenshot_data,
+          thumbnail_url: screenshot_thumbnail_data,
+          tag_name: tags && tags.length ? tags[0] : 'other',
+          title,
+          url,
+        })
+        .eq('id', existingEntry.id);
+
+      if (updateWebNavigationError) {
+        throw new Error(updateWebNavigationError.message);
+      }
+
+      console.log('Update result succeed!');
+    } else {
+      // Insert new entry
+      const { error: insertWebNavigationError } = await supabase.from('web_navigation').insert({
+        content: description,
+        detail,
+        name,
+        image_url: screenshot_data,
+        thumbnail_url: screenshot_thumbnail_data,
+        tag_name: tags && tags.length ? tags[0] : 'other',
+        title,
+        url,
+      });
+
+      if (insertWebNavigationError) {
+        throw new Error(insertWebNavigationError.message);
+      }
+
+      console.log('Save result succeed!');
+    }
+
+    // Update submit table
     const { error: updateSubmitError } = await supabase.from('submit').update({ status: 1 }).eq('url', url);
 
     if (updateSubmitError) {
       throw new Error(updateSubmitError.message);
     }
-    console.log('update submit succeed!');
+
+    console.log('Update submit succeed!');
     return NextResponse.json({ message: 'Success' });
   } catch (error) {
     return NextResponse.json({ error: Error }, { status: 500 });
