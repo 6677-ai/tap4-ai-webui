@@ -58,6 +58,7 @@ export async function POST(req: NextRequest) {
           image_url: screenshot_data,
           thumbnail_url: screenshot_thumbnail_data,
           tag_name: tags && tags.length ? tags[0] : 'other',
+          category_name: tags && tags.length ? tags[0] : 'other',
           title,
           url,
         })
@@ -77,6 +78,7 @@ export async function POST(req: NextRequest) {
         image_url: screenshot_data,
         thumbnail_url: screenshot_thumbnail_data,
         tag_name: tags && tags.length ? tags[0] : 'other',
+        category_name: tags && tags.length ? tags[0] : 'other',
         title,
         url,
       });
