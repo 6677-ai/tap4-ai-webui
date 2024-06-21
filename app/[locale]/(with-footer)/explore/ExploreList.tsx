@@ -12,13 +12,17 @@ export default async function ExploreList({ pageNum }: { pageNum?: string }) {
   const supabase = createClient();
   const currentPage = pageNum ? Number(pageNum) : 1;
 
+  // start and end
+  const start = (currentPage - 1) * WEB_PAGE_SIZE;
+  const end = start + WEB_PAGE_SIZE - 1;
+
   const [{ data: categoryList }, { data: navigationList, count }] = await Promise.all([
     supabase.from('navigation_category').select(),
     supabase
       .from('web_navigation')
       .select('*', { count: 'exact' })
       .order('collection_time', { ascending: false })
-      .range(currentPage - 1, currentPage - 1 + WEB_PAGE_SIZE - 1),
+      .range(start, end),
   ]);
 
   return (
