@@ -62,6 +62,16 @@ export const dataList: WebNavigationListRow[] = [
     thumbnailUrl: 'https://hiaitools.s3.us-east-2.amazonaws.com/bai+tools++.png',
   },
   {
+    id: '4',
+    name: 'toptool',
+    title: 'TOP Tool',
+    content:
+      'Explore our extensive database featuring 5759 AI tools across 387 categories. Find the perfect solution to elevate your projects today!.',
+    url: 'https://www.toptool.app/en',
+    imageUrl: 'https://hiaitools.s3.us-east-2.amazonaws.com/top+tools.png',
+    thumbnailUrl: 'https://hiaitools.s3.us-east-2.amazonaws.com/top+tools.png',
+  },
+  {
     id: '1791403586373455873',
     name: 'undressing_ai',
     title: 'Undressing AI',
@@ -330,6 +340,23 @@ export const detailList: WebNavigationDetailData[] = [
     imageUrl: 'https://hiaitools.s3.us-east-2.amazonaws.com/bai+tools++.png',
     thumbnailUrl: 'https://hiaitools.s3.us-east-2.amazonaws.com/bai+tools++.png',
     collectionTime: '2024-05-20 00:00:00',
+    tagName: 'Website',
+    websiteData: '1000',
+    starRating: 5,
+    categoryName: 'Other',
+  },
+  {
+    name: 'toptool',
+    title: 'Top Tool',
+
+    detail:
+      '### Explore our extensive database featuring 5759 AI tools across 387 categories. Find the perfect solution to elevate your projects today!.',
+    content:
+      'Explore our extensive database featuring 5759 AI tools across 387 categories. Find the perfect solution to elevate your projects today!.',
+    url: 'https://www.toptool.app/en',
+    imageUrl: 'https://hiaitools.s3.us-east-2.amazonaws.com/top+tools.png',
+    thumbnailUrl: 'https://hiaitools.s3.us-east-2.amazonaws.com/top+tools.png',
+    collectionTime: '2024-06-20 00:00:00',
     tagName: 'Website',
     websiteData: '1000',
     starRating: 5,
