@@ -47,9 +47,19 @@ export const dataList: WebNavigationListRow[] = [
     name: 'chatgot',
     title: 'Chatgot',
     content: 'Chat freely, got every AI assistants here for You.',
-    url: 'https://hiaitools.s3.us-east-2.amazonaws.com/QQ%E6%88%AA%E5%9B%BE20240618115014.png',
+    url: 'https://chatgot.io',
     imageUrl: 'https://hiaitools.s3.us-east-2.amazonaws.com/QQ%E6%88%AA%E5%9B%BE20240618115014.png',
     thumbnailUrl: 'https://hiaitools.s3.us-east-2.amazonaws.com/QQ%E6%88%AA%E5%9B%BE20240618115014.png',
+  },
+  {
+    id: '4',
+    name: 'bai-tools',
+    title: 'Bai Tools',
+    content:
+      'BAI.tools is Best AI Tools Directory! Explore the best and latest innovations in artificial intelligence technology.',
+    url: 'https://bai.tools',
+    imageUrl: 'https://hiaitools.s3.us-east-2.amazonaws.com/bai+tools++.png',
+    thumbnailUrl: 'https://hiaitools.s3.us-east-2.amazonaws.com/bai+tools++.png',
   },
   {
     id: '1791403586373455873',
@@ -303,6 +313,22 @@ export const detailList: WebNavigationDetailData[] = [
     url: 'https://www.chatgot.io/',
     imageUrl: 'https://hiaitools.s3.us-east-2.amazonaws.com/QQ%E6%88%AA%E5%9B%BE20240618115014.png',
     thumbnailUrl: 'https://hiaitools.s3.us-east-2.amazonaws.com/QQ%E6%88%AA%E5%9B%BE20240618115014.png',
+    collectionTime: '2024-05-20 00:00:00',
+    tagName: 'Website',
+    websiteData: '1000',
+    starRating: 5,
+    categoryName: 'Other',
+  },
+  {
+    name: 'bai-tools',
+    title: 'Bai Tools',
+
+    detail:
+      '### BAI.tools is Best AI Tools Directory! Explore the best and latest innovations in artificial intelligence technology.',
+    content: 'Explore the best and latest innovations in artificial intelligence technology.',
+    url: 'https://bai.tools/',
+    imageUrl: 'https://hiaitools.s3.us-east-2.amazonaws.com/bai+tools++.png',
+    thumbnailUrl: 'https://hiaitools.s3.us-east-2.amazonaws.com/bai+tools++.png',
     collectionTime: '2024-05-20 00:00:00',
     tagName: 'Website',
     websiteData: '1000',
