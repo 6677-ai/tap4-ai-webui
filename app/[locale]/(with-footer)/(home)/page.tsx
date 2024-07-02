@@ -1,11 +1,16 @@
 import { Metadata } from 'next';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
-import { getWebNavigationList } from '@/network/webNavigation';
+import { createClient } from '@/db/supabase/client';
 import { CircleChevronRight } from 'lucide-react';
 import { getTranslations } from 'next-intl/server';
 
+import { RevalidateOneHour } from '@/lib/constants';
+import { WebNavigationListRow } from '@/lib/data'; // 确保导入正确路径
+import SearchForm from '@/components/home/SearchForm';
 import WebNavCardList from '@/components/webNav/WebNavCardList';
+
+import { TagList } from './Tag';
 
 const ScrollToTop = dynamic(() => import('@/components/page/ScrollToTop'), { ssr: false });
 
@@ -26,28 +31,59 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   };
 }
 
-export const revalidate = 3600;
+export const revalidate = RevalidateOneHour;
 
 export default async function Page() {
+  const supabase = createClient();
   const t = await getTranslations('Home');
-  const res = await getWebNavigationList({ pageNum: 1, pageSize: 20 });
+  const [{ data: categoryList }, { data: navigationList }] = await Promise.all([
+    supabase.from('navigation_category').select(),
+    supabase.from('web_navigation').select().order('collection_time', { ascending: false }).limit(12),
+  ]);
+
+  // 确保 navigationList 数据不为 null 并且映射到 WebNavigationListRow 类型
+  const mappedNavigationList: WebNavigationListRow[] | null = navigationList
+    ? navigationList.map((item) => ({
+        id: String(item.id), // 确保 id 是字符串
+        title: item.title,
+        url: item.url,
+        imageUrl: item.image_url || null, // 将 image_url 映射到 imageUrl
+        thumbnailUrl: item.thumbnail_url || null, // 将 thumbnail_url 映射到 thumbnailUrl
+        content: item.content,
+        name: item.name,
+      }))
+    : null;
+
+  // console.log(mappedNavigationList); // 验证映射后的数据结构
 
   return (
-    <div className='relative w-full bg-white'>
+    <div className='relative w-full'>
       <div className='relative mx-auto w-full max-w-pc flex-1 px-3 lg:px-0'>
         <div className='my-5 flex flex-col text-center lg:mx-auto lg:my-10 lg:gap-1'>
           <h1 className='text-2xl font-bold text-black lg:text-5xl'>{t('title')}</h1>
-          <h2 className='lg:text-l mt-6 text-balance  text-xl text-black'>{t('subTitle')}</h2> {/* 添加mt-4增加间距 */}
+          <h2 className='text-balance text-xs font-bold text-black lg:text-sm'>{t('subTitle')}</h2>
+        </div>
+        <div className='flex w-full items-center justify-center'>
+          <SearchForm />
+        </div>
+        <div className='mb-10 mt-5'>
+          <TagList
+            data={categoryList!.map((item) => ({
+              id: String(item.id),
+              name: item.name,
+              href: `/category/${item.name}`,
+            }))}
+          />
         </div>
         <div className='flex flex-col gap-5'>
-          <h2 className='text-center text-[18px] text-black lg:text-[32px]'>{t('ai-navigate')}</h2>
-          <WebNavCardList dataList={res.rows} />
+          <h2 className='text-center text-[18px] lg:text-[32px]'>{t('ai-navigate')}</h2>
+          {mappedNavigationList ? <WebNavCardList dataList={mappedNavigationList} /> : <p>Loading...</p>}
           <Link
             href='/explore'
-            className='mx-auto mb-5 flex w-fit items-center justify-center gap-5 rounded-[9px] border border-black p-[10px] text-sm leading-4 text-black hover:opacity-70'
+            className='mx-auto mb-5 flex w-fit items-center justify-center gap-5 rounded-[9px] border border-white p-[10px] text-sm leading-4 hover:opacity-70'
           >
             {t('exploreMore')}
-            <CircleChevronRight className='mt-[0.5] h-[20px] w-[20px] text-black' />
+            <CircleChevronRight className='mt-[0.5] h-[20px] w-[20px]' />
           </Link>
         </div>
         <ScrollToTop />

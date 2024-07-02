@@ -35,6 +35,8 @@
     "class-variance-authority": "0.7.0",
     "clsx": "2.1.0",
     "dayjs": "1.11.10",
+    "dotenv": "16.4.5",
+    "express": "4.19.2",
     "lucide-react": "0.365.0",
     "next": "14.1.4",
     "next-intl": "3.10.0",
@@ -50,10 +52,13 @@
     "sonner": "1.4.41",
     "tailwind-merge": "2.2.2",
     "tailwindcss-animate": "1.0.7",
+    "types": "0.1.1",
     "zod": "3.23.8"
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "4.2.1",
+    "@types/dotenv": "8.2.0",
+    "@types/express": "4.17.21",
     "@types/node": "^20",
     "@types/prop-types": "15.7.12",
     "@types/react": "^18",

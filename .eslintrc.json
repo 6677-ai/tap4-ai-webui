@@ -22,6 +22,10 @@
     "operator-linebreak": "off",
     "react/require-default-props": "off",
     "object-curly-newline": "off",
-    "linebreak-style": "off" 
+    "linebreak-style": ["error", "unix"],
+    "no-console": "warn", // 修改为warn，以便继续使用console.log
+    "import/prefer-default-export": "off", // 临时禁用该规则
+    "react/jsx-props-no-spreading": "off", // 临时禁用该规则
+    "react/destructuring-assignment": "off" // 临时禁用该规则
   }
 }

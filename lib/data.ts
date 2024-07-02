@@ -72,6 +72,16 @@ export const dataList: WebNavigationListRow[] = [
     thumbnailUrl: 'https://hiaitools.s3.us-east-2.amazonaws.com/top+tools.png',
   },
   {
+    id: '5',
+    name: 'viggle ai',
+    title: 'Viggle Ai',
+    content:
+      'Viggle AI is an experimental AI platform designed for creating unique and unconventional multimedia content. It generates sound, music, videos, and animations that are bizarre, faulty, and unfiltered, offering users a distinctive creative experience..',
+    url: 'https://viggle.ai/',
+    imageUrl: 'https://hiaitools.s3.us-east-2.amazonaws.com/top+tools.png',
+    thumbnailUrl: 'https://hiaitools.s3.us-east-2.amazonaws.com/top+tools.png',
+  },
+  {
     id: '1791403586373455873',
     name: 'undressing_ai',
     title: 'Undressing AI',

@@ -6,13 +6,15 @@ import { WebNavigationListRow } from '@/lib/data';
 import BaseImage from '../image/BaseImage';
 
 export default function WebNavCard({ name, thumbnailUrl, title, url, content }: WebNavigationListRow) {
+  // console.log('Props received by WebNavCard:', { name, thumbnailUrl, title, url, content });
+
   return (
     <div className='flex flex-col gap-3 rounded-[12px] bg-white p-4 shadow-md lg:p-6'>
       <Link href={`/ai/${name}`} title={title}>
         <BaseImage
           width={320}
           height={180}
-          src={thumbnailUrl || ''}
+          src={thumbnailUrl || '/path/to/default/image.jpg'}
           alt={title}
           title={title}
           className='aspect-[278/156] rounded-[8px] bg-gray-200 hover:opacity-70'
