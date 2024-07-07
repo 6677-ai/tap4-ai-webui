@@ -3,7 +3,7 @@
     "loading": "Cargando..."
   },
   "Navigation": {
-    "title": "Directorio de Herramientas de IA de Tap4",
+    "title": "Directorio de Herramientas de IA de ",
     "discover": "Descubrir",
     "submit": "Enviar",
     "newtools": "Nuevas Herramientas",
@@ -11,68 +11,18 @@
     "menu": "Menú"
   },
   "Footer": {
-    "title": "Directorio de Herramientas de IA de Tap4",
-    "subTitle": "¡Descubre las mejores herramientas de IA de 2024 con el Directorio de Herramientas de IA de Tap4!",
+    "title": "Directorio de Herramientas de IA de ",
+    "subTitle": "¡Descubre las mejores herramientas de IA de 2024 con el Directorio de Herramientas de IA de !",
     "support": "Soporte",
-    "tap4": "Tap4 AI",
+    "tap4": " AI",
     "tattoo": "Generador de Tatuajes AI",
     "privacy": "Política de Privacidad",
     "termsConditions": "Términos y Condiciones",
     "contactUs": "Contáctanos"
   },
-  "Faq": {
-    "title": "Preguntas Frecuentes",
-    "1": {
-      "question": "¿Qué es el Directorio de Herramientas de IA de Tap4?",
-      "answer": "El Directorio de Herramientas de IA de Tap4 - tap4.ai crea un directorio de herramientas de IA que te ayuda a encontrar tus herramientas de IA favoritas. Aquí puedes encontrar herramientas de escritura de IA, herramientas de marketing de IA, herramientas de parafraseo de IA, herramientas de SEO de IA, herramientas de aprendizaje de IA, herramientas generadoras de IA, herramientas de investigación de IA, herramientas de arte de IA, herramientas de música de IA, herramientas de video de IA, herramientas de codificación de IA, herramientas de fotografía de IA y más."
-    },
-    "2": {
-      "question": "¿Cómo encuentro tus herramientas de IA en el Directorio de Herramientas de IA de Tap4?",
-      "answer-1": "1. Abre tap4.ai.",
-      "answer-2": "2. Explora las herramientas de IA en el Directorio de Herramientas de IA de Tap4.",
-      "answer-3": "3. Haz clic en las herramientas de IA que necesitas para obtener los detalles y visita su sitio web."
-    },
-    "3": {
-      "question": "¿Cuáles son las características principales del Directorio de Herramientas de IA de Tap4?",
-      "answer-1": "1. Directorio gratuito de herramientas de IA: Es gratis encontrar tus herramientas de IA favoritas aquí.",
-      "answer-2": "2. Lista de inicio: La lista de inicio gratuita para desarrolladores de herramientas de IA."
-    },
-    "4": {
-      "question": "¿Es gratis enviar herramientas de IA al Directorio de Herramientas de IA de Tap4?",
-      "answer": "Sí, actualmente es gratis. ¡Pero debes compartir un enlace de retroceso para el Directorio de Herramientas de IA de Tap4!"
-    },
-    "5": {
-      "question": "¿Qué categorías de herramientas de IA admite el Directorio de Herramientas de IA de Tap4?",
-      "answer": "Más adelante, admitiremos todo tipo de herramientas de IA. Por favor, espera unos días."
-    },
-    "6": {
-      "question": "¿Con qué frecuencia se actualiza la lista de herramientas de IA en el Directorio de Herramientas de IA de Tap4?",
-      "answer": "La lista de herramientas de IA se actualiza diariamente."
-    },
-    "7": {
-      "question": "¿Apoya aquí a GPT-4o o a Sora AI?",
-      "answer": "Puedes obtener la herramienta GPT-4o o Sora AI aquí. Aquí tienes la introducción a GPT-4o y Sora Video, y puedes visitar el sitio web de las herramientas."
-    },
-    "8": {
-      "question": "Solución de Problemas",
-      "answer": "Si los contenidos no se muestran, intenta usar otro navegador o borrar tu caché. Si los problemas persisten, contáctanos en contact@6677.ai."
-    },
-    "9": {
-      "question": "¿Cómo se genera el contenido del Directorio de IA de Tap4?",
-      "answer": "El contenido de la descripción de las herramientas de IA es generado por GPT-4o de OpenAI."
-    },
-    "10": {
-      "question": "¿Cuáles son los derechos de uso de las herramientas de IA?",
-      "answer": "El Directorio de Herramientas de IA de Tap4 es solo el directorio para herramientas de IA. Los derechos de uso de las herramientas de IA se basan en el sitio web de las herramientas de IA."
-    },
-    "11": {
-      "question": "¿Es de código abierto la interfaz de usuario web del Directorio de Herramientas de IA de Tap4?",
-      "answer": "Sí, pondremos la interfaz de usuario web del Directorio de Herramientas de IA de Tap4 en GitHub (https://github.com/6677-ai/tap4-ai-webui) de código abierto. ¡Por favor, danos una estrella!"
-    }
-  },
   "FooterNavigation": {
     "privacyPolicy": {
-      "1-h1": "Política de Privacidad del Directorio de Herramientas de IA de Tap4",
+      "1-h1": "Política de Privacidad del Directorio de Herramientas de IA de ",
       "1-p": "Esta página se utiliza para informar a los visitantes sobre mis políticas con respecto a la recopilación, el uso y la divulgación de información personal si alguien decide utilizar mi servicio. Al utilizar mi servicio, usted acepta la recopilación y el uso de información en relación con esta política. La información personal que recojo se utiliza para proporcionar y mejorar el servicio. No utilizaré ni compartiré su información con nadie, excepto como se describe en esta Política de Privacidad. Los términos utilizados en esta Política de Privacidad tienen los mismos significados que en nuestros Términos y Condiciones.",
       "2-h2": "1. Recopilación y Uso de Información",
       "2-p": "Para una mejor experiencia mientras utiliza nuestro Servicio, puedo solicitarle que nos proporcione cierta información de identificación personal. La información que solicito se guardará en su dispositivo y no será recopilada de ninguna manera por mí. La aplicación utiliza servicios de terceros que pueden recopilar información utilizada para identificarlo.",
@@ -95,22 +45,22 @@
       "8-p": "Podemos actualizar nuestra Política de Privacidad de vez en cuando. Por lo tanto, se le recomienda que revise esta página periódicamente para ver cualquier cambio. Le notificaré cualquier cambio publicando la nueva Política de Privacidad en esta página. Estos cambios son efectivos inmediatamente después de que se publiquen en esta página."
     },
     "termsConditions": {
-      "1-h1": "Términos de Servicio para el Directorio de IA de Tap4",
-      "1-p": "¡Bienvenido al Directorio de IA de Tap4! Nuestro sitio web, ubicado en https://tap4.ai (\"Sitio web\"), está dedicado a proporcionarle la capacidad de crear imágenes personalizadas. Al acceder o utilizar nuestro Sitio web, acepta quedar sujeto a estos Términos de Servicio (\"Términos\"). Si no está de acuerdo con alguna parte de los términos, queda prohibido utilizar el Sitio web.",
+      "1-h1": "Términos de Servicio para el Directorio de IA de ",
+      "1-p": "¡Bienvenido al Directorio de IA de ! Nuestro sitio web, ubicado en https://aiinno.com (\"Sitio web\"), está dedicado a proporcionarle la capacidad de crear imágenes personalizadas. Al acceder o utilizar nuestro Sitio web, acepta quedar sujeto a estos Términos de Servicio (\"Términos\"). Si no está de acuerdo con alguna parte de los términos, queda prohibido utilizar el Sitio web.",
       "2-h2": "1. Licencia de Uso",
       "2-p": "Se le otorga una licencia limitada, no exclusiva y no transferible para utilizar el Sitio web y sus servicios para fines personales y no comerciales. Esta licencia no incluye ningún derecho para copiar, modificar o distribuir el contenido del Sitio web o utilizarlo para fines comerciales sin nuestro consentimiento previo por escrito.",
       "3-h2": "2. Propiedad",
-      "3-p": "La propiedad de las imágenes generadas a partir de texto en el Sitio web pertenece a la persona que creó la imagen. Tap4.ai no reclama ningún derecho de propiedad sobre las imágenes creadas por los usuarios.",
+      "3-p": "La propiedad de las imágenes generadas a partir de texto en el Sitio web pertenece a la persona que creó la imagen. aiinno no reclama ningún derecho de propiedad sobre las imágenes creadas por los usuarios.",
       "4-h2": "3. Recopilación de Datos del Usuario",
       "4-p": "Recopilamos datos personales (nombre, correo electrónico e información de pago) y datos no personales (cookies web) para mejorar nuestros servicios. El uso de estos datos está regido por nuestra Política de Privacidad, que se puede encontrar en",
       "terms-of-service": "terms-of-service",
       "5-h2": "4. Ley Aplicable",
       "5-p": "Estos Términos se regirán e interpretarán de acuerdo con las leyes de los Estados Unidos de América, sin tener en cuenta sus disposiciones sobre conflicto de leyes.",
       "6-h2": "5. Cambios en los Términos",
-      "6-p": "Tap4 AI Directorio se reserva el derecho, a nuestra entera discreción, de modificar o reemplazar estos Términos en cualquier momento. Notificaremos a los usuarios cualquier cambio por correo electrónico. Su uso continuado del Sitio web después de cualquier cambio en estos Términos constituirá su aceptación de dichos cambios.",
+      "6-p": " AI Directorio se reserva el derecho, a nuestra entera discreción, de modificar o reemplazar estos Términos en cualquier momento. Notificaremos a los usuarios cualquier cambio por correo electrónico. Su uso continuado del Sitio web después de cualquier cambio en estos Términos constituirá su aceptación de dichos cambios.",
       "7-h2": "6. Información de Contacto",
-      "7-p": "Si tiene alguna pregunta sobre estos Términos, contáctenos en contact@6677.ai.",
-      "last-p": "Al utilizar el Directorio de IA de Tap4, usted acepta estos Términos de Servicio."
+      "7-p": "Si tiene alguna pregunta sobre estos Términos, contáctenos en system@aiinno.com.",
+      "last-p": "Al utilizar el Directorio de IA de , usted acepta estos Términos de Servicio."
     }
   },
   "NotFound": {
@@ -118,14 +68,14 @@
     "goHome": "Ir a Inicio"
   },
   "Home": {
-    "title": "Tap4 AI - Descubre las Mejores Herramientas de IA 2024",
-    "subTitle": "Obtén tus herramientas de IA favoritas en el Directorio de Herramientas de IA de Tap4. La lista de herramientas de IA se actualiza diariamente por GPT-4o. Es gratis enviar aquí para mejorar tu SEO ahora.",
+    "title": " AI - Descubre las Mejores Herramientas de IA 2024",
+    "subTitle": "Obtén tus herramientas de IA favoritas en el Directorio de Herramientas de IA de . La lista de herramientas de IA se actualiza diariamente por GPT-4o. Es gratis enviar aquí para mejorar tu SEO ahora.",
     "ai-navigate": "Lista de Herramientas de IA",
     "exploreMore": "Explorar Más Herramientas de IA"
   },
   "Submit": {
     "title": "Envía tu Herramienta de IA",
-    "subTitle": "Envía tu Herramienta de IA y Obtén tráfico desde el Directorio de IA de Tap4",
+    "subTitle": "Envía tu Herramienta de IA y Obtén tráfico desde el Directorio de IA de ",
     "website": "Nombre del Sitio Web",
     "url": "URL",
     "submit": "Enviar",
@@ -136,7 +86,7 @@
   },
   "Startup": {
     "title": "Impulsa el Lanzamiento de tu Startup",
-    "subTitle": "La Lista Definitiva de Sitios Web para Lanzar y Promocionar tu Startup en Línea. Para agregar a la lista o ayudar a enviar tu producto a la lista gratuita, por favor contáctanos: contact@tap4.ai.",
+    "subTitle": "La Lista Definitiva de Sitios Web para Lanzar y Promocionar tu Startup en Línea. Para agregar a la lista o ayudar a enviar tu producto a la lista gratuita, por favor contáctanos: system@aiinno.com.",
     "updateTime": "Curada y actualizada diariamente. Última actualización:",
     "table": {
       "da": "DA",
@@ -152,26 +102,26 @@
   },
   "Explore": {
     "title": "Descubre las Mejores Herramientas de IA 2024",
-    "subTitle": "Obtén tus herramientas de IA favoritas en el Directorio de Herramientas de IA de Tap4. La lista de herramientas de IA se actualiza diariamente por GPT-4o."
+    "subTitle": "Obtén tus herramientas de IA favoritas en el Directorio de Herramientas de IA de . La lista de herramientas de IA se actualiza diariamente por GPT-4o."
   },
   "Metadata": {
     "home": {
-      "title": "Obtén tus mejores Herramientas de IA | Directorio de IA de Tap4",
-      "description": "El Directorio de IA de Tap4 es una herramienta que proporciona un Directorio gratuito de Herramientas de IA. Obtén tus herramientas de IA favoritas con el Directorio de IA de Tap4, el cual tiene como objetivo recopilar todas las herramientas de IA y ofrecer lo mejor para los usuarios.",
-      "keywords": "Directorio de IA de Tap4"
+      "title": "Obtén tus mejores Herramientas de IA | Directorio de IA de ",
+      "description": "El Directorio de IA de  es una herramienta que proporciona un Directorio gratuito de Herramientas de IA. Obtén tus herramientas de IA favoritas con el Directorio de IA de , el cual tiene como objetivo recopilar todas las herramientas de IA y ofrecer lo mejor para los usuarios.",
+      "keywords": "Directorio de IA de "
     },
     "ai": {
-      "titleSubfix": "Directorio de IA de Tap4"
+      "titleSubfix": "Directorio de IA de "
     },
     "explore": {
-      "title": "Mejor Exploración de Herramientas de IA 2024 | Directorio de IA de Tap4",
-      "titlePrefix": "Explorar Directorio de IA de Tap4",
-      "titleSuffix": "Directorio de IA de Tap4",
-      "description": "El Directorio de IA de Tap4 es una herramienta que proporciona un Directorio gratuito de Herramientas de IA. Obtén tus herramientas de IA favoritas con el Directorio de IA de Tap4, el cual tiene como objetivo recopilar todas las herramientas de IA y ofrecer lo mejor para los usuarios.",
-      "keywords": "Directorio de IA de Tap4"
+      "title": "Mejor Exploración de Herramientas de IA 2024 | Directorio de IA de ",
+      "titlePrefix": "Explorar Directorio de IA de ",
+      "titleSuffix": "Directorio de IA de ",
+      "description": "El Directorio de IA de  es una herramienta que proporciona un Directorio gratuito de Herramientas de IA. Obtén tus herramientas de IA favoritas con el Directorio de IA de , el cual tiene como objetivo recopilar todas las herramientas de IA y ofrecer lo mejor para los usuarios.",
+      "keywords": "Directorio de IA de "
     },
     "submit": {
-      "title": "Envía tu herramienta de IA y obtén tráfico | Directorio de IA de Tap4"
+      "title": "Envía tu herramienta de IA y obtén tráfico | Directorio de IA de "
     }
   }
 }

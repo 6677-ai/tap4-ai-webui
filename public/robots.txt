@@ -1,4 +1,4 @@
-Sitemap: https://www.tap4.ai/sitemap.xml
+Sitemap: https://www.aiinno.com/sitemap.xml
 
 User-agent: *
 Allow: /
