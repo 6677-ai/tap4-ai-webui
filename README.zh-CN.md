@@ -4,7 +4,7 @@
 收录自己喜欢的AI工具产品。这个项目非常轻量级，维护简单，适合对AI导航站感兴趣的个人开发者，也适合对NextJs有兴趣的学习者，
 欢迎大家fork和star。
 
-[English](https://github.com/6677-ai/tap4-ai-webui/blob/main/README.md) | 简体中文
+[English](https://github.com/6677-ai/tap4-ai-webui/blob/main/README.md) | [Japanese](https://github.com/6677-ai/tap4-ai-webui/blob/main/README.ja-JP.md) | 简体中文
 
 ## 请在Product Hunt支持下Tap4 AI
 
