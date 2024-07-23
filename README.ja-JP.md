@@ -2,7 +2,7 @@
 
 これは [Tap4 AI ツールディレクトリ](https://tap4.ai) からのオープンソース AI ツールディレクトリプロジェクトです。私たちの目標は、誰もが自分のお気に入りの AI ツールを収集するための AI ツールディレクトリを簡単に持てるようにすることです。このプロジェクトは非常に軽量で、メンテナンスが容易であり、AI ナビゲーションサイトに興味のある個人開発者や NextJs に興味のある学習者に適しています。皆さんのフォークとスターを歓迎します。
 
-[簡体字中国語](https://github.com/6677-ai/tap4-ai-webui/blob/main/README.zh-CN.md) | 英語
+[簡体字中国語](https://github.com/6677-ai/tap4-ai-webui/blob/main/README.zh-CN.md) | [英語](https://github.com/6677-ai/tap4-ai-webui/blob/main/README.md) | 日本語
 
 ## Product Hunt で Tap4 AI をサポート
 
