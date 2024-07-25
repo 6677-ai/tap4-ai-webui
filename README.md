@@ -231,17 +231,6 @@ Stable Diffusion 3 Medium is currently available for free experience, please vis
 Tattao AI Design is a tattoo ai generator and design for the tattoo fans. If you are interested with it, visit
 [Tattoo AI Design](https://tattooai.design)
 
-## Sponsor List
-
-### Anime Girl Studio -- AI Anime Girl Chat & Generator
-
-Anime Girl Studio is the ai anime girl generator and chat product. You can generate what you like and chat with the AI
-anime girl, please visit [Anime Girl Studio](https://animegirl.studio)
-
-### Best AI Girl Friend -- Best AI Girl Chat & Generator
-
-Best AI Girl Friend is the ai girl generator and chat product. You can generate what you like and chat with the AI anime
-girl, please visit [Best AI Girl Friend](https://aigirl.best)
 
 ## Other open source
 
