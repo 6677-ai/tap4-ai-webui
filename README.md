@@ -202,7 +202,14 @@ Due to compatibility issues with different site anti-crawling mechanisms, the cr
 such issues, you currently need to manually query the database submit table, and then manually create the relevant
 website content and insert it into the web_navigation table.
 
+### How to get the ai tools for project initialization?
+
+You can get the 13000+ AIs from Tap4 AI collected from other AI Tools Directory in
+[AI Source List](https://github.com/6677-ai/tap4-ai-webui/blob/main/ai_source_list)
+
 ## Wanna submit your website on Tap4.ai?
+
+Open: [Tap4 AI](https://tap4.ai)
 
 ### Wanna add you website to our `/startup` page?
 
@@ -230,7 +237,6 @@ Stable Diffusion 3 Medium is currently available for free experience, please vis
 
 Tattao AI Design is a tattoo ai generator and design for the tattoo fans. If you are interested with it, visit
 [Tattoo AI Design](https://tattooai.design)
-
 
 ## Other open source
 

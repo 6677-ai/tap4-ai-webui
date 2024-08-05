@@ -3,21 +3,21 @@ import { useTranslations } from 'next-intl';
 
 function TitleItem({ children }: { children: React.ReactNode }) {
   return (
-    <h2 className='flex items-center gap-1 text-2xl'>
+    <h3 className='flex items-center gap-1 text-2xl'>
       <CircleHelp /> {children}
-    </h2>
+    </h3>
   );
 }
 
 function ContentItem({ children }: { children: React.ReactNode }) {
-  return <h3 className='mt-3 text-white/60'>{children}</h3>;
+  return <p className='mt-3 text-white/60'>{children}</p>;
 }
 
 export default function Faq() {
   const t = useTranslations('Faq');
   return (
     <div className='mx-auto max-w-pc space-y-8 pb-5'>
-      <h1 className='text-center text-2xl font-bold lg:pb-3 lg:text-3xl'>{t('title')}</h1>
+      <h2 className='text-center text-2xl font-bold lg:pb-3 lg:text-3xl'>{t('title')}</h2>
       <div className='grid grid-cols-1 gap-5 px-3 lg:grid-cols-2 lg:gap-16 lg:px-0'>
         <div>
           <TitleItem>{t('1.question')}</TitleItem>
