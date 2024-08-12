@@ -468,4 +468,11 @@ export const STARTUP_LIST = [
     Price: 'Free',
     Tag: 'AI',
   },
+  {
+    DA: 10,
+    Website: 'Artiverse AI',
+    URL: 'https://artiverse.app/',
+    Price: 'Free',
+    Tag: 'AI',
+  },
 ];

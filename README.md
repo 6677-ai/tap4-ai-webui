@@ -228,6 +228,21 @@ etc. For more, please visit: [Tap4 AI](https://tap4.ai)
 Here is the website list for submit your product to get users. Please visit
 [StartUp Your Product List](https://github.com/6677-ai/TAP4-AI-Directory/blob/main/Startup-Your-Product-List.md)
 
+### Flux AI Image Generator
+
+Flux AI Image Generator is currently available for free experience, please visit
+[Flux AI Image Generator](https://flux-ai.io/)
+
+### Photo to Video AI
+
+Photo to Video AI is currently available for free experience, please visit
+[Photo to Video AI](https://dreammachineai.online/)
+
+### Flux Pro Image Generator
+
+Flux Pro Image Generator is currently available for free experience, please visit
+[Flux Pro Image Generator](https://flux-pro.net/)
+
 ### Free Stable Diffusion 3 Online
 
 Stable Diffusion 3 Medium is currently available for free experience, please visit

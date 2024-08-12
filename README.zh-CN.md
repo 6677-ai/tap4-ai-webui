@@ -221,25 +221,26 @@ pnpm dev
 这是提交您的产品以获取用户的网站列表。请访问
 [Launch Your Product](https://github.com/6677-ai/TAP4-AI-Directory/blob/main/Startup-Your-Product-List.md)
 
+### Flux AI Image Generator
+
+Flux AI Image Generator现在支持免费体验，欢迎点击访问： [Flux AI Image Generator](https://flux-ai.io/)
+
+### Photo to Video AI
+
+Photo to Video AI现在支持免费体验，欢迎点击访问： [Photo to Video AI](https://dreammachineai.online/)
+
+### Flux Pro Image Generator
+
+Flux Pro Image Generator现在支持免费体验，欢迎点击访问： [Flux Pro Image Generator](https://flux-pro.net/)
+
 ### Free Stable Diffusion 3 Online
 
-Stable Diffusion 3 Medium目前可以免费体验，请访问 [Free Stable Diffusion 3 Online](https://stable-diffusion-3.online/)
+Stable Diffusion 3 Medium目前可以免费体验，欢迎点击访问：
+[Free Stable Diffusion 3 Online](https://stable-diffusion-3.online/)
 
 ### The Tattoo AI Generator and Design
 
-Tattao AI Design是为纹身爱好者设计的纹身ai生成器，请访问 [Tattoo AI Design](https://tattooai.design)
-
-## 赞助列表
-
-### Anime Girl Studio -- AI Anime Girl Chat & Generator
-
-Anime Girl Studio是AI anime girl生成器和聊天产品。您可以生成您喜欢的角色并与AI anime girl聊天，请访问
-[Anime Girl Studio](https://animegirl.studio)
-
-### Best AI Girl Friend -- Best AI Girl Chat & Generator
-
-Best AI Girl Friend生成器和聊天产品。您可以生成您喜欢的角色并与AI girl聊天，请访问
-[Best AI Girl Friend](https://aigirl.best)
+Tattao AI Design是为纹身爱好者设计的纹身ai生成器，欢迎点击访问： [Tattoo AI Design](https://tattooai.design)
 
 ## 其他开源项目
 

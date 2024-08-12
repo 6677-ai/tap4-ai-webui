@@ -33,12 +33,24 @@ export default function Footer() {
 
   const SupportLinks = [
     {
+      title: 'Flux AI Image Generator',
+      href: 'https://flux-ai.io/',
+    },
+    {
+      title: 'Photo to Video AI',
+      href: 'https://dreammachineai.online/',
+    },
+    {
+      title: 'Flux Pro Image Generator',
+      href: 'https://flux-pro.net/',
+    },
+    {
       title: t('tap4'),
-      href: 'https://www.tap4.ai',
+      href: 'https://tap4.ai/',
     },
     {
       title: t('tattoo'),
-      href: 'https://tattooai.design',
+      href: 'https://tattooai.design/',
     },
   ];
 
