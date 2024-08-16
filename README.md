@@ -49,8 +49,7 @@ If you find the project helpful, please consider buying me a coffee:
 
 <a href="https://www.buymeacoffee.com/tap4ai0o" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
-If you are interested in the project, please add my WeChat: helloleo2023, note: "tap4 ai open source", or scan the QR
-code: ![tap4-ai-wx](./public/images/tap4-ai-wechat.jpg)
+If you are interested in the project, please add my WeChat: helloleo2023, note: "tap4 ai open source"
 
 ## Deployment Instructions
 
@@ -232,6 +231,15 @@ Here is the website list for submit your product to get users. Please visit
 
 Flux AI Image Generator is currently available for free experience, please visit
 [Flux AI Image Generator](https://flux-ai.io/)
+
+#### Flux.1-AI-API
+Please visit: [Flux.1 AI API](https://piapi.ai/)
+Promo Code for Discount: TAP4AI
+
+#### More API
+If you are interested in Midjourney API, Suno API, Kling API, FLUX.1 API, please check out [PiAPI]((https://piapi.ai/)) for free trials!
+
+Promo Code for Discount: TAP4AI
 
 ### Photo to Video AI
 
