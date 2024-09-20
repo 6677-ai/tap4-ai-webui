@@ -36,7 +36,7 @@ export default function Footer() {
       title: 'Chat o1',
       href: 'https://chat4o.ai/',
     },
-     {
+    {
       title: 'Grok Image Generator',
       href: 'https://grokimagegenerator.net/',
     },
