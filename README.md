@@ -217,10 +217,23 @@ Open: [Tap4 AI](https://tap4.ai)
 
 ## Links to our products
 
-### Flux AI Image Generator
+### Flux 1.1 Pro - Free Online Flux.1 AI Image Generator
 
-Flux AI Image Generator is currently available for free experience, please visit
-[Flux AI Image Generator](https://flux-ai.io/)
+[Flux 1.1 Pro](https://fluxproweb.com/)
+
+
+### Free Stable Diffusion 3 Online Tool
+
+[Free Stable Diffusion 3 Online](https://stable-diffusion-3.online)
+
+### Free Tiny Png Tool
+
+[Free Type Png Tool](https://freetinypng.com)
+
+### Flux AI - Flux.1 AI Image Generator
+
+[Flux AI](https://flux-ai.io/)
+
 
 #### Flux.1-AI-API
 Please visit: [Flux.1 AI API](https://piapi.ai/)
