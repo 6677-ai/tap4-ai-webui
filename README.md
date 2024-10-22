@@ -274,6 +274,11 @@ Stable Diffusion 3 Medium is currently available for free experience, please vis
 Tattao AI Design is a tattoo ai generator and design for the tattoo fans. If you are interested with it, visit
 [Tattoo AI Design](https://tattooai.design)
 
+### Claude 3.5 Sonnet
+
+Claude 3.5 Sonnet is the most powerful llm model released by Claude AI. If you are interested with it, visit
+[Tattoo AI Design](https://claude35.org/)
+
 ## Other open source
 
 ### Website content AI crawler
