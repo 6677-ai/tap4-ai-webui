@@ -235,14 +235,7 @@ Open: [Tap4 AI](https://tap4.ai)
 [Flux AI](https://flux-ai.io/)
 
 
-#### Flux.1-AI-API
-Please visit: [Flux.1 AI API](https://piapi.ai/)
-Promo Code for Discount: TAP4AI
-
 #### More API
-If you are interested in Midjourney API, Suno API, Kling API, FLUX.1 API, please check out [PiAPI]((https://piapi.ai/)) for free trials!
-
-Promo Code for Discount: TAP4AI
 
 ### Photo to Video AI
 
