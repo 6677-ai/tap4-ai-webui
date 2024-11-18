@@ -220,10 +220,14 @@ Open: [Tap4 AI](https://tap4.ai)
 ### AI Video Online - Advanced AI Video All in One
 
 [AI Video Online](https://videoweb.ai/)
+More about AI Video Online:
+https://www.zhihu.com/pin/1835046959477567488
 
-### Flux 1.1 Pro - Free Online Flux.1 AI Image Generator
+### Flux Pro AI - Free Online Flux.1 AI Image Generator
 
 [Flux 1.1 Pro](https://fluxproweb.com/)
+More about Flux Pro AI
+https://www.zhihu.com/pin/1832771259513069568
 
 
 ### Free Stable Diffusion 3 Online Tool
