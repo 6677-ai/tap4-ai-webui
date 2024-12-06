@@ -270,6 +270,11 @@ Grok Image Generator with flux ai, please visit
 Stable Diffusion 3 Medium is currently available for free experience, please visit
 [Free Stable Diffusion 3 Online](https://stable-diffusion-3.online/)
 
+### Artiverse AI Tools Directory
+
+Artiverse AI Tools Directory. If you are interested with it, visit
+[Tattoo AI Design](https://artiverse.app/)
+
 ### The Tattoo AI Generator and Design
 
 Tattao AI Design is a tattoo ai generator and design for the tattoo fans. If you are interested with it, visit
