@@ -242,8 +242,14 @@ https://www.zhihu.com/pin/1832771259513069568
 
 [Flux AI](https://flux-ai.io/)
 
+## Other open source
 
-#### More API
+### Website content AI crawler
+
+visit: [6677-ai/tap4-ai-crawler](https://github.com/6677-ai/tap4-ai-crawler)
+
+
+#### More AI
 
 ### Photo to Video AI
 
@@ -285,8 +291,8 @@ Tattao AI Design is a tattoo ai generator and design for the tattoo fans. If you
 Best AI Image Generator is the most powerful AI Image Generator integrated with Flux AI and Stable Diffusion AI. If you are interested with it, visit
 [Best AI Image Generator](https://bestimage.ai/)
 
-## Other open source
+### Dream Companion AI
 
-### Website content AI crawler
+Let your AI companion take care of your most personal needs with our innovative NSFW AI roleplay experience.. If you are interested with it, visit
+[Dream Companion AI](https://www.mydreamcompanion.com/)
 
-visit: [6677-ai/tap4-ai-crawler](https://github.com/6677-ai/tap4-ai-crawler)
