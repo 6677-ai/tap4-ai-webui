@@ -293,6 +293,11 @@ Best AI Image Generator is the most powerful AI Image Generator integrated with 
 
 ### Dream Companion AI
 
-Let your AI companion take care of your most personal needs with our innovative NSFW AI roleplay experience.. If you are interested with it, visit
+Let your AI companion take care of your most personal needs with our innovative NSFW AI roleplay experience. If you are interested with it, visit
 [Dream Companion AI](https://www.mydreamcompanion.com/)
+
+### WUI AI
+
+WUI.ai uses AI to turn your long-form videos into short clips. If you are interested with it, visit
+[WUI.AI](https://www.wui.ai/)
 
