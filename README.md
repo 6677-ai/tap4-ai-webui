@@ -276,6 +276,12 @@ Flux Pro Image Generator is currently available for free experience, please visi
 Chatbot build with openai o1 and chatgpt 4o, please visit
 [Chat O1](https://chat4o.ai/)
 
+### Janus Pro
+
+Janus Pro Image Generator build with Janus Pro Model by DeepSeek, please visit
+[Janus Pro](https://janusproweb.com/)
+
+
 ### Grok Image Generator
 
 Grok Image Generator with flux ai, please visit
