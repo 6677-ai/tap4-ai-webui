@@ -266,10 +266,14 @@ Sana AI is an advanced Text to Image / Video AI Tool. It's currently available f
 Photo to Video AI is currently available for free experience, please visit
 [Photo to Video AI](https://dreammachineai.online/)
 
-### Flux Pro Image Generator
+### Flux KI
 
-Flux Pro Image Generator is currently available for free experience, please visit
+Flux KI is the powerful generative AI for German, please visit
 [Flux Pro Image Generator](https://flux-pro.net/)
+
+### Flux IA
+Flux IA is the generative IA for France & Espain, please visit:
+[Flux IA](https://fluxia.pro/)
 
 ### Chat o1
 
