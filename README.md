@@ -275,6 +275,11 @@ Flux KI is the powerful generative AI for German, please visit
 Flux IA is the generative IA for France & Espain, please visit:
 [Flux IA](https://fluxia.pro/)
 
+### Virtual Try On AI
+
+Virtual Try On AI - Free Online Fashion AI for clothes, visit
+[Virtual Try On AI](https://aitryon.art/)
+
 ### Chat o1
 
 Chatbot build with openai o1 and chatgpt 4o, please visit
@@ -299,7 +304,7 @@ Stable Diffusion 3 Medium is currently available for free experience, please vis
 ### Artiverse AI Tools Directory
 
 Artiverse AI Tools Directory. If you are interested with it, visit
-[Tattoo AI Design](https://artiverse.app/)
+[Artiverse AI](https://artiverse.app/)
 
 ### The Tattoo AI Generator and Design
 
