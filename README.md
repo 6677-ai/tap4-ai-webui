@@ -280,10 +280,10 @@ Flux IA is the generative IA for France & Espain, please visit:
 Virtual Try On AI - Free Online Fashion AI for clothes, visit
 [Virtual Try On AI](https://aitryon.art/)
 
-### Chat o1
+### GPT 4o image generator
 
-Chatbot build with openai o1 and chatgpt 4o, please visit
-[Chat O1](https://chat4o.ai/)
+Chat 4o build with openai o1 and chatgpt 4o, please visit
+[Chat 4O](https://chat4o.ai/)
 
 ### Janus Pro
 
