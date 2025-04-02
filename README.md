@@ -330,6 +330,12 @@ WUI.ai uses AI to turn your long-form videos into short clips. If you are intere
 ### Sourcetable AI
 
 Sourcetable AI - Advanced Spreadsheet Software for Data Analysis and Business Intelligence. If you are interested with it, visit
-[Sourcetable AI](https://sourcetable.com))
+[Sourcetable AI](https://sourcetable.com)
+
+
+### Ghibli Art Studio
+
+Ghibli Art Studio - Transform your photos into enchanting Ghibli-style artwork with our online Ghibli Art Studio AI tool. Powered by Studio ghiblify's ghiblify image-to-image technology, create magical Ghibli-inspired visuals faster and more affordably than ever before.. If you are interested with it, visit
+[Ghibli Art Studio](https://videoweb.ai/ghibli-studio/)
 
 
