@@ -5,7 +5,7 @@ easy for everyone to have their own AI Tools Directory, to collect their favorit
 lightweight and easy to maintain, suitable for individual developers interested in AI navigation sites, and also
 suitable for learners interested in NextJs. Everyone is welcome to fork and star.
 
-[Simplified Chinese](https://github.com/6677-ai/tap4-ai-webui/blob/main/README.zh-CN.md) | English
+[Simplified Chinese](https://github.com/6677-ai/tap4-ai-webui/blob/main/README.zh-CN.md) | English | [Japanese](https://github.com/6677-ai/tap4-ai-webui/blob/main/README.ja-JP.md)
 
 ## Support Tap4 AI in Product Hunt
 
