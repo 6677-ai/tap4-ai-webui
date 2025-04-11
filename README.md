@@ -333,6 +333,12 @@ Sourcetable AI - Advanced Spreadsheet Software for Data Analysis and Business In
 [Sourcetable AI](https://sourcetable.com)
 
 
+### Remio AI Note Taker
+
+Remio AI Note Taker transforms scattered information into structured knowledge with ease. Designed as your personal AI knowledge hub, it helps you capture, organize, and blend insights seamlessly. Whether you're researching, brainstorming, or writing, remio streamlines your workflow by intelligently managing notes, highlights, and references—all while keeping your data private and secure. Perfect for professionals, students, and creatives, remio turns messy ideas into clear, actionable knowledge. Join the waitlist to experience smarter note-taking today.. If you are interested with it, visit
+[Remio AI Note Taker](https://www.remio.ai/))
+
+
 ### Ghibli Art Studio
 
 Ghibli Art Studio - Transform your photos into enchanting Ghibli-style artwork with our online Ghibli Art Studio AI tool. Powered by Studio ghiblify's ghiblify image-to-image technology, create magical Ghibli-inspired visuals faster and more affordably than ever before.. If you are interested with it, visit
