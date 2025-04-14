@@ -341,7 +341,14 @@ Remio AI Note Taker transforms scattered information into structured knowledge w
 
 ### Ghibli Art Studio
 
-Ghibli Art Studio - Transform your photos into enchanting Ghibli-style artwork with our online Ghibli Art Studio AI tool. Powered by Studio ghiblify's ghiblify image-to-image technology, create magical Ghibli-inspired visuals faster and more affordably than ever before.. If you are interested with it, visit
+Ghibli Art Studio - Transform your photos into enchanting Ghibli-style artwork with our online Ghibli Art Studio AI tool. Powered by Studio ghiblify's ghiblify image-to-image technology, create magical Ghibli-inspired visuals faster and more affordably than ever before. If you are interested with it, visit
 [Ghibli Art Studio](https://videoweb.ai/ghibli-studio/)
+
+
+### AI Action Figure Generator
+
+AI Action Figure Generator - Transform Your Photos into Collectible Figures. Experience the magic of becoming a collectible figure by transforming your photos into professional-grade action figures using AI technology. If you are interested with it, visit
+[AI Action Figure Generator]([https://videoweb.ai/ghibli-studio/](https://flux-ai.io/ai-action-figure-generator/))
+
 
 
