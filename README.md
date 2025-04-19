@@ -348,7 +348,12 @@ Ghibli Art Studio - Transform your photos into enchanting Ghibli-style artwork w
 ### AI Action Figure Generator
 
 AI Action Figure Generator - Transform Your Photos into Collectible Figures. Experience the magic of becoming a collectible figure by transforming your photos into professional-grade action figures using AI technology. If you are interested with it, visit
-[AI Action Figure Generator]([https://videoweb.ai/ghibli-studio/](https://flux-ai.io/ai-action-figure-generator/))
+[AI Action Figure Generator](https://flux-ai.io/ai-action-figure-generator/)
+
+### Makeform AI
+Makeform AI is a free online ai form builder like ChatGPT. Chat with AI to build surveys, quizzes, or polls in seconds – no coding needed!  If you are interested with it, visit
+[Makeform AI](https://www.makeform.ai/)
+
 
 
 
