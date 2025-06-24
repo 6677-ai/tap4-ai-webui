@@ -326,6 +326,16 @@ Let your AI companion take care of your most personal needs with our innovative 
 WUI.ai uses AI to turn your long-form videos into short clips. If you are interested with it, visit
 [WUI.AI](https://www.wui.ai/)
 
+### Magic Try On AI
+
+Magic Try On AI - Free Online Fashion AI for clothes, visit
+[Magic Try On AI](https://aitryon.art/magic-try-on/)
+
+### Free AI Image Generator
+
+Free AI Image Generator - Free Online AI Image Generator with Flux AI & Janus Pro, visit
+[Free AI Image Generator](https://freeimgen.com/)
+
 
 ### Sourcetable AI
 
