@@ -337,6 +337,16 @@ Free AI Image Generator - Free Online AI Image Generator with Flux AI & Janus Pr
 [Free AI Image Generator](https://freeimgen.com/)
 
 
+### AI Music Maker
+
+AI Music Maker - Create unique high-quality music/song from text with AI Music Maker. Free to use, enjoy AI Music now!, visit
+[AI Music Maker](https://musicmaker.im/)
+
+### Hey Dream AI
+
+Hey Dream AI - Effortlessly create stunning AI-generated images in seconds with HeyDream AI, visit
+[Hey Dream AI](https://heydream.im/)
+
 ### Sourcetable AI
 
 Sourcetable AI - Advanced Spreadsheet Software for Data Analysis and Business Intelligence. If you are interested with it, visit
@@ -363,6 +373,12 @@ AI Action Figure Generator - Transform Your Photos into Collectible Figures. Exp
 ### Makeform AI
 Makeform AI is a free online ai form builder like ChatGPT. Chat with AI to build surveys, quizzes, or polls in seconds – no coding needed!  If you are interested with it, visit
 [Makeform AI](https://www.makeform.ai/)
+
+
+### Runway Aleph AI
+Runway Aleph AI is AI Video Editor. Generate camera angles, add/remove objects, change environments, apply styles. In-context video editing.!  If you are interested with it, visit
+[Runway Aleph AI](https://runwayaleph.ai/)
+
 
 
 
