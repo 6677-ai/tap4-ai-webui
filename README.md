@@ -380,6 +380,8 @@ Runway Aleph AI is AI Video Editor. Generate camera angles, add/remove objects, 
 [Runway Aleph AI](https://runwayaleph.ai/)
 
 
-
+### MagnetLABS ai
+CatalogIQ by MagnetLABS ai is an innovative AI platform designed to revolutionize product data enrichment and catalog optimization. It offers intelligent solutions for building, scoring, and enhancing product content, transforming raw data into high-performance catalogs. CatalogIQ helps businesses elevate their product listings, ensuring accuracy, consistency, and compliance across all channels. If you are interested with it, visit
+[MagnetLABS ai]([https://runwayaleph.ai/](https://magnetlabs.ai/?utm_source=tap4-ai&utm_medium=referral))
 
 
