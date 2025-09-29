@@ -219,24 +219,24 @@ Open: [Tap4 AI](https://tap4.ai)
 
 ### AI Video Online - Advanced AI Video All in One
 
-[AI Video Online](https://videoweb.ai/)
+[VideoWeb AI](https://videoweb.ai/)
 More about AI Video Online:
 https://www.zhihu.com/pin/1835046959477567488
 
 ### Flux Pro AI - Free Online Flux.1 AI Image Generator
 
-[Flux 1.1 Pro](https://fluxproweb.com/)
+[Flux Pro AI](https://fluxproweb.com/)
 More about Flux Pro AI
 https://www.zhihu.com/pin/1832771259513069568
 
 
-### Free Stable Diffusion 3 Online Tool
+### Tattoo AI Design
 
-[Free Stable Diffusion 3 Online](https://stable-diffusion-3.online)
+[Tattoo AI Design](https://tattooai.design/)
 
 ### Free Tiny Png Tool
 
-[Free Type Png Tool](https://freetinypng.com)
+[Free Type Png Tool](https://freetinypng.com/)
 
 ### Flux AI - Flux.1 AI Image Generator
 
@@ -296,10 +296,10 @@ Janus Pro Image Generator build with Janus Pro Model by DeepSeek, please visit
 Grok Image Generator with flux ai, please visit
 [Grok Image Generator](https://grokimagegenerator.net/))
 
-### Free Stable Diffusion 3 Online
+### Best AI Agent Hunt
 
-Stable Diffusion 3 Medium is currently available for free experience, please visit
-[Free Stable Diffusion 3 Online](https://stable-diffusion-3.online/)
+Best AI Agent Hunt is currently available for free experience, please visit
+[AI Agent Hunt](https://agenthunt.io/)
 
 ### Artiverse AI Tools Directory
 
@@ -309,7 +309,7 @@ Artiverse AI Tools Directory. If you are interested with it, visit
 ### The Tattoo AI Generator and Design
 
 Tattao AI Design is a tattoo ai generator and design for the tattoo fans. If you are interested with it, visit
-[Tattoo AI Design](https://tattooai.design)
+[Tattoo AI Design](https://tattooai.design/)
 
 ### Best AI Image Generator
 
